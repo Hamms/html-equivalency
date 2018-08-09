@@ -21,6 +21,8 @@ const compareAll = function (data) {
   return recursivelyProcessAll(compare, data)
 }
 
+module.exports = compare;
+
 const deleteEmptyObjects = function (data) {
   Object.keys(data).forEach(function (key) {
     if (data[key] === undefined) {
