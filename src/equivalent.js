@@ -14,20 +14,35 @@ module.exports = function htmlEquivalent(left, right) {
   );
 }
 
+/**
+ * Determine if two HAST nodes are equivalent.
+ *
+ * Each HAST node is an object with potentially seven values of the following
+ * types:
+ *
+ * {
+ *  "children": "array",
+ *  "data": "object", (doesn't matter)
+ *  "position": "object", (doesn't matter)
+ *  "properties": "object",
+ *  "tagName": "string",
+ *  "type": "string",
+ *  "value": "string"
+ * }
+ *
+ * Two of those values - 'data' and 'position' - contain meta information about
+ * the parsing and are not relevant for purposes of determining equivalence.
+ *
+ * Two HAST nodes are considered equivalent if all their non-children properties
+ * are identical and all their children are equivalent.
+ *
+ * This is probably basically equivalent to just removing all 'data' and
+ * 'position' values recursively throughout the HAST tree and doing a JSON
+ * comparision, but it provides the potential for customization.
+ *
+ * @see https://github.com/syntax-tree/hast#element
+ */
 function nodesEquivalent(left, right) {
-
-  // https://github.com/syntax-tree/hast#element
-  // Each node has potentially seven values:
-  // {
-  //  "children": "object",
-  //  "data": "object", (doesn't matter)
-  //  "position": "object", (doesn't matter)
-  //  "properties": "object",
-  //  "tagName": "string",
-  //  "type": "string",
-  //  "value": "string"
-  //}
-
   if (left.type !== right.type) {
     return false;
   }

@@ -1,3 +1,7 @@
+/**
+ * create a markdown renderer using marked identical to that defined in
+ * https://github.com/code-dot-org/code-dot-org/blob/staging/apps/src/util/StylelessRenderer.js
+ */
 const marked = require('marked');
 
 const EXPANDABLE = 'expandable';
