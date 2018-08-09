@@ -21,8 +21,24 @@ const compareAll = function (data) {
   return recursivelyProcessAll(compare, data)
 }
 
+const deleteEmptyObjects = function (data) {
+  Object.keys(data).forEach(function (key) {
+    if (data[key] === undefined) {
+      delete data[key];
+    } else if (typeof data[key] === 'object') {
+      deleteEmptyObjects(data[key]);
+      if (Object.keys(data[key]).length === 0) {
+        delete data[key];
+      }
+    }
+  });
+
+  return data;
+}
+
 ioUtils.readFromFileOrStdin(process.argv[2])
   .then(ioUtils.parseAsSerialized)
   .then(compareAll)
+  .then(deleteEmptyObjects)
   .then(ioUtils.formatAsSerialized)
   .then(ioUtils.writeToFileOrStdout.bind(ioUtils, process.argv[3]));
