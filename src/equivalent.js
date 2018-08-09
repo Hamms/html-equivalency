@@ -14,33 +14,17 @@ module.exports = function htmlEquivalent(left, right) {
   );
 }
 
-function objectsEquivalent(left, right) {
-  if (typeof left !== typeof right) {
-    return false;
-  }
-
-  const leftProps = Object.keys(left);
-  const rightProps = Object.keys(right);
-
-  if (leftProps.length != rightProps.length) {
-      return false;
-  }
-
-  return leftProps.every(function (propName) {
-    return left[propName] === right[propName];
-  });
-}
-
 function nodesEquivalent(left, right) {
 
-  // Each node has seven values:
+  // https://github.com/syntax-tree/hast#element
+  // Each node has potentially seven values:
   // {
-  //  "type": "string",
   //  "children": "object",
-  //  "data": "object",
+  //  "data": "object", (doesn't matter)
   //  "position": "object", (doesn't matter)
-  //  "tagName": "string",
   //  "properties": "object",
+  //  "tagName": "string",
+  //  "type": "string",
   //  "value": "string"
   //}
 
@@ -57,13 +41,9 @@ function nodesEquivalent(left, right) {
   }
 
   if (!(left.properties === undefined && right.properties === undefined)) {
-    if (!objectsEquivalent(left.properties, right.properties)) {
-      return false;
-    }
-  }
-
-  if (!(left.data === undefined && right.data === undefined)) {
-    if (!objectsEquivalent(left.data, right.data)) {
+    // use simple JSON equivalence for this, since we don't expect it to be a
+    // particularly complex object but it might have nested arrays
+    if (JSON.stringify(left) !== JSON.stringify(right)) {
       return false;
     }
   }
