@@ -1,0 +1,17 @@
+{
+  "name": "html-equivalency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@code-dot-org/redactable-markdown": "^0.3.0",
+    "marked": "^0.3.6",
+    "rehype-parse": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Code.org <dev@code.org> (http://code.org)",
+  "license": "ISC"
+}
