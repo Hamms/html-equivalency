@@ -23,18 +23,11 @@ const sanitize = function (node) {
   }
 
   if (node.children) {
-    // XML nodes should always be followed by a newline
+    // text nodes containing just whitespace are irrelevant
     for (let i = 0; i < node.children.length; i++) {
-      if (node.children[i].tagName === 'xml') {
-        if (
-          (i === node.children.length - 1) ||
-          !(node.children[i+1].type === 'text' && node.children[i+1].value === "\n")
-        ) {
-          node.children.splice(i + 1, 0, {
-            type: 'text',
-            value: '\n'
-          });
-        }
+      if (node.children[i].type === "text" && node.children[i].value === "\n") {
+        node.children.splice(i, 1);
+        i--;
       }
     }
   }
