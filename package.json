@@ -5,7 +5,8 @@
   "dependencies": {
     "@code-dot-org/redactable-markdown": "^0.3.0",
     "marked": "^0.3.6",
-    "rehype-parse": "^5.0.0"
+    "rehype-parse": "^5.0.0",
+    "tape": "^4.9.1"
   },
   "author": "Elijah Hamovitz <elijah@hamovitz.com> (http://hamovitz.com)",
   "license": "ISC"
