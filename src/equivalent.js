@@ -16,8 +16,26 @@ module.exports = function htmlEquivalent(left, right) {
 
 const sanitize = function (node) {
   if (node.tagName === "img") {
+    // empty alt attributes should be ignored
     if (node.properties && node.properties.alt === "") {
       delete node.properties.alt
+    }
+  }
+
+  if (node.children) {
+    // XML nodes should always be followed by a newline
+    for (let i = 0; i < node.children.length; i++) {
+      if (node.children[i].tagName === 'xml') {
+        if (
+          (i === node.children.length - 1) ||
+          !(node.children[i+1].type === 'text' && node.children[i+1].value === "\n")
+        ) {
+          node.children.splice(i + 1, 0, {
+            type: 'text',
+            value: '\n'
+          });
+        }
+      }
     }
   }
 }
