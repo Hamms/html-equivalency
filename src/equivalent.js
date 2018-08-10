@@ -58,7 +58,7 @@ function nodesEquivalent(left, right) {
   if (!(left.properties === undefined && right.properties === undefined)) {
     // use simple JSON equivalence for this, since we don't expect it to be a
     // particularly complex object but it might have nested arrays
-    if (JSON.stringify(left) !== JSON.stringify(right)) {
+    if (JSON.stringify(left.properties) !== JSON.stringify(right.properties)) {
       return false;
     }
   }
