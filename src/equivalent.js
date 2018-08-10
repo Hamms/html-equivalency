@@ -14,6 +14,8 @@ module.exports = function htmlEquivalent(left, right) {
   );
 }
 
+const allWhitespace = RegExp("^\\s*$");
+
 const sanitize = function (node) {
   if (node.tagName === "img") {
     // empty alt attributes should be ignored
@@ -25,7 +27,7 @@ const sanitize = function (node) {
   if (node.children) {
     // text nodes containing just whitespace are irrelevant
     for (let i = 0; i < node.children.length; i++) {
-      if (node.children[i].type === "text" && node.children[i].value === "\n") {
+      if (node.children[i].type === "text" && allWhitespace.test(node.children[i].value)) {
         node.children.splice(i, 1);
         i--;
       }
