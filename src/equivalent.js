@@ -14,6 +14,14 @@ module.exports = function htmlEquivalent(left, right) {
   );
 }
 
+const sanitize = function (node) {
+  if (node.tagName === "img") {
+    if (node.properties && node.properties.alt === "") {
+      delete node.properties.alt
+    }
+  }
+}
+
 /**
  * Determine if two HAST nodes are equivalent.
  *
@@ -43,6 +51,9 @@ module.exports = function htmlEquivalent(left, right) {
  * @see https://github.com/syntax-tree/hast#element
  */
 function nodesEquivalent(left, right) {
+  sanitize(left);
+  sanitize(right);
+
   if (left.type !== right.type) {
     return false;
   }
