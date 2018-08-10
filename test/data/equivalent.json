@@ -123,7 +123,11 @@
           "2-3_Artist_Nested_Loops_1_a": "Remember to put all of the grey blocks inside of your loop."
         },
         "2-3 Artist Nested Loops 3_authored_hint": {
+          "2-3_Artist_Nested_Loops_3_a": "Need help with the angles?  \n**360/12 = 30**",
           "2-3_Artist_Nested_Loops_3_b": "Remember to put all of the grey code and your turn block inside of a loop."
+        },
+        "2-3 Artist Nested Loops 4_authored_hint": {
+          "2-3_Artist_Nested_Loops_3_a": "Need help with the angles?  \n**360/12 = 30**"
         },
         "2-3 Artist Nested Loops 5_authored_hint": {
           "2-3_Artist_Nested_Loops_5_a": "Try using the `jump forward` block to get from the top of one square to the place where you will start the next. \n\nIf your squares are 20 pixels tall and they are 20 pixels apart, how far do you need to jump?"
@@ -244,7 +248,8 @@
           "4-5_Artist_7_a": "Which angle is the smallest?  At which angle is the artist standing? "
         },
         "4-5 Artist 8_authored_hint": {
-          "4-5_Artist_8_a": "The long sides are 240 pixels each.  That means that the 2 short sides must total:\n\n**800 - 240 - 240 = 320**\n\nWhat is **320/2** ? "
+          "4-5_Artist_8_a": "The long sides are 240 pixels each.  That means that the 2 short sides must total:\n\n**800 - 240 - 240 = 320**\n\nWhat is **320/2** ? ",
+          "4-5_Artist_8_b": "This image can be done 2 ways!  \n- Draw two rectangles that are **120** long and **160** tall, with an overlapping side\n\n- Draw one rectangle that is **240** long and **160** tall, then add a line in the middle."
         },
         "4-5 Artist 9_authored_hint": {
           "4-5_Artist_9_a": "When a triangle is an equilateral, all sides and all angles are the same.  \n",
@@ -1622,11 +1627,13 @@
         },
         "courseB_artist_loops7_authored_hint": {
           "courseB_artist_loops7_a": "This challenge uses **4** loops, one right after another!",
-          "courseB_artist_loops7_b": "Notice that every loop makes a stair pattern that goes a different direction.\n\n![](https://images.code.org/7d08d5514766c5c15074e90731991505-image-1466705649513.gif)"
+          "courseB_artist_loops7_b": "Notice that every loop makes a stair pattern that goes a different direction.\n\n![](https://images.code.org/7d08d5514766c5c15074e90731991505-image-1466705649513.gif)",
+          "courseB_artist_loops7_c": "The loops should do this:\n- Loop 1\n  - Right\n  - Down\n  \n- Loop 2\n  - Right\n  - Up\n\n- Loop 3\n  - Left\n  - Up\n\n- Loop 4\n  - Left\n  - Down"
         },
         "courseB_artist_loops7_2018_authored_hint": {
           "courseB_artist_loops7_a": "This challenge uses **4** loops, one right after another!",
-          "courseB_artist_loops7_b": "Notice that every loop makes a stair pattern that goes a different direction.\n\n![](https://images.code.org/7d08d5514766c5c15074e90731991505-image-1466705649513.gif)"
+          "courseB_artist_loops7_b": "Notice that every loop makes a stair pattern that goes a different direction.\n\n![](https://images.code.org/7d08d5514766c5c15074e90731991505-image-1466705649513.gif)",
+          "courseB_artist_loops7_c": "The loops should do this:\n- Loop 1\n  - Right\n  - Down\n  \n- Loop 2\n  - Right\n  - Up\n\n- Loop 3\n  - Left\n  - Up\n\n- Loop 4\n  - Left\n  - Down"
         },
         "courseB_artist_loops8_authored_hint": {
           "courseB_artist_loops8_a": "How many times should you repeat the pattern to make the ladder?",
@@ -5963,11 +5970,13 @@
         },
         "grade1_artist_loops6_authored_hint": {
           "grade1_artist_loops6_a": "This challenge uses FOUR loops, one right after another!",
-          "grade1_artist_loops6_b": "Notice that every loop makes a stair pattern that travels in a different direction.\n\n![](https://images.code.org/7d08d5514766c5c15074e90731991505-image-1466705649513.gif)"
+          "grade1_artist_loops6_b": "Notice that every loop makes a stair pattern that travels in a different direction.\n\n![](https://images.code.org/7d08d5514766c5c15074e90731991505-image-1466705649513.gif)",
+          "grade1_artist_loops6_c": "The loops should do this:\n- Loop 1\n  - Right\n  - Down\n  \n- Loop 2\n  - Right\n  - Up\n\n- Loop 3\n  - Left\n  - Up\n\n- Loop 4\n  - Left\n  - Down"
         },
         "grade1_artist_loops7a_authored_hint": {
           "artistLoopsK9_a": "This challenge uses FOUR loops, one right after another!",
-          "artistLoopsK9_b": "Notice that every loop makes a stair pattern that travels in a different direction.\n\n![](https://images.code.org/7d08d5514766c5c15074e90731991505-image-1466705649513.gif)"
+          "artistLoopsK9_b": "Notice that every loop makes a stair pattern that travels in a different direction.\n\n![](https://images.code.org/7d08d5514766c5c15074e90731991505-image-1466705649513.gif)",
+          "artistLoopsK9_c": "The loops should do this:\n- Loop 1\n  - Right\n  - Down\n  \n- Loop 2\n  - Right\n  - Up\n\n- Loop 3\n  - Left\n  - Up\n\n- Loop 4\n  - Left\n  - Down"
         },
         "grade1_artist_loops7b_authored_hint": {
           "grade1_artist_loops7b_a": "How many times should you repeat the pattern to make the ladder?"
@@ -11590,14 +11599,30 @@
           "Maze Match One": "Maze Match One"
         },
         "4-5 Algorithms Match 1": {
+          "<h4>1)</h4>": "<h4>1)</h4>",
+          "<h4>2)</h4>": "<h4>2)</h4>",
+          "<h4>3)</h4>": "<h4>3)</h4>",
+          "<h4>4)</h4>": "<h4>4)</h4>",
+          "<h4>Add Player 1 roll to total score</h4>": "<h4>Add Player 1 roll to total score</h4>",
+          "<h4>Compare player scores to see who wins</h4>": "<h4>Compare player scores to see who wins</h4>",
+          "<h4>Player 1 rolls die</h4>": "<h4>Player 1 rolls die</h4>",
+          "<h4>Set Player 1 score to 0</h4>": "<h4>Set Player 1 score to 0</h4>",
           "Match the steps in the Dice Race game to the order that they should appear in the algorithm.": "Match the steps in the Dice Race game to the order that they should appear in the algorithm.",
           "Matching": "Matching"
         },
         "4-5 Computational Thinking Match 1": {
+          "<h3>Wheels/side: 2<br/>Windows/side: 0</h3>": "<h3>Wheels/side: 2<br/>Windows/side: 0</h3>",
+          "<h3>Wheels/side: 2<br/>Windows/side: 1</h3>": "<h3>Wheels/side: 2<br/>Windows/side: 1</h3>",
+          "<h3>Wheels/side: 2<br/>Windows/side: 6</h3>": "<h3>Wheels/side: 2<br/>Windows/side: 6</h3>",
+          "<h3>Wheels/side: 3<br/>Windows/side: 2</h3>": "<h3>Wheels/side: 3<br/>Windows/side: 2</h3>",
           "Each of these vehicles has been decomposed into smaller pieces. Match each vehicle with its decomposed list.": "Each of these vehicles has been decomposed into smaller pieces. Match each vehicle with its decomposed list.",
           "Matching": "Matching"
         },
         "4-5 Suncatchers Match 1": {
+          "<h4>RAMP</h4>": "<h4>RAMP</h4>",
+          "<h4>STACK</h4>": "<h4>STACK</h4>",
+          "<h4>STAMP</h4>": "<h4>STAMP</h4>",
+          "<h4>STAR</h4>": "<h4>STAR</h4>",
           "Match each program to the word it makes, using the provided group of skills.": "Match each program to the word it makes, using the provided group of skills.",
           "Matching": "Matching"
         },
@@ -11675,6 +11700,7 @@
           "Stylesheet": "Stylesheet"
         },
         "CSD U3 Counters match trial": {
+          "\tvar position = 0;\n    \n    function draw(){\n    \tposition = position + 1;\n    \tbackground(\"white\");\n        fill(\"red\");\n        rect(position, 20, 50, 50);\n    }": "\tvar position = 0;\n    \n    function draw(){\n    \tposition = position + 1;\n    \tbackground(\"white\");\n        fill(\"red\");\n        rect(position, 20, 50, 50);\n    }",
           "Maybe": "Maybe"
         },
         "CSD U3 Keypress Matching": {
@@ -12886,6 +12912,7 @@
           "Sorting data": "Sorting data"
         },
         "CPS Unit2 Ch 1 MC lossless compression": {
+          " ": " ",
           "Compression": "Compression",
           "Fast Fourier Transform compression": "Fast Fourier Transform compression",
           "Lossless compression": "Lossless compression",
@@ -12893,6 +12920,7 @@
           "Tailored compression": "Tailored compression"
         },
         "CPS Unit2 Ch 1 MC lossless compression_2018": {
+          " ": " ",
           "Compression": "Compression",
           "Fast Fourier Transform compression": "Fast Fourier Transform compression",
           "Lossless compression": "Lossless compression",
@@ -12900,6 +12928,7 @@
           "Tailored compression": "Tailored compression"
         },
         "CPS Unit2 Ch 1 MC lossless compression_exam_prep": {
+          " ": " ",
           "Compression": "Compression",
           "Fast Fourier Transform compression": "Fast Fourier Transform compression",
           "Lossless compression": "Lossless compression",
@@ -12907,6 +12936,7 @@
           "Tailored compression": "Tailored compression"
         },
         "CPS Unit2 Ch 1 MC lossy compression": {
+          " ": " ",
           "Compression": "Compression",
           "Fast Fourier Transform compression": "Fast Fourier Transform compression",
           "Lossless compression": "Lossless compression",
@@ -12914,6 +12944,7 @@
           "Tailored compression": "Tailored compression"
         },
         "CPS Unit2 Ch 1 MC lossy compression_2018": {
+          " ": " ",
           "Compression": "Compression",
           "Fast Fourier Transform compression": "Fast Fourier Transform compression",
           "Lossless compression": "Lossless compression",
@@ -12921,6 +12952,7 @@
           "Tailored compression": "Tailored compression"
         },
         "CPS Unit2 Ch 1 MC lossy compression_exam_prep": {
+          " ": " ",
           "Compression": "Compression",
           "Fast Fourier Transform compression": "Fast Fourier Transform compression",
           "Lossless compression": "Lossless compression",
@@ -13140,6 +13172,7 @@
           "How Many Bits?": "How Many Bits?"
         },
         "CSP Unit 1 Ch 2 MC internet layers": {
+          " ": " ",
           "DNS relies on TCP/IP": "DNS relies on TCP/IP",
           "HTTP relies on TCP/IP": "HTTP relies on TCP/IP",
           "Layers of Protocols": "Layers of Protocols",
@@ -13147,6 +13180,7 @@
           "TCP/IP relies on HTTP": "TCP/IP relies on HTTP"
         },
         "CSP Unit 1 Ch 2 MC internet layers_2018": {
+          " ": " ",
           "DNS relies on TCP/IP": "DNS relies on TCP/IP",
           "HTTP relies on TCP/IP": "HTTP relies on TCP/IP",
           "Layers of Protocols": "Layers of Protocols",
@@ -13154,6 +13188,7 @@
           "TCP/IP relies on HTTP": "TCP/IP relies on HTTP"
         },
         "CSP Unit 1 Ch 2 MC internet layers_exam_prep": {
+          " ": " ",
           "DNS relies on TCP/IP": "DNS relies on TCP/IP",
           "HTTP relies on TCP/IP": "HTTP relies on TCP/IP",
           "Layers of Protocols": "Layers of Protocols",
@@ -13209,6 +13244,7 @@
           "How much bigger?": "How much bigger?"
         },
         "CSP Unit 2 Ch 1 metadata": {
+          " ": " ",
           "data": "data",
           "megadata": "megadata",
           "metadata": "metadata",
@@ -13216,6 +13252,7 @@
           "superdata": "superdata"
         },
         "CSP Unit 2 Ch 1 metadata_2018": {
+          " ": " ",
           "data": "data",
           "megadata": "megadata",
           "metadata": "metadata",
@@ -13223,6 +13260,7 @@
           "superdata": "superdata"
         },
         "CSP Unit 2 Ch 1 metadata_exam_prep": {
+          " ": " ",
           "data": "data",
           "megadata": "megadata",
           "metadata": "metadata",
@@ -13257,6 +13295,7 @@
           "There are no members. IETF is an \"organization\" in name only.": "There are no members. IETF is an \"organization\" in name only."
         },
         "CSP Unit 2 Ch 2 MC data bias": {
+          " ": " ",
           "Data Bias": "Data Bias",
           "She learns that responses were collected only by mobile app.": "She learns that responses were collected only by mobile app.",
           "She learns that the survey administrators only asked a representative sample of students, rather than every student in each state.": "She learns that the survey administrators only asked a representative sample of students, rather than every student in each state.",
@@ -13264,6 +13303,7 @@
           "She learns the survey was available to complete in both digital and paper form.": "She learns the survey was available to complete in both digital and paper form."
         },
         "CSP Unit 2 Ch 2 MC data bias_2018": {
+          " ": " ",
           "Data Bias": "Data Bias",
           "She learns that responses were collected only by mobile app.": "She learns that responses were collected only by mobile app.",
           "She learns that the survey administrators only asked a representative sample of students, rather than every student in each state.": "She learns that the survey administrators only asked a representative sample of students, rather than every student in each state.",
@@ -13271,6 +13311,7 @@
           "She learns the survey was available to complete in both digital and paper form.": "She learns the survey was available to complete in both digital and paper form."
         },
         "CSP Unit 2 Ch 2 MC data bias_exam_prep": {
+          " ": " ",
           "Data Bias": "Data Bias",
           "She learns that responses were collected only by mobile app.": "She learns that responses were collected only by mobile app.",
           "She learns that the survey administrators only asked a representative sample of students, rather than every student in each state.": "She learns that the survey administrators only asked a representative sample of students, rather than every student in each state.",
@@ -13278,6 +13319,7 @@
           "She learns the survey was available to complete in both digital and paper form.": "She learns the survey was available to complete in both digital and paper form."
         },
         "CSP Unit 2 Ch 2 MC google trends": {
+          " ": " ",
           "Generally speaking, since 2009 more people use \"red\" in their search terms more than they use \"blue\", \"yellow\", \"green\", or \"purple\"": "Generally speaking, since 2009 more people use \"red\" in their search terms more than they use \"blue\", \"yellow\", \"green\", or \"purple\"",
           "Generally speaking, the volume of internet searches is increasing over time because the number of people using the internet is also increasing.": "Generally speaking, the volume of internet searches is increasing over time because the number of people using the internet is also increasing.",
           "Since sometime around 2009, red has become the favorite color of more people": "Since sometime around 2009, red has become the favorite color of more people",
@@ -13285,6 +13327,7 @@
           "What's it showing?": "What's it showing?"
         },
         "CSP Unit 2 Ch 2 MC google trends_2018": {
+          " ": " ",
           "Generally speaking, since 2009 more people use \"red\" in their search terms more than they use \"blue\", \"yellow\", \"green\", or \"purple\"": "Generally speaking, since 2009 more people use \"red\" in their search terms more than they use \"blue\", \"yellow\", \"green\", or \"purple\"",
           "Generally speaking, the volume of internet searches is increasing over time because the number of people using the internet is also increasing.": "Generally speaking, the volume of internet searches is increasing over time because the number of people using the internet is also increasing.",
           "Since sometime around 2009, red has become the favorite color of more people": "Since sometime around 2009, red has become the favorite color of more people",
@@ -13292,6 +13335,7 @@
           "What's it showing?": "What's it showing?"
         },
         "CSP Unit 2 Ch 2 MC google trends_exam_prep": {
+          " ": " ",
           "Generally speaking, since 2009 more people use \"red\" in their search terms more than they use \"blue\", \"yellow\", \"green\", or \"purple\"": "Generally speaking, since 2009 more people use \"red\" in their search terms more than they use \"blue\", \"yellow\", \"green\", or \"purple\"",
           "Generally speaking, the volume of internet searches is increasing over time because the number of people using the internet is also increasing.": "Generally speaking, the volume of internet searches is increasing over time because the number of people using the internet is also increasing.",
           "Since sometime around 2009, red has become the favorite color of more people": "Since sometime around 2009, red has become the favorite color of more people",
@@ -13323,6 +13367,7 @@
           "Which of the following statements are true about routers and routing on the Internet. Choose <u>two</u> answers.": "Which of the following statements are true about routers and routing on the Internet. Choose <u>two</u> answers."
         },
         "CSP Unit 2 Ch 2 MC worst viz": {
+          " ": " ",
           "Chart A (Line Chart)": "Chart A (Line Chart)",
           "Chart B (Vertical Bar Chart)": "Chart B (Vertical Bar Chart)",
           "Chart C (Stacked Line Chart)": "Chart C (Stacked Line Chart)",
@@ -13330,6 +13375,7 @@
           "Which is the Best?": "Which is the Best?"
         },
         "CSP Unit 2 Ch 2 MC worst viz_2018": {
+          " ": " ",
           "Chart A (Line Chart)": "Chart A (Line Chart)",
           "Chart B (Vertical Bar Chart)": "Chart B (Vertical Bar Chart)",
           "Chart C (Stacked Line Chart)": "Chart C (Stacked Line Chart)",
@@ -13337,6 +13383,7 @@
           "Which is the Best?": "Which is the Best?"
         },
         "CSP Unit 2 Ch 2 MC worst viz_exam_prep": {
+          " ": " ",
           "Chart A (Line Chart)": "Chart A (Line Chart)",
           "Chart B (Vertical Bar Chart)": "Chart B (Vertical Bar Chart)",
           "Chart C (Stacked Line Chart)": "Chart C (Stacked Line Chart)",
@@ -13344,6 +13391,7 @@
           "Which is the Best?": "Which is the Best?"
         },
         "CSP Unit 2 Ch2 MC data cleaning": {
+          " ": " ",
           "Data Cleaning": "Data Cleaning",
           "Group similar areas of study into a single area of study. For example: grouping Applied Mathematics and Mathematics together into \"Mathematics\"": "Group similar areas of study into a single area of study. For example: grouping Applied Mathematics and Mathematics together into \"Mathematics\"",
           "Removing the entire row with home state \"adsfas\" and recomputing": "Removing the entire row with home state \"adsfas\" and recomputing",
@@ -13351,6 +13399,7 @@
           "Translate all states into their two-letter state code": "Translate all states into their two-letter state code"
         },
         "CSP Unit 2 Ch2 MC data cleaning_2018": {
+          " ": " ",
           "Data Cleaning": "Data Cleaning",
           "Group similar areas of study into a single area of study. For example: grouping Applied Mathematics and Mathematics together into \"Mathematics\"": "Group similar areas of study into a single area of study. For example: grouping Applied Mathematics and Mathematics together into \"Mathematics\"",
           "Removing the entire row with home state \"adsfas\" and recomputing": "Removing the entire row with home state \"adsfas\" and recomputing",
@@ -13358,6 +13407,7 @@
           "Translate all states into their two-letter state code": "Translate all states into their two-letter state code"
         },
         "CSP Unit 2 Ch2 MC data cleaning_exam_prep": {
+          " ": " ",
           "Data Cleaning": "Data Cleaning",
           "Group similar areas of study into a single area of study. For example: grouping Applied Mathematics and Mathematics together into \"Mathematics\"": "Group similar areas of study into a single area of study. For example: grouping Applied Mathematics and Mathematics together into \"Mathematics\"",
           "Removing the entire row with home state \"adsfas\" and recomputing": "Removing the entire row with home state \"adsfas\" and recomputing",
@@ -13365,6 +13415,7 @@
           "Translate all states into their two-letter state code": "Translate all states into their two-letter state code"
         },
         "CSP Unit 2 ch 2 MC trends as predictors": {
+          " ": " ",
           "Search Trends": "Search Trends",
           "Search trends are accurate and reliable predictors of future events that fully represent society at large.": "Search trends are accurate and reliable predictors of future events that fully represent society at large.",
           "Search trends are accurate and reliable predictors of future events that may not fully represent society at large.": "Search trends are accurate and reliable predictors of future events that may not fully represent society at large.",
@@ -13372,6 +13423,7 @@
           "Search trends are imperfect predictors of future events that may not fully represent society at large.": "Search trends are imperfect predictors of future events that may not fully represent society at large."
         },
         "CSP Unit 2 ch 2 MC trends as predictors_2018": {
+          " ": " ",
           "Search Trends": "Search Trends",
           "Search trends are accurate and reliable predictors of future events that fully represent society at large.": "Search trends are accurate and reliable predictors of future events that fully represent society at large.",
           "Search trends are accurate and reliable predictors of future events that may not fully represent society at large.": "Search trends are accurate and reliable predictors of future events that may not fully represent society at large.",
@@ -13379,6 +13431,7 @@
           "Search trends are imperfect predictors of future events that may not fully represent society at large.": "Search trends are imperfect predictors of future events that may not fully represent society at large."
         },
         "CSP Unit 2 ch 2 MC trends as predictors_exam_prep": {
+          " ": " ",
           "Search Trends": "Search Trends",
           "Search trends are accurate and reliable predictors of future events that fully represent society at large.": "Search trends are accurate and reliable predictors of future events that fully represent society at large.",
           "Search trends are accurate and reliable predictors of future events that may not fully represent society at large.": "Search trends are accurate and reliable predictors of future events that may not fully represent society at large.",
@@ -13386,6 +13439,7 @@
           "Search trends are imperfect predictors of future events that may not fully represent society at large.": "Search trends are imperfect predictors of future events that may not fully represent society at large."
         },
         "CSP Unit2 Ch 1 MC hex rgb": {
+          " ": " ",
           "00F": "00F",
           "12-bit Red": "12-bit Red",
           "F00": "F00",
@@ -13393,6 +13447,7 @@
           "FF0000": "FF0000"
         },
         "CSP Unit2 Ch 1 MC hex rgb_2018": {
+          " ": " ",
           "00F": "00F",
           "12-bit Red": "12-bit Red",
           "F00": "F00",
@@ -13400,6 +13455,7 @@
           "FF0000": "FF0000"
         },
         "CSP Unit2 Ch 1 MC hex rgb_exam_prep": {
+          " ": " ",
           "00F": "00F",
           "12-bit Red": "12-bit Red",
           "F00": "F00",
@@ -13474,6 +13530,12 @@
           "High level protocols take into account specific implementation details of lower level protocols to ensure they are compatible.": "High level protocols take into account specific implementation details of lower level protocols to ensure they are compatible.",
           "Low level protocols are written in binary while high level protocols are written in hexadecimal.": "Low level protocols are written in binary while high level protocols are written in hexadecimal.",
           "Low level protocols can provide functionality to high level protocols without revealing the details of how this is accomplished.": "Low level protocols can provide functionality to high level protocols without revealing the details of how this is accomplished."
+        },
+        "CSPFinal_Question_13": {
+          "<pre>dieRoll = 2</pre>": "<pre>dieRoll = 2</pre>",
+          "<pre>dieRoll = evenCounter + RollCounter</pre>": "<pre>dieRoll = evenCounter + RollCounter</pre>",
+          "<pre>evenCounter * 2 = rollCounter</pre>": "<pre>evenCounter * 2 = rollCounter</pre>",
+          "<pre>rollCounter = 5</pre>": "<pre>rollCounter = 5</pre>"
         },
         "CSPFinal_Question_14": {
           "temperature = 30, dewpoint = 25": "temperature = 30, dewpoint = 25",
@@ -13645,6 +13707,12 @@
           "2  2  4": "2  2  4",
           "2  4  6": "2  4  6"
         },
+        "CSPFinal_Question_28": {
+          "<pre>n &gt; 5</pre>": "<pre>n &gt; 5</pre>",
+          "<pre>n &lt; -1</pre>": "<pre>n &lt; -1</pre>",
+          "<pre>n = -1</pre>": "<pre>n = -1</pre>",
+          "<pre>n = 0</pre>": "<pre>n = 0</pre>"
+        },
         "CSPFinal_Question_29": {
           "The code will display the largest of the three values": "The code will display the largest of the three values",
           "The code will display the middle of all three values": "The code will display the middle of all three values",
@@ -13668,6 +13736,12 @@
           "<code>Computer B</code>": "<code>Computer B</code>",
           "<code>Computer D</code>": "<code>Computer D</code>",
           "<code>Computer F</code>": "<code>Computer F</code>"
+        },
+        "CSPFinal_Question_30": {
+          "<pre>0 0</pre>": "<pre>0 0</pre>",
+          "<pre>0 10</pre>": "<pre>0 10</pre>",
+          "<pre>4 10</pre>": "<pre>4 10</pre>",
+          "<pre>4 5</pre>": "<pre>4 5</pre>"
         },
         "CSPFinal_Question_32": {
           "0 0": "0 0",
@@ -13794,18 +13868,21 @@
           "HEX: <strong>F</strong> DEC: <strong>13</strong>, BIN: <strong>1110</strong>": "HEX: <strong>F</strong> DEC: <strong>13</strong>, BIN: <strong>1110</strong>"
         },
         "CSPFinal_Question_8update": {
+          " ": " ",
           "<code style=\"color: black\">&nbsp;&nbsp;1110</code><br> <code style=\"color: black\">&nbsp;01010</code><br> <code style=\"color: black\">010000</code> <br> <br>": "<code style=\"color: black\">&nbsp;&nbsp;1110</code><br> <code style=\"color: black\">&nbsp;01010</code><br> <code style=\"color: black\">010000</code> <br> <br>",
           "<code style=\"color: black\">&nbsp;01010</code><br> <code style=\"color: black\">010000</code><br> <code style=\"color: black\">&nbsp;&nbsp;1110</code> <br> <br>": "<code style=\"color: black\">&nbsp;01010</code><br> <code style=\"color: black\">010000</code><br> <code style=\"color: black\">&nbsp;&nbsp;1110</code> <br> <br>",
           "<code style=\"color: black\">&nbsp;01010</code><br><code style=\"color: black\">&nbsp;&nbsp;1110</code><br><code style=\"color: black\">010000</code> <br> <br>": "<code style=\"color: black\">&nbsp;01010</code><br><code style=\"color: black\">&nbsp;&nbsp;1110</code><br><code style=\"color: black\">010000</code> <br> <br>",
           "<code style=\"color: black\">010000</code><br> <code style=\"color: black\">&nbsp;&nbsp;1110</code><br> <code style=\"color: black\">&nbsp;01010</code> <br> <br>": "<code style=\"color: black\">010000</code><br> <code style=\"color: black\">&nbsp;&nbsp;1110</code><br> <code style=\"color: black\">&nbsp;01010</code> <br> <br>"
         },
         "CSPFinal_Question_8update_2018": {
+          " ": " ",
           "<code style=\"color: black\">&nbsp;&nbsp;1110</code><br> <code style=\"color: black\">&nbsp;01010</code><br> <code style=\"color: black\">010000</code> <br> <br>": "<code style=\"color: black\">&nbsp;&nbsp;1110</code><br> <code style=\"color: black\">&nbsp;01010</code><br> <code style=\"color: black\">010000</code> <br> <br>",
           "<code style=\"color: black\">&nbsp;01010</code><br> <code style=\"color: black\">010000</code><br> <code style=\"color: black\">&nbsp;&nbsp;1110</code> <br> <br>": "<code style=\"color: black\">&nbsp;01010</code><br> <code style=\"color: black\">010000</code><br> <code style=\"color: black\">&nbsp;&nbsp;1110</code> <br> <br>",
           "<code style=\"color: black\">&nbsp;01010</code><br><code style=\"color: black\">&nbsp;&nbsp;1110</code><br><code style=\"color: black\">010000</code> <br> <br>": "<code style=\"color: black\">&nbsp;01010</code><br><code style=\"color: black\">&nbsp;&nbsp;1110</code><br><code style=\"color: black\">010000</code> <br> <br>",
           "<code style=\"color: black\">010000</code><br> <code style=\"color: black\">&nbsp;&nbsp;1110</code><br> <code style=\"color: black\">&nbsp;01010</code> <br> <br>": "<code style=\"color: black\">010000</code><br> <code style=\"color: black\">&nbsp;&nbsp;1110</code><br> <code style=\"color: black\">&nbsp;01010</code> <br> <br>"
         },
         "CSPFinal_Question_8update_exam_prep": {
+          " ": " ",
           "<code style=\"color: black\">&nbsp;&nbsp;1110</code><br> <code style=\"color: black\">&nbsp;01010</code><br> <code style=\"color: black\">010000</code> <br> <br>": "<code style=\"color: black\">&nbsp;&nbsp;1110</code><br> <code style=\"color: black\">&nbsp;01010</code><br> <code style=\"color: black\">010000</code> <br> <br>",
           "<code style=\"color: black\">&nbsp;01010</code><br> <code style=\"color: black\">010000</code><br> <code style=\"color: black\">&nbsp;&nbsp;1110</code> <br> <br>": "<code style=\"color: black\">&nbsp;01010</code><br> <code style=\"color: black\">010000</code><br> <code style=\"color: black\">&nbsp;&nbsp;1110</code> <br> <br>",
           "<code style=\"color: black\">&nbsp;01010</code><br><code style=\"color: black\">&nbsp;&nbsp;1110</code><br><code style=\"color: black\">010000</code> <br> <br>": "<code style=\"color: black\">&nbsp;01010</code><br><code style=\"color: black\">&nbsp;&nbsp;1110</code><br><code style=\"color: black\">010000</code> <br> <br>",
@@ -14125,120 +14202,234 @@
           "What does this code do?": "What does this code do?"
         },
         "Commute Assess - cond 3 - block": {
+          "<pre>And contains a 3</pre>": "<pre>And contains a 3</pre>",
+          "<pre>And under 21</pre>": "<pre>And under 21</pre>",
+          "<pre>Under 40</pre>": "<pre>Under 40</pre>",
+          "<pre>Under 40<br>And contains a 3</pre>": "<pre>Under 40<br>And contains a 3</pre>",
+          "<pre>Under 40<br>And under 21<br>And contains a 3</pre>": "<pre>Under 40<br>And under 21<br>And contains a 3</pre>",
           "Nothing will be displayed": "Nothing will be displayed",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "Commute Assess - cond 3 - block_2018": {
+          "<pre>And contains a 3</pre>": "<pre>And contains a 3</pre>",
+          "<pre>And under 21</pre>": "<pre>And under 21</pre>",
+          "<pre>Under 40</pre>": "<pre>Under 40</pre>",
+          "<pre>Under 40<br>And contains a 3</pre>": "<pre>Under 40<br>And contains a 3</pre>",
+          "<pre>Under 40<br>And under 21<br>And contains a 3</pre>": "<pre>Under 40<br>And under 21<br>And contains a 3</pre>",
           "Nothing will be displayed": "Nothing will be displayed",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "Commute Assess - cond 3 - block_exam_prep": {
+          "<pre>And contains a 3</pre>": "<pre>And contains a 3</pre>",
+          "<pre>And under 21</pre>": "<pre>And under 21</pre>",
+          "<pre>Under 40</pre>": "<pre>Under 40</pre>",
+          "<pre>Under 40<br>And contains a 3</pre>": "<pre>Under 40<br>And contains a 3</pre>",
+          "<pre>Under 40<br>And under 21<br>And contains a 3</pre>": "<pre>Under 40<br>And under 21<br>And contains a 3</pre>",
           "Nothing will be displayed": "Nothing will be displayed",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "Commute Assess - func 1 - block": {
+          "<pre>hi<br>and<br>and<br>bye<br>and</pre>": "<pre>hi<br>and<br>and<br>bye<br>and</pre>",
+          "<pre>hi<br>and<br>bye</pre>": "<pre>hi<br>and<br>bye</pre>",
+          "<pre>hi<br>and<br>bye<br>and</pre>": "<pre>hi<br>and<br>bye<br>and</pre>",
+          "<pre>hi<br>bye<br>and</pre>": "<pre>hi<br>bye<br>and</pre>",
           "Nothing will be printed": "Nothing will be printed"
         },
         "Commute Assess - func 2a - block": {
+          "<pre>10</pre>": "<pre>10</pre>",
+          "<pre>55</pre>": "<pre>55</pre>",
+          "<pre>5</pre>": "<pre>5</pre>",
           "Nothing is printed": "Nothing is printed",
           "This script would cause an error": "This script would cause an error"
         },
         "Commute Assess - func 2a - block B": {
+          "<pre>10</pre>": "<pre>10</pre>",
+          "<pre>55</pre>": "<pre>55</pre>",
+          "<pre>5</pre>": "<pre>5</pre>",
           "Nothing is printed": "Nothing is printed",
           "This script would cause an error": "This script would cause an error"
         },
         "Commute Assess - func 2a - block_2018": {
+          "<pre>10</pre>": "<pre>10</pre>",
+          "<pre>55</pre>": "<pre>55</pre>",
+          "<pre>5</pre>": "<pre>5</pre>",
           "Nothing is printed": "Nothing is printed",
           "This script would cause an error": "This script would cause an error"
         },
         "Commute Assess - func 2a - block_exam_prep": {
+          "<pre>10</pre>": "<pre>10</pre>",
+          "<pre>55</pre>": "<pre>55</pre>",
+          "<pre>5</pre>": "<pre>5</pre>",
           "Nothing is printed": "Nothing is printed",
           "This script would cause an error": "This script would cause an error"
         },
         "Commute Assess - func 2b - block": {
+          "<pre>21</pre>": "<pre>21</pre>",
+          "<pre>81</pre>": "<pre>81</pre>",
+          "<pre>9</pre>": "<pre>9</pre>",
           "nothing is printed": "nothing is printed",
           "this script would cause an error": "this script would cause an error"
         },
         "Commute Assess - func 2b - block B": {
+          "<pre>21</pre>": "<pre>21</pre>",
+          "<pre>81</pre>": "<pre>81</pre>",
+          "<pre>9</pre>": "<pre>9</pre>",
           "nothing is printed": "nothing is printed",
           "this script would cause an error": "this script would cause an error"
         },
         "Commute Assess - func 2b - block_2018": {
+          "<pre>21</pre>": "<pre>21</pre>",
+          "<pre>81</pre>": "<pre>81</pre>",
+          "<pre>9</pre>": "<pre>9</pre>",
           "nothing is printed": "nothing is printed",
           "this script would cause an error": "this script would cause an error"
         },
         "Commute Assess - func 2b - block_exam_prep": {
+          "<pre>21</pre>": "<pre>21</pre>",
+          "<pre>81</pre>": "<pre>81</pre>",
+          "<pre>9</pre>": "<pre>9</pre>",
           "nothing is printed": "nothing is printed",
           "this script would cause an error": "this script would cause an error"
         },
         "Commute Assess - func 3a - block": {
+          "<pre>DISPLAY in func1<br>DISPLAY in func2</pre>": "<pre>DISPLAY in func1<br>DISPLAY in func2</pre>",
+          "<pre>func1<br>func2</pre>": "<pre>func1<br>func2</pre>",
+          "<pre>in func1<br>in func2</pre>": "<pre>in func1<br>in func2</pre>",
+          "<pre>in func1<br>in func2<br>in func1</pre>": "<pre>in func1<br>in func2<br>in func1</pre>",
           "Nothing is printed": "Nothing is printed",
           "This script would cause an error": "This script would cause an error"
         },
         "Commute Assess - func 3a - block_2018": {
+          "<pre>DISPLAY in func1<br>DISPLAY in func2</pre>": "<pre>DISPLAY in func1<br>DISPLAY in func2</pre>",
+          "<pre>func1<br>func2</pre>": "<pre>func1<br>func2</pre>",
+          "<pre>in func1<br>in func2</pre>": "<pre>in func1<br>in func2</pre>",
+          "<pre>in func1<br>in func2<br>in func1</pre>": "<pre>in func1<br>in func2<br>in func1</pre>",
           "Nothing is printed": "Nothing is printed",
           "This script would cause an error": "This script would cause an error"
         },
         "Commute Assess - func 3a - block_exam_prep": {
+          "<pre>DISPLAY in func1<br>DISPLAY in func2</pre>": "<pre>DISPLAY in func1<br>DISPLAY in func2</pre>",
+          "<pre>func1<br>func2</pre>": "<pre>func1<br>func2</pre>",
+          "<pre>in func1<br>in func2</pre>": "<pre>in func1<br>in func2</pre>",
+          "<pre>in func1<br>in func2<br>in func1</pre>": "<pre>in func1<br>in func2<br>in func1</pre>",
           "Nothing is printed": "Nothing is printed",
           "This script would cause an error": "This script would cause an error"
         },
         "Commute Assess - func 3b - block": {
+          "<pre>func3<br>func1</pre>": "<pre>func3<br>func1</pre>",
+          "<pre>in func3<br>in func1</pre>": "<pre>in func3<br>in func1</pre>",
+          "<pre>in func3<br>in func1<br>in func3</pre>": "<pre>in func3<br>in func1<br>in func3</pre>",
+          "<pre>in func3<br>in func3<br>in func1</pre>": "<pre>in func3<br>in func3<br>in func1</pre>",
           "<span style=\"font-family: monospace; border: solid 1px #dddddd; background-color: rgba(0,0,0,0.1)\">in func3</span> will be displayed over and over until the code is stopped manually": "<span style=\"font-family: monospace; border: solid 1px #dddddd; background-color: rgba(0,0,0,0.1)\">in func3</span> will be displayed over and over until the code is stopped manually",
           "Nothing is displayed": "Nothing is displayed",
           "What will be displayed when this code is run?": "What will be displayed when this code is run?"
         },
         "Commute Assess - func 3b - block_2018": {
+          "<pre>func3<br>func1</pre>": "<pre>func3<br>func1</pre>",
+          "<pre>in func3<br>in func1</pre>": "<pre>in func3<br>in func1</pre>",
+          "<pre>in func3<br>in func1<br>in func3</pre>": "<pre>in func3<br>in func1<br>in func3</pre>",
+          "<pre>in func3<br>in func3<br>in func1</pre>": "<pre>in func3<br>in func3<br>in func1</pre>",
           "<span style=\"font-family: monospace; border: solid 1px #dddddd; background-color: rgba(0,0,0,0.1)\">in func3</span> will be displayed over and over until the code is stopped manually": "<span style=\"font-family: monospace; border: solid 1px #dddddd; background-color: rgba(0,0,0,0.1)\">in func3</span> will be displayed over and over until the code is stopped manually",
           "Nothing is displayed": "Nothing is displayed",
           "What will be displayed when this code is run?": "What will be displayed when this code is run?"
         },
         "Commute Assess - func 3b - block_exam_prep": {
+          "<pre>func3<br>func1</pre>": "<pre>func3<br>func1</pre>",
+          "<pre>in func3<br>in func1</pre>": "<pre>in func3<br>in func1</pre>",
+          "<pre>in func3<br>in func1<br>in func3</pre>": "<pre>in func3<br>in func1<br>in func3</pre>",
+          "<pre>in func3<br>in func3<br>in func1</pre>": "<pre>in func3<br>in func3<br>in func1</pre>",
           "<span style=\"font-family: monospace; border: solid 1px #dddddd; background-color: rgba(0,0,0,0.1)\">in func3</span> will be displayed over and over until the code is stopped manually": "<span style=\"font-family: monospace; border: solid 1px #dddddd; background-color: rgba(0,0,0,0.1)\">in func3</span> will be displayed over and over until the code is stopped manually",
           "Nothing is displayed": "Nothing is displayed",
           "What will be displayed when this code is run?": "What will be displayed when this code is run?"
         },
         "CommuteAssess - Cond 1 - block": {
+          "<pre>Inside first if</pre>": "<pre>Inside first if</pre>",
+          "<pre>Inside first if<br>Inside second if</pre>": "<pre>Inside first if<br>Inside second if</pre>",
+          "<pre>Inside second if</pre>": "<pre>Inside second if</pre>",
           "It will be different each time": "It will be different each time",
           "Nothing will be printed": "Nothing will be printed",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "CommuteAssess - Cond 1 - block B": {
+          "<pre>Inside first if</pre>": "<pre>Inside first if</pre>",
+          "<pre>Inside first if<br>Inside second if</pre>": "<pre>Inside first if<br>Inside second if</pre>",
+          "<pre>Inside second if</pre>": "<pre>Inside second if</pre>",
           "It will be different each time": "It will be different each time",
           "Nothing will be printed": "Nothing will be printed",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "CommuteAssess - Cond 1 - block_2018": {
+          "<pre>Inside first if</pre>": "<pre>Inside first if</pre>",
+          "<pre>Inside first if<br>Inside second if</pre>": "<pre>Inside first if<br>Inside second if</pre>",
+          "<pre>Inside second if</pre>": "<pre>Inside second if</pre>",
           "It will be different each time": "It will be different each time",
           "Nothing will be printed": "Nothing will be printed",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "CommuteAssess - Cond 1 - block_exam_prep": {
+          "<pre>Inside first if</pre>": "<pre>Inside first if</pre>",
+          "<pre>Inside first if<br>Inside second if</pre>": "<pre>Inside first if<br>Inside second if</pre>",
+          "<pre>Inside second if</pre>": "<pre>Inside second if</pre>",
           "It will be different each time": "It will be different each time",
           "Nothing will be printed": "Nothing will be printed",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "CommuteAssess - Cond 2 - block": {
+          "<pre>All done.</pre>": "<pre>All done.</pre>",
+          "<pre>Inside the else. <br>All done.</pre>": "<pre>Inside the else. <br>All done.</pre>",
+          "<pre>Inside the if. </pre>": "<pre>Inside the if. </pre>",
+          "<pre>Inside the if. <br>All done.</pre>": "<pre>Inside the if. <br>All done.</pre>",
+          "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>": "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "CommuteAssess - Cond 2 - block B": {
+          "<pre>All done.</pre>": "<pre>All done.</pre>",
+          "<pre>Inside the else. <br>All done.</pre>": "<pre>Inside the else. <br>All done.</pre>",
+          "<pre>Inside the if. </pre>": "<pre>Inside the if. </pre>",
+          "<pre>Inside the if. <br>All done.</pre>": "<pre>Inside the if. <br>All done.</pre>",
+          "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>": "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "CommuteAssess - Cond 2 - block_2018": {
+          "<pre>All done.</pre>": "<pre>All done.</pre>",
+          "<pre>Inside the else. <br>All done.</pre>": "<pre>Inside the else. <br>All done.</pre>",
+          "<pre>Inside the if. </pre>": "<pre>Inside the if. </pre>",
+          "<pre>Inside the if. <br>All done.</pre>": "<pre>Inside the if. <br>All done.</pre>",
+          "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>": "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "CommuteAssess - Cond 2 - block_exam_prep": {
+          "<pre>All done.</pre>": "<pre>All done.</pre>",
+          "<pre>Inside the else. <br>All done.</pre>": "<pre>Inside the else. <br>All done.</pre>",
+          "<pre>Inside the if. </pre>": "<pre>Inside the if. </pre>",
+          "<pre>Inside the if. <br>All done.</pre>": "<pre>Inside the if. <br>All done.</pre>",
+          "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>": "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "CommuteAssess - Cond 4a - block": {
+          "<pre>The word is just right!</pre>": "<pre>The word is just right!</pre>",
+          "<pre>The word is just right!<br>The word is still too short!</pre>": "<pre>The word is just right!<br>The word is still too short!</pre>",
+          "<pre>The word is still too short!</pre>": "<pre>The word is still too short!</pre>",
+          "<pre>The word is too short!</pre>": "<pre>The word is too short!</pre>",
+          "<pre>The word it too long!</pre>": "<pre>The word it too long!</pre>",
           "Nothing will be displayed": "Nothing will be displayed",
           "What will be displayed after this code has run?": "What will be displayed after this code has run?"
         },
         "CommuteAssess - Cond 4a - block_2018": {
+          "<pre>The word is just right!</pre>": "<pre>The word is just right!</pre>",
+          "<pre>The word is just right!<br>The word is still too short!</pre>": "<pre>The word is just right!<br>The word is still too short!</pre>",
+          "<pre>The word is still too short!</pre>": "<pre>The word is still too short!</pre>",
+          "<pre>The word is too short!</pre>": "<pre>The word is too short!</pre>",
+          "<pre>The word it too long!</pre>": "<pre>The word it too long!</pre>",
           "Nothing will be displayed": "Nothing will be displayed",
           "What will be displayed after this code has run?": "What will be displayed after this code has run?"
         },
         "CommuteAssess - Cond 4a - block_exam_prep": {
+          "<pre>The word is just right!</pre>": "<pre>The word is just right!</pre>",
+          "<pre>The word is just right!<br>The word is still too short!</pre>": "<pre>The word is just right!<br>The word is still too short!</pre>",
+          "<pre>The word is still too short!</pre>": "<pre>The word is still too short!</pre>",
+          "<pre>The word is too short!</pre>": "<pre>The word is too short!</pre>",
+          "<pre>The word it too long!</pre>": "<pre>The word it too long!</pre>",
           "Nothing will be displayed": "Nothing will be displayed",
           "What will be displayed after this code has run?": "What will be displayed after this code has run?"
         },
@@ -14299,6 +14490,10 @@
           "x is equal to 8; y is equal to 8; z is equal to 16": "x is equal to 8; y is equal to 8; z is equal to 16"
         },
         "CommuteAssess - Var 5 - block": {
+          "<pre>11<br>11<br>11</pre>": "<pre>11<br>11<br>11</pre>",
+          "<pre>11<br>13<br>18</pre>": "<pre>11<br>13<br>18</pre>",
+          "<pre>18<br>18<br>18</pre>": "<pre>18<br>18<br>18</pre>",
+          "<pre>x<br>x<br>x + 5</pre>": "<pre>x<br>x<br>x + 5</pre>",
           "Nothing will be printed": "Nothing will be printed",
           "This code will cause on error": "This code will cause on error",
           "What is displayed when this code is run?": "What is displayed when this code is run?"
@@ -14363,14 +14558,29 @@
           "it will be different each time you run it": "it will be different each time you run it"
         },
         "CommuteAssess - loops 5 - block": {
+          "<pre>3</pre>": "<pre>3</pre>",
+          "<pre>3<br>1</pre>": "<pre>3<br>1</pre>",
+          "<pre>3<br>1<br>-1</pre>": "<pre>3<br>1<br>-1</pre>",
+          "<pre>5<br>3<br>1</pre>": "<pre>5<br>3<br>1</pre>",
+          "<pre>5<br>4<br>3<br>2<br>1<br>0</pre>": "<pre>5<br>4<br>3<br>2<br>1<br>0</pre>",
           "What will be displayed when this code is run?": "What will be displayed when this code is run?",
           "it will be different each time you run it": "it will be different each time you run it"
         },
         "CommuteAssess - loops 5 - block_2018": {
+          "<pre>3</pre>": "<pre>3</pre>",
+          "<pre>3<br>1</pre>": "<pre>3<br>1</pre>",
+          "<pre>3<br>1<br>-1</pre>": "<pre>3<br>1<br>-1</pre>",
+          "<pre>5<br>3<br>1</pre>": "<pre>5<br>3<br>1</pre>",
+          "<pre>5<br>4<br>3<br>2<br>1<br>0</pre>": "<pre>5<br>4<br>3<br>2<br>1<br>0</pre>",
           "What will be displayed when this code is run?": "What will be displayed when this code is run?",
           "it will be different each time you run it": "it will be different each time you run it"
         },
         "CommuteAssess - loops 5 - block_exam_prep": {
+          "<pre>3</pre>": "<pre>3</pre>",
+          "<pre>3<br>1</pre>": "<pre>3<br>1</pre>",
+          "<pre>3<br>1<br>-1</pre>": "<pre>3<br>1<br>-1</pre>",
+          "<pre>5<br>3<br>1</pre>": "<pre>5<br>3<br>1</pre>",
+          "<pre>5<br>4<br>3<br>2<br>1<br>0</pre>": "<pre>5<br>4<br>3<br>2<br>1<br>0</pre>",
           "What will be displayed when this code is run?": "What will be displayed when this code is run?",
           "it will be different each time you run it": "it will be different each time you run it"
         },
@@ -14420,15 +14630,35 @@
           "x is equal to 5; y is equal to 10": "x is equal to 5; y is equal to 10"
         },
         "CumulAssess - Var 2 - block": {
+          "<pre>BoysHello Girls</pre>": "<pre>BoysHello Girls</pre>",
+          "<pre>Hello Boys and Girls</pre>": "<pre>Hello Boys and Girls</pre>",
+          "<pre>Hello Girls and Boys</pre>": "<pre>Hello Girls and Boys</pre>",
+          "<pre>sentence</pre>": "<pre>sentence</pre>",
+          "<pre>y + z + \" and \" + x</pre>": "<pre>y + z + \" and \" + x</pre>",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "CumulAssess - Var 2 - block B": {
+          "<pre>BoysHello Girls</pre>": "<pre>BoysHello Girls</pre>",
+          "<pre>Hello Boys and Girls</pre>": "<pre>Hello Boys and Girls</pre>",
+          "<pre>Hello Girls and Boys</pre>": "<pre>Hello Girls and Boys</pre>",
+          "<pre>sentence</pre>": "<pre>sentence</pre>",
+          "<pre>y + z + \" and \" + x</pre>": "<pre>y + z + \" and \" + x</pre>",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "CumulAssess - Var 2 - block_2018": {
+          "<pre>BoysHello Girls</pre>": "<pre>BoysHello Girls</pre>",
+          "<pre>Hello Boys and Girls</pre>": "<pre>Hello Boys and Girls</pre>",
+          "<pre>Hello Girls and Boys</pre>": "<pre>Hello Girls and Boys</pre>",
+          "<pre>sentence</pre>": "<pre>sentence</pre>",
+          "<pre>y + z + \" and \" + x</pre>": "<pre>y + z + \" and \" + x</pre>",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "CumulAssess - Var 2 - block_exam_prep": {
+          "<pre>BoysHello Girls</pre>": "<pre>BoysHello Girls</pre>",
+          "<pre>Hello Boys and Girls</pre>": "<pre>Hello Boys and Girls</pre>",
+          "<pre>Hello Girls and Boys</pre>": "<pre>Hello Girls and Boys</pre>",
+          "<pre>sentence</pre>": "<pre>sentence</pre>",
+          "<pre>y + z + \" and \" + x</pre>": "<pre>y + z + \" and \" + x</pre>",
           "What will be displayed after running this code?": "What will be displayed after running this code?"
         },
         "Destroy me multi test": {
@@ -15518,6 +15748,7 @@
           "Which of the following is true of lossy and lossless compression techniques?": "Which of the following is true of lossy and lossless compression techniques?"
         },
         "U2L05 Test  MC Question_2018": {
+          " ": " ",
           "1,250 bytes (10,000 bits)": "1,250 bytes (10,000 bits)",
           "1,253 bytes (10,024 bits)": "1,253 bytes (10,024 bits)",
           "3,750 bytes (30,000 bits)": "3,750 bytes (30,000 bits)",
@@ -15829,6 +16060,7 @@
           "protocol": "protocol"
         },
         "U2L5 Color Pixel MC Question": {
+          " ": " ",
           "1,250 bytes (10,000 bits)": "1,250 bytes (10,000 bits)",
           "1,253 bytes (10,024 bits)": "1,253 bytes (10,024 bits)",
           "3,750 bytes (30,000 bits)": "3,750 bytes (30,000 bits)",
@@ -15838,6 +16070,7 @@
           "How many bytes?": "How many bytes?"
         },
         "U2L5 Color Pixel MC Question_2018": {
+          " ": " ",
           "1,250 bytes (10,000 bits)": "1,250 bytes (10,000 bits)",
           "1,253 bytes (10,024 bits)": "1,253 bytes (10,024 bits)",
           "3,750 bytes (30,000 bits)": "3,750 bytes (30,000 bits)",
@@ -15847,6 +16080,7 @@
           "How many bytes?": "How many bytes?"
         },
         "U2L8 google trends MC": {
+          " ": " ",
           "People like dogs more than cats": "People like dogs more than cats",
           "People search for \"dogs\" more frequently than \"cats\"": "People search for \"dogs\" more frequently than \"cats\"",
           "The popularity of dogs as pets is slightly increasing over time, while the popularity of cats is relatively flat": "The popularity of dogs as pets is slightly increasing over time, while the popularity of cats is relatively flat",
@@ -15854,6 +16088,7 @@
           "What does the visualization actually show?": "What does the visualization actually show?"
         },
         "U2L8 google trends MC_2018": {
+          " ": " ",
           "People like dogs more than cats": "People like dogs more than cats",
           "People search for \"dogs\" more frequently than \"cats\"": "People search for \"dogs\" more frequently than \"cats\"",
           "The popularity of dogs as pets is slightly increasing over time, while the popularity of cats is relatively flat": "The popularity of dogs as pets is slightly increasing over time, while the popularity of cats is relatively flat",
@@ -16753,16 +16988,25 @@
           "This code will cause an error": "This code will cause an error"
         },
         "commute assess - loops 3 - block": {
+          "<pre>apple<br>apple<br>apple<br>orange<br>orange<br>orange </pre>": "<pre>apple<br>apple<br>apple<br>orange<br>orange<br>orange </pre>",
+          "<pre>apple<br>orange </pre>": "<pre>apple<br>orange </pre>",
+          "<pre>apple<br>orange<br>apple<br>orange<br>apple<br>orange </pre>": "<pre>apple<br>orange<br>apple<br>orange<br>apple<br>orange </pre>",
           "It will be different each time you run it": "It will be different each time you run it",
           "Nothing with be printed": "Nothing with be printed",
           "What will be printed when this code is run?": "What will be printed when this code is run?"
         },
         "commute assess - loops 3 - block_2018": {
+          "<pre>apple<br>apple<br>apple<br>orange<br>orange<br>orange </pre>": "<pre>apple<br>apple<br>apple<br>orange<br>orange<br>orange </pre>",
+          "<pre>apple<br>orange </pre>": "<pre>apple<br>orange </pre>",
+          "<pre>apple<br>orange<br>apple<br>orange<br>apple<br>orange </pre>": "<pre>apple<br>orange<br>apple<br>orange<br>apple<br>orange </pre>",
           "It will be different each time you run it": "It will be different each time you run it",
           "Nothing with be printed": "Nothing with be printed",
           "What will be printed when this code is run?": "What will be printed when this code is run?"
         },
         "commute assess - loops 3 - block_exam_prep": {
+          "<pre>apple<br>apple<br>apple<br>orange<br>orange<br>orange </pre>": "<pre>apple<br>apple<br>apple<br>orange<br>orange<br>orange </pre>",
+          "<pre>apple<br>orange </pre>": "<pre>apple<br>orange </pre>",
+          "<pre>apple<br>orange<br>apple<br>orange<br>apple<br>orange </pre>": "<pre>apple<br>orange<br>apple<br>orange<br>apple<br>orange </pre>",
           "It will be different each time you run it": "It will be different each time you run it",
           "Nothing with be printed": "Nothing with be printed",
           "What will be printed when this code is run?": "What will be printed when this code is run?"
@@ -17200,6 +17444,7 @@
           "The harvester will pick all of the crops, except the pumpkin.": "The harvester will pick all of the crops, except the pumpkin."
         },
         "courseD_multi_farmer_ramp13": {
+          " ": " ",
           "Correct!": "Correct!",
           "I don't know.": "I don't know.",
           "Incorrect. The `pick pumpkin` block is inside the loop, so the farmer will try to pick pumpkins at each step, instead of just at the end.": "Incorrect. The `pick pumpkin` block is inside the loop, so the farmer will try to pick pumpkins at each step, instead of just at the end.",
@@ -17428,6 +17673,7 @@
           "What do you think will happen in this puzzle when you press 'Run'?": "What do you think will happen in this puzzle when you press 'Run'?"
         },
         "courseE_multi_farmer_ramp12": {
+          " ": " ",
           "right answer": "right answer",
           "wrong answer": "wrong answer"
         },
@@ -27404,6 +27650,7 @@
         "courseC_PlayLab_events_challenge1_xy_blocks_instruction": "Here is a new block that is somewhat complicated. Use it to move Waddles back to the start when he runs into the Dinosaur and when he scores a point. This will make your game more challenging and fun!\n\nPlay the game and move Waddles with the arrows until you score enough points.",
         "courseC_artist_loop1_instruction": "Let's add some pizazz!",
         "courseC_artist_loop1_2018_instruction": "Let's add some pizazz with a `set pattern` block.",
+        "courseC_artist_loops1_instruction": "*\"Zombie.  Draw!\"*\n\nThe zombie wants to draw a line from where he is to the garden of sunflowers.  Can you help him?  \n*(The garden is 250 pixels away)*  ",
         "courseC_artist_loops1a_instruction": "Get the artist to the center of the play area, then draw a bird using a sticker. ",
         "courseC_artist_loops1a_2018_instruction": "Get the artist to the center of the play area, then draw a bird using a sticker. ",
         "courseC_artist_loops2_instruction": "Now that the zombie knows his way, help him dig holes along the path to plant more flowers!",
@@ -29427,6 +29674,7 @@
         "CSP U4 - CreateRecord with JSON_markdown_instruction": "Good news! we can also store objects in the easy way!\nStarting code is some kind of pre-composed object. And call to createRecord that shows using the javascript object as the the thing being stored.\nTest.\nInvestigate.\nAdd a field to the object and run again, see what’s there.",
         "CSP U4 - First Create Record Experience_markdown_instruction": "So how can we use this?  We can use it to compose a bunch of things we want to store at once.  In Data we call this a “record”.  Let’s look at how we create records….new level:\n\nJust drag out createRecord and play with it (non-project level) — not triggered by a button. \n\nCreateRecord should populate with a default JSON object (which you can set in level builder when defining params for the blocks in the palette.)  Have it be the string version of of JSON object.\nJust Hit run several times.\nView Data.\nInvestigate problems.\n\n\n",
         "CSP U4 - Import Table_markdown_instruction": "You can create a new table by importing a CSV file. CSV stands for comma separated values and is a standard way to move data between different applications. CSV files usually have multiple columns with the first row containing the label for each column. AppLab will use this first row to create the column names in the table. \n\nIn AppLab you can create a new table in an app by clicking the “View Data” button(a new browser tab opens) and type in a new, descriptive table name (the table name does not have to match the app name, and an app can have more than one table), then click the “Add” button next to the table name(another new browser tab opens). Click the “Import” button, then the “Choose File” button and select the RottenTomatoes2015.csv file (see below). Finally click the “Overwrite & Import” button. Note the unique “Id” field created for each record.",
+        "CSP U4L01 SFLP_markdown_instruction": "<div style=\"width: 250px; text-align: center; float: right; margin-left: 50px\">\n  <a href=\"https://images.code.org/8abc8eedb4975d2c55ac5848cac0d0ed-image-1454087887353.png\" target=\"_blank\">\n    <img src=\"https://images.code.org/8abc8eedb4975d2c55ac5848cac0d0ed-image-1454087887353.png\" style=\"width: 250px; float: right\">\n  </a>\n  <i>Click to enlarge.</i>\n</div>",
         "CSPPD course goals_markdown_instruction": "***Now that you've learned more about the CSP curriculum, let's consider your goals***\n<br>\n<br>\n\n__What are your goals for your CSP class?__ *These goals will change over time, and we'll revisit this your response as we go through the course so we can check in on how we're progressing towards those goals.*\n\n*NOTE: remember you can change the size of the text box by clicking and dragging the bottom-right corner of the box.*\n",
         "CSPPD materials question1_markdown_instruction": "We just talked about the types of materials available through the Code.org CSP curriculum, including teacher lesson plans, widgets, widget tutorial videos, concept videos, teaching tips videos, and student-facing activities. Which of these materials are you most excited to have access to? Which are you most uncertain about? ",
         "CSPPD strategies_markdown_instruction": "\nThis space is your __digital journal for documenting strategies__ you've picked up during Professional Development and while teaching the course. We'll revisit this often during PD, and you should refer back to it while planning lessons to remind yourself of strategies you want to try in class. \n\n\n",
@@ -29492,7 +29740,9 @@
         "Course 4 Artist For Loops 9_markdown_instruction": "Can you make a spiral? Move forward from 1 to 75 pixels, increasing by 1 pixel each time.\n\n",
         "Course 4 Artist For Loops Challenge_markdown_instruction": "**Challenge:** Can you figure out how to use all of the things you've learned to create this image of polygons, all with 40 pixel sides?\n\nRemember, in order to create a spiral, you cannot close the polygon.  This means that each shape will need to have one fewer sides than usual.",
         "Course 4 Artist For Loops Challenge_a_markdown_instruction": "**Challenge:** Can you figure out how to use all of the things you've learned to create this image of polygons, all with 40 pixel sides?",
+        "Course 4 Artist For Loops inspire_markdown_instruction": "<br/><br/>\n<img src=\"https://images.code.org/9b5897e059bb29bd2faf8504659a3cfc-image-1440719685627.49.33.png\" width=\"250px\"/>  \n<br/><br/>\n**Free-Play Inspiration:** You've now learned everything you need to know to make a pattern like this! If this picture inspires you, try to make something similar. Otherwise, create something all your own.",
         "Course 4 Artist Functions 12.1_markdown_instruction": "Let's create a function called `draw an octagon 20` that draws an octagon where each side is 20 pixels long.",
+        "Course 4 Artist Functions 13.1_markdown_instruction": "Now, let's make a function called `jump to upper right` that moves the artist to the upper-right of the octagon that you just drew so we can finish this pattern.  \n<br/>\n*Hint:  To get yourself to the upper-right corner, try jumping in a pattern that makes just 3/8 of the octagon.*  ",
         "Course 4 Artist Functions 14.1_markdown_instruction": "Now, let's make a function called `jump to upper right` that moves the artist to the top-right of the octagon that you just drew so we can finish this pattern.  ",
         "Course 4 Artist Vars 13_markdown_instruction": "When a shape has lots of sides, each side needs to be shorter if you want the whole pattern to fit on the screen. \n\nLet's recreate the algorithm for this amazing pattern, but instead of manually setting the `length` variable, let's use a math block with the `sides` variable inside to make sure that each shape fits correctly.  \n\nThe perimeter of each polygon is 300 pixels.",
         "Course 4 Artist Vars 14_markdown_instruction": "**Free Play**: Check it out! Now your algorithm is nested within one more loop. Experiment with changing the values of your two variables to draw cool patterns.\n\nFor even more effect, try playing with color!  Use random colors inside loops to see how it changes your design.",
@@ -29554,6 +29804,7 @@
         "Course 4 SCFL 1_markdown_instruction": "**For-Loops Super Challenge:** Solve this puzzle with the fewest number of blocks possible.",
         "Course 4 SCFL 1a_markdown_instruction": "**For Loops Super Challenge:** Can you get Scrat to his acorn using as few blocks as possible?\n",
         "Course 4 SCFL 1b_markdown_instruction": "**For Loops Super Challenge:** Can you get Scrat to his acorn using as few blocks as possible?",
+        "Course 4 SCFL 2_markdown_instruction": "**For-Loops Super Challenge:** Solve this puzzle with the fewest number of blocks possible.  \n<br/>",
         "Course 4 SCFP 1_markdown_instruction": "Create a function with parameters that allows the artist to jump backward and forward by x pixels, and also up and down by y pixels (using positive and negative numbers).",
         "Course 4 SCV 4_markdown_instruction": "**Variables Super Challenge:** Solve this puzzle with the fewest number of blocks possible.",
         "Course 4 SCV 5_markdown_instruction": "**Variables Super Challenge:** Solve this puzzle with the fewest number of blocks possible.",
@@ -29905,6 +30156,8 @@
         "U1L13 Text Compression_markdown_instruction": "Look for patterns (repeated words or phrases) in the text. Enter the patterns you see into the dictionary on the right. As you type entries into the dictionary, the symbol for the entry is inserted into the text in place of the pattern.",
         "U1L14 - Assessment 2_markdown_instruction": "What would happen if we didn't include width and height bits in our protocol?\n\nAssume your friend just sent you 32 bits of pixel data (just the 0s and 1s for black and white pixels). Could you recover the original image? If so, how? If not, why not?\n\n\n",
         "U1L14 - Assessment 2_2018_markdown_instruction": "What would happen if we didn't include width and height bits in our protocol?\n\nAssume your friend just sent you 32 bits of pixel data (just the 0s and 1s for black and white pixels). Could you recover the original image? If so, how? If not, why not?\n\n\n",
+        "U1L14 Assessment 1_markdown_instruction": "Please answer the following 3 questions in the space below.\n\n1. What are the **dimensions** (width and height) of the **largest image** we can make with the pixelation widget? \n\n2. How many **total bits** would there be in the the largest possible image we could make with the pixelation widget (assuming 1 bit per pixel)?\n\n3. How many **total bits** bits would it take to represent **the smallest possible image** (i.e. an image with one pixel)?\n",
+        "U1L14 Assessment 1_2018_markdown_instruction": "Please answer the following 3 questions in the space below.\n\n1. What are the **dimensions** (width and height) of the **largest image** we can make with the pixelation widget? \n\n2. How many **total bits** would there be in the the largest possible image we could make with the pixelation widget (assuming 1 bit per pixel)?\n\n3. How many **total bits** bits would it take to represent **the smallest possible image** (i.e. an image with one pixel)?\n",
         "U1L16 Reflection Free Response_markdown_instruction": "Respond to this prompt or to another as directed by your teacher.\n\nIf you had the opportunity to repeat this lesson, what would you do differently?\n\nDescribe something you learned in this unit that will impact your future work in this class.\n\n\n",
         "U1L2 Free response assessment question_markdown_instruction": "Provide an example of a question that could NOT be answered with a single binary message. Explain why this is the case, making reference to the definition of a binary message. \n\n",
         "U1L2 Free response assessment question_2018_markdown_instruction": "Provide an example of a question that could NOT be answered with a single binary message. Explain why this is the case, making reference to the definition of a binary message. \n\n",
@@ -29956,6 +30209,8 @@
         "U2L10 Assessment3_markdown_instruction": "Why do multiple websites at your school and the computers in your classroom all have IP addresses that start with the same two sets of numbers?\n",
         "U2L10 FR describe what you made from lesson prompt_markdown_instruction": "What was the most interesting visualization you were able to create with the data set provided? What did it help you discover about the data?\n\nMake sure that your response includes the following:\n\n1. What type of chart it was\n2. What specific data it plotted\n3. What it helped you discover and/or *why* it was the most interesting to you\n\nTry to keep your response to 150 words or less (5-7 sentences).",
         "U2L10 FR describe what you made from lesson prompt_2018_markdown_instruction": "What was the most interesting visualization you were able to create with the data set provided? What did it help you discover about the data?\n\nMake sure that your response includes the following:\n\n1. What type of chart it was\n2. What specific data it plotted\n3. What it helped you discover and/or *why* it was the most interesting to you\n\nTry to keep your response to 150 words or less (5-7 sentences).",
+        "U2L10 FR why best worst viz_markdown_instruction": "\nChoose the visualization that you thought was the best or worst (pick one) from the ones you saw in class and do the following:\n\n1. Describe the visualization so the reader knows which one you are talking about (example: \"Collection A #2 -- Average divorce rates in America\")\n\n2. Say whether this was the best or worst visualization for you and *and why*.  Justify your opinion by citing principles of visualizations that you have learned about.  Use the visualization 101 guide as a resource. \n\nTry to keep your response to around 100 words (about 3-5 sentences).\n",
+        "U2L10 FR why best worst viz_2018_markdown_instruction": "\nChoose the visualization that you thought was the best or worst (pick one) from the ones you saw in class and do the following:\n\n1. Describe the visualization so the reader knows which one you are talking about (example: \"Collection A #2 -- Average divorce rates in America\")\n\n2. Say whether this was the best or worst visualization for you and *and why*.  Justify your opinion by citing principles of visualizations that you have learned about.  Use the visualization 101 guide as a resource. \n\nTry to keep your response to around 100 words (about 3-5 sentences).\n",
         "U2L10 Free Response Getting Started_markdown_instruction": "Explain the similarities between DNS and the Postal Service.  Describe their analogous hierarchical structure.\n",
         "U2L10 Free Response Wrap Up_markdown_instruction": "Complete this sentence.\n\nI learned three things today about DNS: ______(1)______ , ______(2)______ , and ______(3)______. \n\nHowever, the most important thing I learned is ______(4)______.\n",
         "U2L11 Free Response_markdown_instruction": "The definition of HTTP makes use of the ASCII character set without reference to how these characters are encoded. Explain why this is an example of abstraction.\n",
@@ -30005,6 +30260,8 @@
         "U2L5 FR brighten darken image_2018_markdown_instruction": "Imagine that you have an image that is too dark or too bright. Describe how you would alter the RGB settings to brighten or darken it. Give an example.\n",
         "U2L8 google trends hypothesis_markdown_instruction": "Consider the Google Trends graph of dogs and cats below (same graph as previous question).\n\nGive a plausible explanation or hypothesis for the spike in dog searches that occurred between 2014 and 2015 that would lead to further investigation or research. Give your explanation and what you would want to investigate next.\n\n<a href=\"https://images.code.org/bd40b81c105978fe26ff787a6bf82795-image-1469633006237.png\" target=_blank><img src=\"https://images.code.org/bd40b81c105978fe26ff787a6bf82795-image-1469633006237.png\"><br>Click to Enlarge</a>",
         "U2L8 google trends hypothesis_2018_markdown_instruction": "Consider the Google Trends graph of dogs and cats below (same graph as previous question).\n\nGive a plausible explanation or hypothesis for the spike in dog searches that occurred between 2014 and 2015 that would lead to further investigation or research. Give your explanation and what you would want to investigate next.\n\n<a href=\"https://images.code.org/bd40b81c105978fe26ff787a6bf82795-image-1469633006237.png\" target=_blank><img src=\"https://images.code.org/bd40b81c105978fe26ff787a6bf82795-image-1469633006237.png\"><br>Click to Enlarge</a>",
+        "U2L9 FR digital divide issue_markdown_instruction": "Consider the following statement from the CS Principles course framework:\n\n```\n7.4.1C The global distribution of computing resources raises issues of equity, access, and power.\n```\n\nBriefly describe one of these issues that you learned about in the lesson and how it affects your life or the lives of people you know.  Keep your response to about 100 words (about 3-5 sentences).",
+        "U2L9 FR digital divide issue_2018_markdown_instruction": "Consider the following statement from the CS Principles course framework:\n\n```\n7.4.1C The global distribution of computing resources raises issues of equity, access, and power.\n```\n\nBriefly describe one of these issues that you learned about in the lesson and how it affects your life or the lives of people you know.  Keep your response to about 100 words (about 3-5 sentences).",
         "U2L9 Free Response Getting Started_markdown_instruction": "On the Internet, computers can only communicate with each other through IP addresses. Typically, you will know the name (or URL) of a computer you wish to talk to, but not its IP address. \n\nList two impacts that would result if you HAD TO KNOW IP addresses to get to websites?\n",
         "U3 Variables misconceptions 2_markdown_instruction": "What will Program 2 output?",
         "U3 Variables misconceptions 3_markdown_instruction": "What will Program 3 output?",
@@ -30052,6 +30309,7 @@
         "U3L08 Free Response Wrap Up_markdown_instruction": "How are parameterized functions involved in the children's game \"Simon Says?\"\n",
         "U3L09 Free Response Getting Started_markdown_instruction": "In computer science, when programmers break a big job into several smaller jobs, it's called decomposition.\n\nWhen programmers think about tasks in the general terms about what is going to be accomplished (not specifically about how every step will be accomplished), it's called abstraction. \n\nWhat non-CS task have you worked on lately that involved decomposition? Explain.\n\nWhat non-CS task have you worked on lately that involved abstraction? Explain.\n\n\n",
         "U3L09 Free Response Wrap Up_markdown_instruction": "Describe how your team \"decomposed\" the design of the digital scene project.\n\nDescribe the \"levels of abstraction\" that were included in the component you were responsible for.\n\n\n",
+        "U3L10 Free Response Getting Started_markdown_instruction": "* What is your personal goal for this project? \n\n* How will your personal goal impact the larger collaborative project?\n\n\n",
         "U3L10 Free Response Wrap Up_markdown_instruction": "What issues have arisen during this collaborative project? \n\nHow were they resolved?\n",
         "U3L11 Free Response Getting Started_markdown_instruction": "What can you learn by reflecting on your independent work in this project and on your contributions to an effective team effort?\n",
         "U3L11 Free Response Reflection_markdown_instruction": "What was the most important skill you developed in this project?\n\nHow will you be able to apply that skill to future projects both in and out of computer science?\n\n\n",
@@ -30059,6 +30317,7 @@
         "U3L12 Free Response Reflection_markdown_instruction": "How did your personal mission contribute and/or detract from the overall goal of sorting the cards? \n\nHow could your group have sorted the cards more efficiently, assuming that everyone still needed to execute the actions as prescribed in their missions? \n\nIf your group was not the first to finish, what slowed your progress?\n\n\n",
         "U3L13 Free Response Getting Started_markdown_instruction": "Give three examples of familiar applications that respond to you, the user. \n\nFor each, describe the actions (means of input) you use to \"talk to the program.\" \n\nIf directed by your teacher, work with a partner to sketch a mock-up of an app with multiple means of input.\n\n\n",
         "U3L13 Free Response Reflection_markdown_instruction": "Elements in your app are required to have **unique IDs**. Given what you now know about how event handlers work, why is it important for the IDs of page elements to be unique?\n\n",
+        "U3L14 - Journal Favorite Event_markdown_instruction": "Pick one of the two prompts below to answer.  Start by copy/pasting the prompt you're responding to.\n\n**Pick one:**\n\n* Think back a few lessons to the \"Mission: Unsortable\" card sorting activity. Relate something that happened in that activity to something you found with event-driven programming in this lesson. Were there any \"unfortunate events\" in the card sorting activity that were similar to \"unfortunate events\" while programming in this lesson?  \n\n* What was your favorite event type? Explain what the event type is and how you might use it in an app that you want to write.  \n\nWrite your response below in 100 words or less.\n",
         "U3L15 spot the difference variable debugging_markdown_instruction": "Respond to the following questions about your investigation into the bug with the counting game. Feel free to go back and look at the game again (but do so in another tab or be sure to click \"Submit\" to save your work!):\n\n- From the user's perspective, what was the difference between the first version of the game and the one with the bug?\n- From looking at the code, what specifically was the difference between the two, and why is that an issue?\n- How did you fix the bug?\n",
         "U3L16 Assessment Free Response_markdown_instruction": "Self-assess your clicker game project using the rubric, then respond to this prompt:\n\nIn 100 words, summarize what you learned in this activity and how you might be able to use your new knowledge in future projects.\n\n\n",
         "U3L16 Free Response Getting Started_markdown_instruction": "Until today, you have only learned how to add buttons to a program. \n\nWhat other elements, in addition to buttons, do you interact with in familiar applications? \n\nBesides clicking on buttons, in what other ways can you get information to the program or tell the computer to do things?\n\n\n",
@@ -30071,13 +30330,16 @@
         "U3L20 Assessment6_markdown_instruction": "When using an \"if\" statement, what line of code is executed if the condition is false?\n",
         "U3L20 Assessment7_markdown_instruction": "How do you know if the conditionals in your code are working correctly?\n",
         "U3L20 Assessment8_markdown_instruction": "What is the result of a Boolean expression?\n\n\n",
+        "U3L20 Free Response Getting Started_markdown_instruction": "Think about these statements. Are they true or false?\n\n    There are 7 days in the week. \n    Candy Crush is a fun app.\n    2 + 1 = 4\n    A beach vacation is the best.\n\nIn 50 words, speculate on what you think it means to be true or false in a computer compared to true or false in life.\n\n\n",
         "U3L21 Assessment Wrap Up_markdown_instruction": "Revisit and examine the Clicker Game Enhancement list from Lesson 18 - Controlling Memory and Program Flow. \n\nWhat enhancements do you now have the knowledge and skills - related to variables and conditionals - necessary to implement?\n\n\n",
         "U3L22 Assessment_markdown_instruction": "Why is an inline function used in your clicker game to get or set a key/value pair?\n",
         "U3L22 Free Response Getting Started_markdown_instruction": "In the previous lesson, you added a \"best score\" feature to your clicker game. It worked fine for multiple plays in one game-playing session. \n\nWhy doesn't it save your best score from one session to the next?\"\n",
+        "U3L22 Reflection_markdown_instruction": "Use the rubric to assess your Clicker Game project. Then, reflect on your learning by answering the following questions.\n\nAnswer in 100 words:\n\n* What are you most proud of in this project? Why?\n\n* What problems did you have?\n\n* How did you resolve them? \n\n* What did you learn from the problems? \n\n* Were some of the problems avoidable? How? \n\n* If you were to do this activity again, what would you do differently?\n",
         "U3L23 Free Response Wrap Up 2_markdown_instruction": "\"Age Bot\" is a personal assistant that gives information about age-related milestones in a person's life. Write an algorithm so Age Bot can answer the question \"What is the voting age in the United States?\"\n",
         "U3L23 Free Response Wrap Up_markdown_instruction": "Identify a global problem that a NLP (Natural Language Processing) application could be used to help solve. \n\n* Describe the problem.\n* Explain how you think a NLP app could contribute to a solution.\n* Describe how the app would interact with the user. \n* What would you name the app? \n\n",
         "U3L24 Chatbot Keyword Record_markdown_instruction": "Now it's time to catch the bugs in your own digital assistant. Your code might be working correctly right now, but you have to be able to **prove** it. Use the next level to record the keywords/phrases that your digital assistant responds to. \n\nYou will have many chances to add to this record over the next few days. Remember, you will not be able to earn full credit on the digital assistant project without a comprehensive record of your keywords.",
         "U3L25 Assessment_markdown_instruction": "Write a compound conditional/nested if statement to fit the situation:\n\nHenry and Milton flip a coin twice. \n\nIf the coin lands on the same side twice, Henry wins. \n\nIf the coin lands on different sides for each flip, Milton wins.\n",
+        "U3L25 Free Response Getting Started_markdown_instruction": "Examine these three sentences.\n\n1. If you have the letter S in your name, please stand.\n\n2. If you play an instrument or sing in the choir, please put your head down on your desk.\n\n3. If the number of your home address is an even number please stand, otherwise please put your head down on your desk.\n\nDescribe how they are logically different.\n\n\n",
         "U3L25 Free Response Wrap Up_markdown_instruction": "Give 2 reasons why Boolean statements are important in writing efficient programs.\n",
         "U3L26 Free Response Getting Started_markdown_instruction": "Think about interactions you have experienced in conversations.\n\nHow do you know when someone you're talking to is engaged in the conversation? \n\nWhat do they say that indicates that they are paying attention?\n\n\n",
         "U3L27 Assessment1_markdown_instruction": "Assess your digital assistant using the rubric.\n\nDiscuss how you incrementally developed your program. What did you create first? What came next? What problems did you encounter and solve? (100 words max)\n",
@@ -30160,6 +30422,7 @@
         "WhileAdventure_markdown_instruction": "Our adventurer wants to collect coins.  But she can only use 4 blocks to get them.  \n\nCan you help her grab as many as she can using just 4 blocks?",
         "Widget: Text Compression_markdown_instruction": "Look for patterns (repeated words or phrases) in the text. Enter the patterns you see into the dictionary on the right. As you type entries into the dictionary, the symbol for the entry is inserted into the text in place of the pattern.",
         "Widget: Text Compression_2018_markdown_instruction": "Look for patterns (repeated words or phrases) in the text. Enter the patterns you see into the dictionary on the right. As you type entries into the dictionary, the symbol for the entry is inserted into the text in place of the pattern.",
+        "aE6_markdown_instruction": "<div style=\"color: #7665a0; font-size: 1.6em; line-height: 1.4em;\" >\nThe guests are going to need something to sit on!\n<br/><br/>\nThe artist has an idea to make some fun chairs. How many times do you need to loop this to draw half of a circle?\n</div>",
         "allthethings data blocks test_markdown_instruction": "Please sign in to test applab levels (By design, applab levels only work if signed in. Normally, we make people sign in, but this is only enforceable for a whole script and would be annoying to do for the allthethings script).",
         "allthethings design mode elements_markdown_instruction": "Please sign in to test applab levels (By design, applab levels only work if signed in. Normally, we make people sign in, but this is only enforceable for a whole script and would be annoying to do for the allthethings script).\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\nEnd of instructions that are long.",
         "allthethings level dataTables_markdown_instruction": "Please sign in to test applab levels (By design, applab levels only work if signed in. Normally, we make people sign in, but this is only enforceable for a whole script and would be annoying to do for the allthethings script).",
@@ -31097,8 +31360,12 @@
         "courseF_bee_functions5a_2018_markdown_instruction": "Now, build `move and check` so that it takes the bee to the cloud whenever there is a path to the right, then use it to solve this puzzle!",
         "courseF_bee_functions6_markdown_instruction": "*\"This field is a-MAZE-ing!\"*\n\nBuild your own function to help the bee through the maze by turning left at flowers and right at honeycomb.  Don't forget to collect nectar and make honey along the way!",
         "courseF_bee_functions6_2018_markdown_instruction": "*\"This field is a-MAZE-ing!\"*\n\nBuild your own function to help the bee through the maze by turning left at flowers and right at honeycomb.  Don't forget to collect nectar and make honey along the way!",
+        "courseF_bee_functions7_markdown_instruction": "Rebuild your function from the last puzzle to solve this maze.\n\nTurn left at the honeycomb and right at the flowers.  \n**Note:** Some corners are unmarked!",
+        "courseF_bee_functions7_2018_markdown_instruction": "Rebuild your function from the last puzzle to solve this maze.\n\nTurn left at the honeycomb and right at the flowers.  \n**Note:** Some corners are unmarked!",
         "courseF_bee_functions8a_markdown_instruction": "Underneath this cloud, there might be a flower with an unknown amount of nectar, or a honeycomb with an unknown amount of honey.  \n\nCan you write a program that can handle either?",
         "courseF_bee_functions8a_2018_markdown_instruction": "Underneath this cloud, there might be a flower with an unknown amount of nectar, or a honeycomb with an unknown amount of honey.  \n\nCan you write a program that can handle either?",
+        "courseF_bee_functionsPre7_markdown_instruction": "Now try building a function to solve this maze.  How is it different from last time?  \n\nTurn left at the honeycomb and right at the flowers.  \n**Note:** Some corners are unmarked!",
+        "courseF_bee_functionsPre7_2018_markdown_instruction": "Now try building a function to solve this maze.  How is it different from last time?  \n\nTurn left at the honeycomb and right at the flowers.  \n**Note:** Some corners are unmarked!",
         "courseF_bee_functions_3_2018_markdown_instruction": "*\"Such an a-MAZE-ing garden!\"*\n\nIn this puzzle, each patch needs the variable to be one less than the patch before. Subtract one from the variable each time through the loop if you want to use the same function to solve this level.",
         "courseF_bee_functions_challenge1_markdown_instruction": "Create a new function to collect all the nectar and honey while there is a path ahead. Use it to complete the puzzle!",
         "courseF_bee_functions_challenge1_2018_markdown_instruction": "Create a new function to collect all the nectar and honey while there is a path ahead. Use it to complete the puzzle!",
@@ -31236,13 +31503,21 @@
         "cspu3_assess1_freeresponse_2018_markdown_instruction": "Explain how abstraction allows for the creation of increasingly complex systems.  Reference top-down design strategy in your response.",
         "cspu3_assess1_freeresponse_exam_prep_markdown_instruction": "Explain how abstraction allows for the creation of increasingly complex systems.  Reference top-down design strategy in your response.",
         "cspu5_assess2_flowChart_markdown_instruction": "The human question below has a yes/no answer. Create a flowchart that shows the logical progression of the questions that need to be answered to arrive at yes or no. Your diagram should consider the day of the week, time of day, and account for both possible outcomes.\n\n| Question                         | Question |\n|----------------------------------|----------|\n| Should I be at school right now? |   (Input your flowchart here)     |",
+        "cspu5_assess2_match_markdown_instruction": "The following statements are true about event handlers, if-statements, or both in App Lab.  Place the letter next to each statement into the appropriate area of the table below.\n\n**Statements:**\n\n* A. Runs code in response to a user action\n* B. Runs code in response to statement being evaluated to True\n* C. Evaluated sequentially once execution is “inside” the statement\n* D. Can be triggered at any time\n* E. Used to run a block of code\n\n_Note: Make a new line for each box._\n\n    Event Handlers: x, x\n    if Statements: x, x\n    Both: x, x\n",
+        "cspu5_assess2_pseudocode2_markdown_instruction": "A _pseudocode_ program is started below that asks the user for input and stores the value in a variable.  Continue writing pseudocode to accomplish this task: \n\nIf the hour is within the school day (8 to 15) then display  “Nice to see you!”, Otherwise, display “It’s time to go home!\n\n    DISPLAY (“Enter the hour of day (0-23)”)\n    hour <- INPUT ()",
+        "cspu5_assess2_pseudocode2_2018_markdown_instruction": "A _pseudocode_ program is started below that asks the user for input and stores the value in a variable.  Continue writing pseudocode to accomplish this task: \n\nIf the hour is within the school day (8 to 15) then display  “Nice to see you!”, Otherwise, display “It’s time to go home!\n\n    DISPLAY (“Enter the hour of day (0-23)”)\n    hour <- INPUT ()",
+        "cspu5_assess2_pseudocode2_exam_prep_markdown_instruction": "A _pseudocode_ program is started below that asks the user for input and stores the value in a variable.  Continue writing pseudocode to accomplish this task: \n\nIf the hour is within the school day (8 to 15) then display  “Nice to see you!”, Otherwise, display “It’s time to go home!\n\n    DISPLAY (“Enter the hour of day (0-23)”)\n    hour <- INPUT ()",
         "cspu5_assess2_shortAnswer_markdown_instruction": "**Short answer:** When might a programmer create a global variable instead of a local variable?",
         "cspu5_assess2_shortAnswer2_markdown_instruction": "**Short Answer:**\n\nIn the previous class periods, you developed a digital assistant that is able to “intelligently” respond to a limited set of questions and statements.  Assume you have created a much more robust digital assistant with capabilities similar to those of Siri.  Describe two possible user inputs:  one question that a digital assistant could “intelligently” answer easily, and another that it could not. Explain what makes the first easy and the second difficult for a digital assistant. (Consider the code used to develop your digital assistant.)",
         "cspu5_assess2_shortAnswer_2018_markdown_instruction": "**Short answer:** When might a programmer create a global variable instead of a local variable?",
         "cspu5_assess2_shortAnswer_exam_prep_markdown_instruction": "**Short answer:** When might a programmer create a global variable instead of a local variable?",
+        "cspu5_assess2_trueFalse_markdown_instruction": "For each expression below, circle whether it evaluates to true or false. The variable temperature is initialized as shown.\n\n    var temperature = 30;\n\nExpressions:\n\n* (temperature > 0) && (temperature < 32)\n* (temperature > 0) || (temperature < 32)\n* (temperature != 0) && (temperature < 32)\n* (temperature == 0) || (temperature > 32)\n* (temperature < 0) || (temperature > 32)\n\n_Note: Write \"true\" or \"false\" on a new line for each expression._",
         "cspu5_assess3_shortAnswer_markdown_instruction": "**Short Answer:**  Computer models and simulations are used to formulate, refine, and test hypotheses.  Describe a scenario that could be modeled by a computer and explain one benefit and one drawback of doing the simulation on a computer instead of real world. \n",
         "cspu5_assess3_shortAnswer_2018_markdown_instruction": "**Short Answer:**  Computer models and simulations are used to formulate, refine, and test hypotheses.  Describe a scenario that could be modeled by a computer and explain one benefit and one drawback of doing the simulation on a computer instead of real world. \n",
         "cspu5_assess3_shortAnswer_exam_prep_markdown_instruction": "**Short Answer:**  Computer models and simulations are used to formulate, refine, and test hypotheses.  Describe a scenario that could be modeled by a computer and explain one benefit and one drawback of doing the simulation on a computer instead of real world. \n",
+        "cspu5_assess4_scoreToGrade_markdown_instruction": "**Short Answer:** Jimmy wrote the procedure scoreToGrade which accepts as a parameter score - a quiz score in the range 0-100.  The procedure is supposed to return a letter grade. He feels confident his program is correct because he has tested it using the scores 3, 29, and 67. Sally believes the program is incorrect because she tested the values 73 and 86.  The code is syntactically correct, and the programs runs without generating an error, but the results are sometimes wrong.  Why does the procedure return the correct values for Jimmy’s tests but not Sally’s? \n\n    PROCEDURE scoreToGrade (percent)\n    {\n        IF (percent < 60)\n        {\n            RETURN (\"F\")\n        }\n        ELSE IF (percent >= 60)\n        {\n        \tRETURN (\"D\")\n        }\n        ELSE IF (percent >= 70)\n        {\n            RETURN (\"C\")\n        }\n        ELSE IF (percent >= 80)\n        {\n            RETURN (\"B\")\n        }\n        ELSE\n        {\n        \tRETURN (\"A\")\n        }\n    }",
+        "cspu5_assess4_scoreToGrade_2018_markdown_instruction": "**Short Answer:** Jimmy wrote the procedure scoreToGrade which accepts as a parameter score - a quiz score in the range 0-100.  The procedure is supposed to return a letter grade. He feels confident his program is correct because he has tested it using the scores 3, 29, and 67. Sally believes the program is incorrect because she tested the values 73 and 86.  The code is syntactically correct, and the programs runs without generating an error, but the results are sometimes wrong.  Why does the procedure return the correct values for Jimmy’s tests but not Sally’s? \n\n    PROCEDURE scoreToGrade (percent)\n    {\n        IF (percent < 60)\n        {\n            RETURN (\"F\")\n        }\n        ELSE IF (percent >= 60)\n        {\n        \tRETURN (\"D\")\n        }\n        ELSE IF (percent >= 70)\n        {\n            RETURN (\"C\")\n        }\n        ELSE IF (percent >= 80)\n        {\n            RETURN (\"B\")\n        }\n        ELSE\n        {\n        \tRETURN (\"A\")\n        }\n    }",
+        "cspu5_assess4_scoreToGrade_exam_prep_markdown_instruction": "**Short Answer:** Jimmy wrote the procedure scoreToGrade which accepts as a parameter score - a quiz score in the range 0-100.  The procedure is supposed to return a letter grade. He feels confident his program is correct because he has tested it using the scores 3, 29, and 67. Sally believes the program is incorrect because she tested the values 73 and 86.  The code is syntactically correct, and the programs runs without generating an error, but the results are sometimes wrong.  Why does the procedure return the correct values for Jimmy’s tests but not Sally’s? \n\n    PROCEDURE scoreToGrade (percent)\n    {\n        IF (percent < 60)\n        {\n            RETURN (\"F\")\n        }\n        ELSE IF (percent >= 60)\n        {\n        \tRETURN (\"D\")\n        }\n        ELSE IF (percent >= 70)\n        {\n            RETURN (\"C\")\n        }\n        ELSE IF (percent >= 80)\n        {\n            RETURN (\"B\")\n        }\n        ELSE\n        {\n        \tRETURN (\"A\")\n        }\n    }",
         "cspu5_assess4_shortAnswerShopping_markdown_instruction": "**Short Answer:** Cecelia would like to write an app to help manage a trip to the grocery store.  The app will maintain a shopping list (a list of words) of all the items to buy.  Describe how Cecelia might use a second list in the app.  What else might be tracked? Describe how the list would be used and updated in the app.\n",
         "cspu5_assess4_shortAnswerShopping_2018_markdown_instruction": "**Short Answer:** Cecelia would like to write an app to help manage a trip to the grocery store.  The app will maintain a shopping list (a list of words) of all the items to buy.  Describe how Cecelia might use a second list in the app.  What else might be tracked? Describe how the list would be used and updated in the app.\n",
         "cspu5_assess4_shortAnswerShopping_exam_prep_markdown_instruction": "**Short Answer:** Cecelia would like to write an app to help manage a trip to the grocery store.  The app will maintain a shopping list (a list of words) of all the items to buy.  Describe how Cecelia might use a second list in the app.  What else might be tracked? Describe how the list would be used and updated in the app.\n",
@@ -31409,6 +31684,7 @@
         "grade4_artist_nested_loop_polygons2_markdown_instruction": "Hi, I'm the Artist! Let's create some drawings together! For starters, try repeating this shape 6 times. \n\nHow much do you have to turn each time you loop? ",
         "grade4_artist_nested_loop_squares1_markdown_instruction": "Can you draw these 10 squares of this sidewalk using a nested loop? \n\nEach square is 30 pixels.",
         "grade4_artist_nested_loop_triangles1_markdown_instruction": "Complete the code to draw these triangles.  The first one is done for you.  Hint:  3 triangles in a 360 degree rotation.\n\n",
+        "grade4_artist_nested_loop_triangles2_markdown_instruction": "Let's make a quick adjustment to get completely different image!  \n<b>Hint:</b> ? × 10 = 360",
         "grade4_artist_nested_loop_triangles3_markdown_instruction": "Can you draw a hexagon by looping the triangle code?\nHint: 6 × ? = 360",
         "grade4_artist_nested_loop_triangles4_markdown_instruction": "Let's try something a little different! Can you help me draw the bottom teeth in the alligator's mouth?",
         "grade4_artist_nested_loop_triangles5_markdown_instruction": "Create a sun by nesting the starter code in another loop.\n\nTo get this cool design with a hollow center, you'll need to jump forward by the length of the triangle before turning.",
@@ -31461,6 +31737,7 @@
         "grade5_artist_for_loops7a_markdown_instruction": "Take the angle down to 72 degrees to get a spiraled pentagon.",
         "grade5_artist_for_loops8_markdown_instruction": "Remember back in a previous stage when we used a variable to control the number of sides in a shape? We are going to do the same thing with the `counter` variable now.  \n\nThis pattern starts with a triangle and adds one side at a time until it draws a decagon (10 sides). Each side should be 100 pixels long. \n\nHow will you use the `counter` variable from the `for` loop to recreate this drawing?",
         "grade5_artist_for_loops9_markdown_instruction": "Let's put it all together!   \n\nUsing your knowledge of `for` loops and the `counter` variable, create this drawing where each shape has two more sides than the last.  Make sure that each side is 10 times as long as the number of sides in the polygon.\n\nVery little of the code has been provided for you.",
+        "grade5_artist_for_loopsfreeplay11_markdown_instruction": "<br/><br/>\n<img src=\"https://images.code.org/9b5897e059bb29bd2faf8504659a3cfc-image-1440719685627.49.33.png\" width=\"250px\"/>  \n<br/><br/>\n**Free-Play Inspiration:** You've now learned everything you need to know to make a pattern like this! If this picture inspires you, try to make something similar. Otherwise, create something all your own.",
         "grade5_artist_freeplay_markdown_instruction": "Create your own project! This creation will be saved to your Projects dashboard so that you can easily edit it any time!",
         "grade5_artist_functionparameters11_markdown_instruction": "**Freeplay:** Below there are functions you've written, and more for you to play with. Play with the pen width to see how different your drawings look!",
         "grade5_artist_functionparameters7_markdown_instruction": "This image is similar to the last.  \n\nCan you use a `for` loop with your function to make this design?",

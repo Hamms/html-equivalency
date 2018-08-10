@@ -2,17 +2,8 @@
   "en": {
     "data": {
       "authored_hints": {
-        "2-3 Artist Nested Loops 3_authored_hint": {
-          "2-3_Artist_Nested_Loops_3_a": "Need help with the angles?  \n**360/12 = 30**"
-        },
-        "2-3 Artist Nested Loops 4_authored_hint": {
-          "2-3_Artist_Nested_Loops_3_a": "Need help with the angles?  \n**360/12 = 30**"
-        },
         "2-3 Bee Conditionals 14_authored_hint": {
           "2-3_Bee_Conditionals_14_c": "Try breaking this up into two separate chunks:  \n\n\n![](https://images.code.org/895a52f3febff9edb83979f7861cf67a-image-1469640892331.png)\n\n1) Gather nectar 3 times\n  - Move forward 5 times\n  - Check to see if nectar, if so: get it\n  - Turn left\n  \n2) Make honey \n  - Move forward one time\n  - Make two honey"
-        },
-        "4-5 Artist 8_authored_hint": {
-          "4-5_Artist_8_b": "This image can be done 2 ways!  \n- Draw two rectangles that are **120** long and **160** tall, with an overlapping side\n\n- Draw one rectangle that is **240** long and **160** tall, then add a line in the middle."
         },
         "4-5 Maze 6_authored_hint": {
           "4-5_Maze_6_a": "Try tracing out a path with your finger.  \nIs it the shortest path you can find?"
@@ -343,12 +334,6 @@
         },
         "courseB_artist_loops5_2018_authored_hint": {
           "courseB_artist_loops5_a": "Drag out a `repeat` <xml><block type=\"controls_repeat_simplified\">\n    <title name=\"TIMES\">???</title>\n  </block></xml> loop, then put the other blocks inside of it. How many times do you need to repeat?"
-        },
-        "courseB_artist_loops7_authored_hint": {
-          "courseB_artist_loops7_c": "The loops should do this:\n- Loop 1\n  - Right\n  - Down\n  \n- Loop 2\n  - Right\n  - Up\n\n- Loop 3\n  - Left\n  - Up\n\n- Loop 4\n  - Left\n  - Down"
-        },
-        "courseB_artist_loops7_2018_authored_hint": {
-          "courseB_artist_loops7_c": "The loops should do this:\n- Loop 1\n  - Right\n  - Down\n  \n- Loop 2\n  - Right\n  - Up\n\n- Loop 3\n  - Left\n  - Up\n\n- Loop 4\n  - Left\n  - Down"
         },
         "courseB_collector_loops4_2018_authored_hint": {
           "courseB_collector_loops4_c": "Laurel needs to walk down and collect the treasure after she finishes the `repeat` <xml><block type=\"controls_repeat_simplified\">\n    <title name=\"TIMES\">???</title>\n  </block></xml>loop!"
@@ -839,12 +824,6 @@
           "courseF_playlab_variables_challenge3_b": "It will feel like the game starts all over if you call the `ask a question` function again after the actor says the fortune.\n<xml><block type=\"studio_saySpriteParamsTime\" inline=\"true\">\n                <value name=\"SPRITE\">\n                  <block type=\"math_number\">\n                    <title name=\"NUM\">1</title>\n                  </block>\n                </value>\n                <value name=\"TEXT\">\n                  <block type=\"variables_get\">\n                    <title name=\"VAR\">fortune</title>\n                  </block>\n                </value>\n                <value name=\"TIME\">\n                  <block type=\"math_number\">\n                    <title name=\"NUM\">2</title>\n                  </block>\n                </value>\n              <next>\n<block type=\"procedures_callnoreturn\">\n        <mutation name=\"Ask a question\"/>\n        </block></next></block></xml>",
           "courseF_playlab_variables_challenge3_c": "You will need to add more conditional statements to give the actors more things to say.\n\n<xml><block type=\"studio_ifActorHasEmotionParams\" inline=\"true\">\n            <title name=\"EMOTION\">2</title>\n            <value name=\"SPRITE\">\n              <block type=\"math_number\">\n                <title name=\"NUM\">1</title>\n              </block>\n            </value>\n            <statement name=\"DO\">\n              <block type=\"variables_set\" inline=\"false\">\n                <title name=\"VAR\">fortune</title>\n                <value name=\"VALUE\">\n                  <block type=\"text\" movable=\"false\">\n                    <title name=\"TEXT\">???</title>\n                  </block>\n                </value>\n              </block>\n              </statement></block></xml>\n              \nDon't forget to change which moods the actor will show inside of the `repeat forever` loop. You can also set the moods randomly!"
         },
-        "grade1_artist_loops6_authored_hint": {
-          "grade1_artist_loops6_c": "The loops should do this:\n- Loop 1\n  - Right\n  - Down\n  \n- Loop 2\n  - Right\n  - Up\n\n- Loop 3\n  - Left\n  - Up\n\n- Loop 4\n  - Left\n  - Down"
-        },
-        "grade1_artist_loops7a_authored_hint": {
-          "artistLoopsK9_c": "The loops should do this:\n- Loop 1\n  - Right\n  - Down\n  \n- Loop 2\n  - Right\n  - Up\n\n- Loop 3\n  - Left\n  - Up\n\n- Loop 4\n  - Left\n  - Down"
-        },
         "grade1_maze_sequence8_authored_hint": {
           "grade1_maze_sequence8_b": "The extra blocks need to be added before the last ![](https://images.code.org/145dfc20c086bc8fc265de47f3cfe4b0-image-1467848177684.35.51 PM.png )"
         },
@@ -967,36 +946,18 @@
           "/script_assets/2-3_images/maze/2-3_maze_match_1_q2.png": "/script_assets/2-3_images/maze/2-3_maze_match_1_q2.png",
           "/script_assets/2-3_images/maze/2-3_maze_match_1_q3.png": "/script_assets/2-3_images/maze/2-3_maze_match_1_q3.png"
         },
-        "4-5 Algorithms Match 1": {
-          "<h4>1)</h4>": "<h4>1)</h4>",
-          "<h4>2)</h4>": "<h4>2)</h4>",
-          "<h4>3)</h4>": "<h4>3)</h4>",
-          "<h4>4)</h4>": "<h4>4)</h4>",
-          "<h4>Add Player 1 roll to total score</h4>": "<h4>Add Player 1 roll to total score</h4>",
-          "<h4>Compare player scores to see who wins</h4>": "<h4>Compare player scores to see who wins</h4>",
-          "<h4>Player 1 rolls die</h4>": "<h4>Player 1 rolls die</h4>",
-          "<h4>Set Player 1 score to 0</h4>": "<h4>Set Player 1 score to 0</h4>"
-        },
         "4-5 Computational Thinking Match 1": {
           "/script_assets/4-5_images/unplugged/comp_thinking_2_a1.png": "/script_assets/4-5_images/unplugged/comp_thinking_2_a1.png",
           "/script_assets/4-5_images/unplugged/comp_thinking_2_a2.png": "/script_assets/4-5_images/unplugged/comp_thinking_2_a2.png",
           "/script_assets/4-5_images/unplugged/comp_thinking_2_a3.png": "/script_assets/4-5_images/unplugged/comp_thinking_2_a3.png",
-          "/script_assets/4-5_images/unplugged/comp_thinking_2_a4.png": "/script_assets/4-5_images/unplugged/comp_thinking_2_a4.png",
-          "<h3>Wheels/side: 2<br/>Windows/side: 0</h3>": "<h3>Wheels/side: 2<br/>Windows/side: 0</h3>",
-          "<h3>Wheels/side: 2<br/>Windows/side: 1</h3>": "<h3>Wheels/side: 2<br/>Windows/side: 1</h3>",
-          "<h3>Wheels/side: 2<br/>Windows/side: 6</h3>": "<h3>Wheels/side: 2<br/>Windows/side: 6</h3>",
-          "<h3>Wheels/side: 3<br/>Windows/side: 2</h3>": "<h3>Wheels/side: 3<br/>Windows/side: 2</h3>"
+          "/script_assets/4-5_images/unplugged/comp_thinking_2_a4.png": "/script_assets/4-5_images/unplugged/comp_thinking_2_a4.png"
         },
         "4-5 Suncatchers Match 1": {
           "/script_assets/4-5_images/unplugged/suncatchers_1.png": "/script_assets/4-5_images/unplugged/suncatchers_1.png",
           "/script_assets/4-5_images/unplugged/suncatchers_1_a1.png": "/script_assets/4-5_images/unplugged/suncatchers_1_a1.png",
           "/script_assets/4-5_images/unplugged/suncatchers_1_a2.png": "/script_assets/4-5_images/unplugged/suncatchers_1_a2.png",
           "/script_assets/4-5_images/unplugged/suncatchers_1_a3.png": "/script_assets/4-5_images/unplugged/suncatchers_1_a3.png",
-          "/script_assets/4-5_images/unplugged/suncatchers_1_a4.png": "/script_assets/4-5_images/unplugged/suncatchers_1_a4.png",
-          "<h4>RAMP</h4>": "<h4>RAMP</h4>",
-          "<h4>STACK</h4>": "<h4>STACK</h4>",
-          "<h4>STAMP</h4>": "<h4>STAMP</h4>",
-          "<h4>STAR</h4>": "<h4>STAR</h4>"
+          "/script_assets/4-5_images/unplugged/suncatchers_1_a4.png": "/script_assets/4-5_images/unplugged/suncatchers_1_a4.png"
         },
         "4-5 maze match 1": {
           "/script_assets/4-5_images/maze/4-5_maze_match_1_a1.png": "/script_assets/4-5_images/maze/4-5_maze_match_1_a1.png",
@@ -1008,9 +969,6 @@
         },
         "CSD U2 RGB match": {
           "<p style='width:220px; height:40px;background-color:thistle;font-size:15px; font-weight: bold;line-height:40px;'>thistle</p> ": "<p style='width:220px; height:40px;background-color:thistle;font-size:15px; font-weight: bold;line-height:40px;'>thistle</p> "
-        },
-        "CSD U3 Counters match trial": {
-          "\tvar position = 0;\n    \n    function draw(){\n    \tposition = position + 1;\n    \tbackground(\"white\");\n        fill(\"red\");\n        rect(position, 20, 50, 50);\n    }": "\tvar position = 0;\n    \n    function draw(){\n    \tposition = position + 1;\n    \tbackground(\"white\");\n        fill(\"red\");\n        rect(position, 20, 50, 50);\n    }"
         },
         "CSD U3 drawSprites placement match": {
           "<img src=\"https://images.code.org/15d6014329fa3da9b73016af9f1d0d74-image-1523901253226.58.34 AM.png\">": "<img src=\"https://images.code.org/15d6014329fa3da9b73016af9f1d0d74-image-1523901253226.58.34 AM.png\">",
@@ -1388,24 +1346,6 @@
           "<img src=\"https://images.code.org/4d37b920cb896f266c55de47cfe446a8-image-1461452436002.PNG\">": "<img src=\"https://images.code.org/4d37b920cb896f266c55de47cfe446a8-image-1461452436002.PNG\">",
           "<img src=\"https://images.code.org/ee285e4616611888a116c4c3e13e4d7c-image-1461452440288.PNG\">": "<img src=\"https://images.code.org/ee285e4616611888a116c4c3e13e4d7c-image-1461452440288.PNG\">"
         },
-        "CPS Unit2 Ch 1 MC lossless compression": {
-          " ": " "
-        },
-        "CPS Unit2 Ch 1 MC lossless compression_2018": {
-          " ": " "
-        },
-        "CPS Unit2 Ch 1 MC lossless compression_exam_prep": {
-          " ": " "
-        },
-        "CPS Unit2 Ch 1 MC lossy compression": {
-          " ": " "
-        },
-        "CPS Unit2 Ch 1 MC lossy compression_2018": {
-          " ": " "
-        },
-        "CPS Unit2 Ch 1 MC lossy compression_exam_prep": {
-          " ": " "
-        },
         "CSD Header Size Prediction": {
           "<img src=\"https://images.code.org/0eee565202089d44a6bb5633603c45e0-image-1473432905069.54.50 AM.png\" style=\"width:125px\">": "<img src=\"https://images.code.org/0eee565202089d44a6bb5633603c45e0-image-1473432905069.54.50 AM.png\" style=\"width:125px\">",
           "<img src=\"https://images.code.org/1c660b4e54a3e835250597cb261d8e17-image-1473432905068.54.08 AM.png\" style=\"width:125px\">": "<img src=\"https://images.code.org/1c660b4e54a3e835250597cb261d8e17-image-1473432905068.54.08 AM.png\" style=\"width:125px\">",
@@ -1461,340 +1401,14 @@
           "<img src=\"https://images.code.org/f1bc9eacc1144bee60b1f04373e583e3-image-1507311692368.png\" style=\"max-width: 100px;\">": "<img src=\"https://images.code.org/f1bc9eacc1144bee60b1f04373e583e3-image-1507311692368.png\" style=\"max-width: 100px;\">",
           "<img src=\"https://images.code.org/f30263a5f6e47e6548706288e67b220d-image-1507311692372.png\" style=\"max-width: 100px;\">": "<img src=\"https://images.code.org/f30263a5f6e47e6548706288e67b220d-image-1507311692372.png\" style=\"max-width: 100px;\">"
         },
-        "CSP Unit 1 Ch 2 MC internet layers": {
-          " ": " "
-        },
-        "CSP Unit 1 Ch 2 MC internet layers_2018": {
-          " ": " "
-        },
-        "CSP Unit 1 Ch 2 MC internet layers_exam_prep": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch 1 metadata": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch 1 metadata_2018": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch 1 metadata_exam_prep": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch 2 MC data bias": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch 2 MC data bias_2018": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch 2 MC data bias_exam_prep": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch 2 MC google trends": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch 2 MC google trends_2018": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch 2 MC google trends_exam_prep": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch 2 MC worst viz": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch 2 MC worst viz_2018": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch 2 MC worst viz_exam_prep": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch2 MC data cleaning": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch2 MC data cleaning_2018": {
-          " ": " "
-        },
-        "CSP Unit 2 Ch2 MC data cleaning_exam_prep": {
-          " ": " "
-        },
-        "CSP Unit 2 ch 2 MC trends as predictors": {
-          " ": " "
-        },
-        "CSP Unit 2 ch 2 MC trends as predictors_2018": {
-          " ": " "
-        },
-        "CSP Unit 2 ch 2 MC trends as predictors_exam_prep": {
-          " ": " "
-        },
-        "CSP Unit2 Ch 1 MC hex rgb": {
-          " ": " "
-        },
-        "CSP Unit2 Ch 1 MC hex rgb_2018": {
-          " ": " "
-        },
-        "CSP Unit2 Ch 1 MC hex rgb_exam_prep": {
-          " ": " "
-        },
-        "CSPFinal_Question_13": {
-          "<pre>dieRoll = 2</pre>": "<pre>dieRoll = 2</pre>",
-          "<pre>dieRoll = evenCounter + RollCounter</pre>": "<pre>dieRoll = evenCounter + RollCounter</pre>",
-          "<pre>evenCounter * 2 = rollCounter</pre>": "<pre>evenCounter * 2 = rollCounter</pre>",
-          "<pre>rollCounter = 5</pre>": "<pre>rollCounter = 5</pre>"
-        },
-        "CSPFinal_Question_28": {
-          "<pre>n &gt; 5</pre>": "<pre>n &gt; 5</pre>",
-          "<pre>n &lt; -1</pre>": "<pre>n &lt; -1</pre>",
-          "<pre>n = -1</pre>": "<pre>n = -1</pre>",
-          "<pre>n = 0</pre>": "<pre>n = 0</pre>"
-        },
-        "CSPFinal_Question_30": {
-          "<pre>0 0</pre>": "<pre>0 0</pre>",
-          "<pre>0 10</pre>": "<pre>0 10</pre>",
-          "<pre>4 10</pre>": "<pre>4 10</pre>",
-          "<pre>4 5</pre>": "<pre>4 5</pre>"
-        },
         "CSPFinal_Question_31": {
           "<img src=\"https://images.code.org/5be3b5baf6c8f34fadf63f6706c6cc54-image-1463331334777.PNG\">": "<img src=\"https://images.code.org/5be3b5baf6c8f34fadf63f6706c6cc54-image-1463331334777.PNG\">",
           "<img src=\"https://images.code.org/634ae5b044ca4a0fdf5b32e16a1626ff-image-1463331332131.PNG\">": "<img src=\"https://images.code.org/634ae5b044ca4a0fdf5b32e16a1626ff-image-1463331332131.PNG\">",
           "<img src=\"https://images.code.org/80e70fdb66626fe67908081c847f973f-image-1463331326861.PNG\">": "<img src=\"https://images.code.org/80e70fdb66626fe67908081c847f973f-image-1463331326861.PNG\">",
           "<img src=\"https://images.code.org/d72f1bcab09967cccfafc07fd54fc5a9-image-1463331329567.PNG\" >": "<img src=\"https://images.code.org/d72f1bcab09967cccfafc07fd54fc5a9-image-1463331329567.PNG\" >"
         },
-        "CSPFinal_Question_8update": {
-          " ": " "
-        },
-        "CSPFinal_Question_8update_2018": {
-          " ": " "
-        },
-        "CSPFinal_Question_8update_exam_prep": {
-          " ": " "
-        },
         "Circle to code": {
           "/script_assets/msm/Unit%202/exercise_1.png": "/script_assets/msm/Unit%202/exercise_1.png"
-        },
-        "Commute Assess - cond 3 - block": {
-          "<pre>And contains a 3</pre>": "<pre>And contains a 3</pre>",
-          "<pre>And under 21</pre>": "<pre>And under 21</pre>",
-          "<pre>Under 40</pre>": "<pre>Under 40</pre>",
-          "<pre>Under 40<br>And contains a 3</pre>": "<pre>Under 40<br>And contains a 3</pre>",
-          "<pre>Under 40<br>And under 21<br>And contains a 3</pre>": "<pre>Under 40<br>And under 21<br>And contains a 3</pre>"
-        },
-        "Commute Assess - cond 3 - block_2018": {
-          "<pre>And contains a 3</pre>": "<pre>And contains a 3</pre>",
-          "<pre>And under 21</pre>": "<pre>And under 21</pre>",
-          "<pre>Under 40</pre>": "<pre>Under 40</pre>",
-          "<pre>Under 40<br>And contains a 3</pre>": "<pre>Under 40<br>And contains a 3</pre>",
-          "<pre>Under 40<br>And under 21<br>And contains a 3</pre>": "<pre>Under 40<br>And under 21<br>And contains a 3</pre>"
-        },
-        "Commute Assess - cond 3 - block_exam_prep": {
-          "<pre>And contains a 3</pre>": "<pre>And contains a 3</pre>",
-          "<pre>And under 21</pre>": "<pre>And under 21</pre>",
-          "<pre>Under 40</pre>": "<pre>Under 40</pre>",
-          "<pre>Under 40<br>And contains a 3</pre>": "<pre>Under 40<br>And contains a 3</pre>",
-          "<pre>Under 40<br>And under 21<br>And contains a 3</pre>": "<pre>Under 40<br>And under 21<br>And contains a 3</pre>"
-        },
-        "Commute Assess - func 1 - block": {
-          "<pre>hi<br>and<br>and<br>bye<br>and</pre>": "<pre>hi<br>and<br>and<br>bye<br>and</pre>",
-          "<pre>hi<br>and<br>bye</pre>": "<pre>hi<br>and<br>bye</pre>",
-          "<pre>hi<br>and<br>bye<br>and</pre>": "<pre>hi<br>and<br>bye<br>and</pre>",
-          "<pre>hi<br>bye<br>and</pre>": "<pre>hi<br>bye<br>and</pre>"
-        },
-        "Commute Assess - func 2a - block": {
-          "<pre>10</pre>": "<pre>10</pre>",
-          "<pre>55</pre>": "<pre>55</pre>",
-          "<pre>5</pre>": "<pre>5</pre>"
-        },
-        "Commute Assess - func 2a - block B": {
-          "<pre>10</pre>": "<pre>10</pre>",
-          "<pre>55</pre>": "<pre>55</pre>",
-          "<pre>5</pre>": "<pre>5</pre>"
-        },
-        "Commute Assess - func 2a - block_2018": {
-          "<pre>10</pre>": "<pre>10</pre>",
-          "<pre>55</pre>": "<pre>55</pre>",
-          "<pre>5</pre>": "<pre>5</pre>"
-        },
-        "Commute Assess - func 2a - block_exam_prep": {
-          "<pre>10</pre>": "<pre>10</pre>",
-          "<pre>55</pre>": "<pre>55</pre>",
-          "<pre>5</pre>": "<pre>5</pre>"
-        },
-        "Commute Assess - func 2b - block": {
-          "<pre>21</pre>": "<pre>21</pre>",
-          "<pre>81</pre>": "<pre>81</pre>",
-          "<pre>9</pre>": "<pre>9</pre>"
-        },
-        "Commute Assess - func 2b - block B": {
-          "<pre>21</pre>": "<pre>21</pre>",
-          "<pre>81</pre>": "<pre>81</pre>",
-          "<pre>9</pre>": "<pre>9</pre>"
-        },
-        "Commute Assess - func 2b - block_2018": {
-          "<pre>21</pre>": "<pre>21</pre>",
-          "<pre>81</pre>": "<pre>81</pre>",
-          "<pre>9</pre>": "<pre>9</pre>"
-        },
-        "Commute Assess - func 2b - block_exam_prep": {
-          "<pre>21</pre>": "<pre>21</pre>",
-          "<pre>81</pre>": "<pre>81</pre>",
-          "<pre>9</pre>": "<pre>9</pre>"
-        },
-        "Commute Assess - func 3a - block": {
-          "<pre>DISPLAY in func1<br>DISPLAY in func2</pre>": "<pre>DISPLAY in func1<br>DISPLAY in func2</pre>",
-          "<pre>func1<br>func2</pre>": "<pre>func1<br>func2</pre>",
-          "<pre>in func1<br>in func2</pre>": "<pre>in func1<br>in func2</pre>",
-          "<pre>in func1<br>in func2<br>in func1</pre>": "<pre>in func1<br>in func2<br>in func1</pre>"
-        },
-        "Commute Assess - func 3a - block_2018": {
-          "<pre>DISPLAY in func1<br>DISPLAY in func2</pre>": "<pre>DISPLAY in func1<br>DISPLAY in func2</pre>",
-          "<pre>func1<br>func2</pre>": "<pre>func1<br>func2</pre>",
-          "<pre>in func1<br>in func2</pre>": "<pre>in func1<br>in func2</pre>",
-          "<pre>in func1<br>in func2<br>in func1</pre>": "<pre>in func1<br>in func2<br>in func1</pre>"
-        },
-        "Commute Assess - func 3a - block_exam_prep": {
-          "<pre>DISPLAY in func1<br>DISPLAY in func2</pre>": "<pre>DISPLAY in func1<br>DISPLAY in func2</pre>",
-          "<pre>func1<br>func2</pre>": "<pre>func1<br>func2</pre>",
-          "<pre>in func1<br>in func2</pre>": "<pre>in func1<br>in func2</pre>",
-          "<pre>in func1<br>in func2<br>in func1</pre>": "<pre>in func1<br>in func2<br>in func1</pre>"
-        },
-        "Commute Assess - func 3b - block": {
-          "<pre>func3<br>func1</pre>": "<pre>func3<br>func1</pre>",
-          "<pre>in func3<br>in func1</pre>": "<pre>in func3<br>in func1</pre>",
-          "<pre>in func3<br>in func1<br>in func3</pre>": "<pre>in func3<br>in func1<br>in func3</pre>",
-          "<pre>in func3<br>in func3<br>in func1</pre>": "<pre>in func3<br>in func3<br>in func1</pre>"
-        },
-        "Commute Assess - func 3b - block_2018": {
-          "<pre>func3<br>func1</pre>": "<pre>func3<br>func1</pre>",
-          "<pre>in func3<br>in func1</pre>": "<pre>in func3<br>in func1</pre>",
-          "<pre>in func3<br>in func1<br>in func3</pre>": "<pre>in func3<br>in func1<br>in func3</pre>",
-          "<pre>in func3<br>in func3<br>in func1</pre>": "<pre>in func3<br>in func3<br>in func1</pre>"
-        },
-        "Commute Assess - func 3b - block_exam_prep": {
-          "<pre>func3<br>func1</pre>": "<pre>func3<br>func1</pre>",
-          "<pre>in func3<br>in func1</pre>": "<pre>in func3<br>in func1</pre>",
-          "<pre>in func3<br>in func1<br>in func3</pre>": "<pre>in func3<br>in func1<br>in func3</pre>",
-          "<pre>in func3<br>in func3<br>in func1</pre>": "<pre>in func3<br>in func3<br>in func1</pre>"
-        },
-        "CommuteAssess - Cond 1 - block": {
-          "<pre>Inside first if</pre>": "<pre>Inside first if</pre>",
-          "<pre>Inside first if<br>Inside second if</pre>": "<pre>Inside first if<br>Inside second if</pre>",
-          "<pre>Inside second if</pre>": "<pre>Inside second if</pre>"
-        },
-        "CommuteAssess - Cond 1 - block B": {
-          "<pre>Inside first if</pre>": "<pre>Inside first if</pre>",
-          "<pre>Inside first if<br>Inside second if</pre>": "<pre>Inside first if<br>Inside second if</pre>",
-          "<pre>Inside second if</pre>": "<pre>Inside second if</pre>"
-        },
-        "CommuteAssess - Cond 1 - block_2018": {
-          "<pre>Inside first if</pre>": "<pre>Inside first if</pre>",
-          "<pre>Inside first if<br>Inside second if</pre>": "<pre>Inside first if<br>Inside second if</pre>",
-          "<pre>Inside second if</pre>": "<pre>Inside second if</pre>"
-        },
-        "CommuteAssess - Cond 1 - block_exam_prep": {
-          "<pre>Inside first if</pre>": "<pre>Inside first if</pre>",
-          "<pre>Inside first if<br>Inside second if</pre>": "<pre>Inside first if<br>Inside second if</pre>",
-          "<pre>Inside second if</pre>": "<pre>Inside second if</pre>"
-        },
-        "CommuteAssess - Cond 2 - block": {
-          "<pre>All done.</pre>": "<pre>All done.</pre>",
-          "<pre>Inside the else. <br>All done.</pre>": "<pre>Inside the else. <br>All done.</pre>",
-          "<pre>Inside the if. </pre>": "<pre>Inside the if. </pre>",
-          "<pre>Inside the if. <br>All done.</pre>": "<pre>Inside the if. <br>All done.</pre>",
-          "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>": "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>"
-        },
-        "CommuteAssess - Cond 2 - block B": {
-          "<pre>All done.</pre>": "<pre>All done.</pre>",
-          "<pre>Inside the else. <br>All done.</pre>": "<pre>Inside the else. <br>All done.</pre>",
-          "<pre>Inside the if. </pre>": "<pre>Inside the if. </pre>",
-          "<pre>Inside the if. <br>All done.</pre>": "<pre>Inside the if. <br>All done.</pre>",
-          "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>": "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>"
-        },
-        "CommuteAssess - Cond 2 - block_2018": {
-          "<pre>All done.</pre>": "<pre>All done.</pre>",
-          "<pre>Inside the else. <br>All done.</pre>": "<pre>Inside the else. <br>All done.</pre>",
-          "<pre>Inside the if. </pre>": "<pre>Inside the if. </pre>",
-          "<pre>Inside the if. <br>All done.</pre>": "<pre>Inside the if. <br>All done.</pre>",
-          "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>": "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>"
-        },
-        "CommuteAssess - Cond 2 - block_exam_prep": {
-          "<pre>All done.</pre>": "<pre>All done.</pre>",
-          "<pre>Inside the else. <br>All done.</pre>": "<pre>Inside the else. <br>All done.</pre>",
-          "<pre>Inside the if. </pre>": "<pre>Inside the if. </pre>",
-          "<pre>Inside the if. <br>All done.</pre>": "<pre>Inside the if. <br>All done.</pre>",
-          "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>": "<pre>Inside the if. <br>Inside the else. <br>All done.</pre>"
-        },
-        "CommuteAssess - Cond 4a - block": {
-          "<pre>The word is just right!</pre>": "<pre>The word is just right!</pre>",
-          "<pre>The word is just right!<br>The word is still too short!</pre>": "<pre>The word is just right!<br>The word is still too short!</pre>",
-          "<pre>The word is still too short!</pre>": "<pre>The word is still too short!</pre>",
-          "<pre>The word is too short!</pre>": "<pre>The word is too short!</pre>",
-          "<pre>The word it too long!</pre>": "<pre>The word it too long!</pre>"
-        },
-        "CommuteAssess - Cond 4a - block_2018": {
-          "<pre>The word is just right!</pre>": "<pre>The word is just right!</pre>",
-          "<pre>The word is just right!<br>The word is still too short!</pre>": "<pre>The word is just right!<br>The word is still too short!</pre>",
-          "<pre>The word is still too short!</pre>": "<pre>The word is still too short!</pre>",
-          "<pre>The word is too short!</pre>": "<pre>The word is too short!</pre>",
-          "<pre>The word it too long!</pre>": "<pre>The word it too long!</pre>"
-        },
-        "CommuteAssess - Cond 4a - block_exam_prep": {
-          "<pre>The word is just right!</pre>": "<pre>The word is just right!</pre>",
-          "<pre>The word is just right!<br>The word is still too short!</pre>": "<pre>The word is just right!<br>The word is still too short!</pre>",
-          "<pre>The word is still too short!</pre>": "<pre>The word is still too short!</pre>",
-          "<pre>The word is too short!</pre>": "<pre>The word is too short!</pre>",
-          "<pre>The word it too long!</pre>": "<pre>The word it too long!</pre>"
-        },
-        "CommuteAssess - Var 5 - block": {
-          "<pre>11<br>11<br>11</pre>": "<pre>11<br>11<br>11</pre>",
-          "<pre>11<br>13<br>18</pre>": "<pre>11<br>13<br>18</pre>",
-          "<pre>18<br>18<br>18</pre>": "<pre>18<br>18<br>18</pre>",
-          "<pre>x<br>x<br>x + 5</pre>": "<pre>x<br>x<br>x + 5</pre>"
-        },
-        "CommuteAssess - loops 5 - block": {
-          "<pre>3</pre>": "<pre>3</pre>",
-          "<pre>3<br>1</pre>": "<pre>3<br>1</pre>",
-          "<pre>3<br>1<br>-1</pre>": "<pre>3<br>1<br>-1</pre>",
-          "<pre>5<br>3<br>1</pre>": "<pre>5<br>3<br>1</pre>",
-          "<pre>5<br>4<br>3<br>2<br>1<br>0</pre>": "<pre>5<br>4<br>3<br>2<br>1<br>0</pre>"
-        },
-        "CommuteAssess - loops 5 - block_2018": {
-          "<pre>3</pre>": "<pre>3</pre>",
-          "<pre>3<br>1</pre>": "<pre>3<br>1</pre>",
-          "<pre>3<br>1<br>-1</pre>": "<pre>3<br>1<br>-1</pre>",
-          "<pre>5<br>3<br>1</pre>": "<pre>5<br>3<br>1</pre>",
-          "<pre>5<br>4<br>3<br>2<br>1<br>0</pre>": "<pre>5<br>4<br>3<br>2<br>1<br>0</pre>"
-        },
-        "CommuteAssess - loops 5 - block_exam_prep": {
-          "<pre>3</pre>": "<pre>3</pre>",
-          "<pre>3<br>1</pre>": "<pre>3<br>1</pre>",
-          "<pre>3<br>1<br>-1</pre>": "<pre>3<br>1<br>-1</pre>",
-          "<pre>5<br>3<br>1</pre>": "<pre>5<br>3<br>1</pre>",
-          "<pre>5<br>4<br>3<br>2<br>1<br>0</pre>": "<pre>5<br>4<br>3<br>2<br>1<br>0</pre>"
-        },
-        "CumulAssess - Var 2 - block": {
-          "<pre>BoysHello Girls</pre>": "<pre>BoysHello Girls</pre>",
-          "<pre>Hello Boys and Girls</pre>": "<pre>Hello Boys and Girls</pre>",
-          "<pre>Hello Girls and Boys</pre>": "<pre>Hello Girls and Boys</pre>",
-          "<pre>sentence</pre>": "<pre>sentence</pre>",
-          "<pre>y + z + \" and \" + x</pre>": "<pre>y + z + \" and \" + x</pre>"
-        },
-        "CumulAssess - Var 2 - block B": {
-          "<pre>BoysHello Girls</pre>": "<pre>BoysHello Girls</pre>",
-          "<pre>Hello Boys and Girls</pre>": "<pre>Hello Boys and Girls</pre>",
-          "<pre>Hello Girls and Boys</pre>": "<pre>Hello Girls and Boys</pre>",
-          "<pre>sentence</pre>": "<pre>sentence</pre>",
-          "<pre>y + z + \" and \" + x</pre>": "<pre>y + z + \" and \" + x</pre>"
-        },
-        "CumulAssess - Var 2 - block_2018": {
-          "<pre>BoysHello Girls</pre>": "<pre>BoysHello Girls</pre>",
-          "<pre>Hello Boys and Girls</pre>": "<pre>Hello Boys and Girls</pre>",
-          "<pre>Hello Girls and Boys</pre>": "<pre>Hello Girls and Boys</pre>",
-          "<pre>sentence</pre>": "<pre>sentence</pre>",
-          "<pre>y + z + \" and \" + x</pre>": "<pre>y + z + \" and \" + x</pre>"
-        },
-        "CumulAssess - Var 2 - block_exam_prep": {
-          "<pre>BoysHello Girls</pre>": "<pre>BoysHello Girls</pre>",
-          "<pre>Hello Boys and Girls</pre>": "<pre>Hello Boys and Girls</pre>",
-          "<pre>Hello Girls and Boys</pre>": "<pre>Hello Girls and Boys</pre>",
-          "<pre>sentence</pre>": "<pre>sentence</pre>",
-          "<pre>y + z + \" and \" + x</pre>": "<pre>y + z + \" and \" + x</pre>"
         },
         "ECSPD Online U1D10 Assessment 2": {
           "Data mining is becoming so advanced it may one day be used to automatically generate public policy decisions \n<br/>for us.": "Data mining is becoming so advanced it may one day be used to automatically generate public policy decisions \n<br/>for us.",
@@ -1956,23 +1570,8 @@
           "<img src=\"https://images.code.org/d20710c046c8c2d44e9e174ab3dad959-image-1506462130363.png\">": "<img src=\"https://images.code.org/d20710c046c8c2d44e9e174ab3dad959-image-1506462130363.png\">",
           "<img src=\"https://images.code.org/dba8d990163d04d9a6b157aff67de6e1-image-1506461991549.png\">": "<img src=\"https://images.code.org/dba8d990163d04d9a6b157aff67de6e1-image-1506461991549.png\">"
         },
-        "U2L05 Test  MC Question_2018": {
-          " ": " "
-        },
         "U2L06 - MC: Which is an MST?": {
           "<p>The images below all show the same map (or graph) but have different paths between the points highlighted.</p>\n<p>Please choose the image that is highlighting a Minimum Spanning Tree for the map. </p>\n<p>NOTE: The “distance” between points is depicted by the number of line segments connecting any two points.</p> \n<img src='https://images.code.org/2d7f0372e3fc8a4b128ee1021347e211-image-1433800100730.png'>": "<p>The images below all show the same map (or graph) but have different paths between the points highlighted.</p>\n<p>Please choose the image that is highlighting a Minimum Spanning Tree for the map. </p>\n<p>NOTE: The “distance” between points is depicted by the number of line segments connecting any two points.</p> \n<img src='https://images.code.org/2d7f0372e3fc8a4b128ee1021347e211-image-1433800100730.png'>"
-        },
-        "U2L5 Color Pixel MC Question": {
-          " ": " "
-        },
-        "U2L5 Color Pixel MC Question_2018": {
-          " ": " "
-        },
-        "U2L8 google trends MC": {
-          " ": " "
-        },
-        "U2L8 google trends MC_2018": {
-          " ": " "
         },
         "U3L01 Assessment2": {
           "Complex actions can have easy-to-follow directions if the most basic actions are identified in simple-to-understand terms. \nWhich of these is the LEAST basic action in making a sandwich for lunch?": "Complex actions can have easy-to-follow directions if the most basic actions are identified in simple-to-understand terms. \nWhich of these is the LEAST basic action in making a sandwich for lunch?"
@@ -1982,27 +1581,6 @@
         },
         "U3L20 Assessment1": {
           "function calls\t": "function calls\t"
-        },
-        "commute assess - loops 3 - block": {
-          "<pre>apple<br>apple<br>apple<br>orange<br>orange<br>orange </pre>": "<pre>apple<br>apple<br>apple<br>orange<br>orange<br>orange </pre>",
-          "<pre>apple<br>orange </pre>": "<pre>apple<br>orange </pre>",
-          "<pre>apple<br>orange<br>apple<br>orange<br>apple<br>orange </pre>": "<pre>apple<br>orange<br>apple<br>orange<br>apple<br>orange </pre>"
-        },
-        "commute assess - loops 3 - block_2018": {
-          "<pre>apple<br>apple<br>apple<br>orange<br>orange<br>orange </pre>": "<pre>apple<br>apple<br>apple<br>orange<br>orange<br>orange </pre>",
-          "<pre>apple<br>orange </pre>": "<pre>apple<br>orange </pre>",
-          "<pre>apple<br>orange<br>apple<br>orange<br>apple<br>orange </pre>": "<pre>apple<br>orange<br>apple<br>orange<br>apple<br>orange </pre>"
-        },
-        "commute assess - loops 3 - block_exam_prep": {
-          "<pre>apple<br>apple<br>apple<br>orange<br>orange<br>orange </pre>": "<pre>apple<br>apple<br>apple<br>orange<br>orange<br>orange </pre>",
-          "<pre>apple<br>orange </pre>": "<pre>apple<br>orange </pre>",
-          "<pre>apple<br>orange<br>apple<br>orange<br>apple<br>orange </pre>": "<pre>apple<br>orange<br>apple<br>orange<br>apple<br>orange </pre>"
-        },
-        "courseD_multi_farmer_ramp13": {
-          " ": " "
-        },
-        "courseE_multi_farmer_ramp12": {
-          " ": " "
         },
         "csp_U3_turtle_subgoal_q1_mc": {
           "<img src=\"https://images.code.org/06b629c906b5b6c3ed4349addd600afd-image-1506461600674.png\">": "<img src=\"https://images.code.org/06b629c906b5b6c3ed4349addd600afd-image-1506461600674.png\">",
@@ -2412,7 +1990,6 @@
         "courseC_PlayLab_events9_2018_instruction": "Can you add a block to score a point when Waddles the Penguin (actor1) runs into Octavia the Octopus (actor 3)? \nPlay the game and move Waddles with the arrows until you score!",
         "courseC_PlayLab_events_challenge1_instruction": "Use a new block to make Waddles automatically move back to the start when he runs into the Dinosaur and when he scores a point. \nPlay the game and move Waddles with the arrows until you score enough points.",
         "courseC_PlayLab_events_challenge1_2018_instruction": "Use a new block to make Waddles automatically move back to the start when he runs into the Dinosaur and when he scores a point. \nPlay the game and move Waddles with the arrows until you score enough points.",
-        "courseC_artist_loops1_instruction": "*\"Zombie.  Draw!\"*\n\nThe zombie wants to draw a line from where he is to the garden of sunflowers.  Can you help him?  \n*(The garden is 250 pixels away)*  ",
         "courseD_artist_nestedLoops1_instruction": "Draw a triangle to kickstart this stage.  \n(Each side is 100 pixels long and you'll need to turn 120 degrees for each exterior angle.)",
         "courseD_artist_nestedLoops1_2018_instruction": "Draw a triangle to kickstart this stage.  \n(Each side is 100 pixels long and you'll need to turn 120 degrees for each exterior angle.)",
         "courseD_playLab_cond3b_instruction": "1) Make the dragon change between random emotions every second.  \n2) Make it so when Pegleg gets to the dragon, he gets 2 points if the dragon is happy and 1 otherwise.",
@@ -4018,7 +3595,6 @@
         "CSP U4 - JSON Object Intro - Bad Way_markdown_instruction": "# We've Seen Objects Before\n\nWe're going to see how we can use objects to organize data in our own apps, but this actually isn't the first time we've used objects in our programs. **The object that we've used most frequently is the event parameter of our event handlers**. This single object contains many pieces of information about the event which can be accessed to determine how to respond to the event. For example `event.key` contains the key that was pressed for key events, and `event.offsetX` and `event.offsetY` contain the location of the mouse for mouse events.\n\nBefore we move on to creating objects of our own, let's take another look at this event parameter (or as we'll call it now event object) and recall how they were used.\n\n# Do This\n\n**Starter code** is provided which creates event handlers for both a \"click\" and \"keydown\" event and displays the contents of the event object they create.\n\n* **Run the program** and trigger both a keyboard event and a mouse event.\n* **Examine the objects displayed in the Debug Console** to recall the different pieces of information they contain.\n* **Reflect: ** Why wouldn't we want this information stored in many variables? Why wouldn't we want this information stored in an array?",
         "CSP U4 - JSON Object Intro - Good Way_markdown_instruction": "# Creating Your Own Objects\n\n**Objects are unordered collections of name value pairs**. Like an array they can hold many pieces of information, but where arrays use a numeric index to reference specific pieces of information, objects use a descriptive name. We lose the \"ordered\" nature of our data, but we gain the ability to describe the purpose of each piece of data within a collection.\n\nConsider the event objects you just looked at. An array can just as easily store all the information they contain, but it would be difficult to determine what any of the values represent.\n\n**The syntax for creating objects of your own is shown below**\n\n* Curly braces are placed around the contents of an object `{}`\n* Names are separated from values with a colon `:`\n* Name value pairs are separated by commas `,`\n* Names must be strings. If they are not they will be coerced to strings, possibly creating unpredictable behavior.\n* **Example:** `var user = {\"userName\":\"Ada\", \"password\":\"csIsAwesome\", \"yearBorn\":1815};`\n\n# Do This\n\n**Starter code** is provided which creates an empty object and displays its value.\n\n* Modify the code **using the syntax above** to create an object of your own. Your object should contain **at least 5 pieces of information including both strings and numbers**.\n* **Run the program** and confirm all values in your object appear as you expected.",
         "CSP U4 - Objects - createObject_markdown_instruction": "# Creating Your Own Objects\n\n**Objects are unordered collections of name value pairs**. Like an array they can hold many pieces of information, but where arrays use a numeric index to reference specific pieces of information, objects use a descriptive name. We lose the \"ordered\" nature of our data, but we gain the ability to describe the purpose of each piece of data within a collection.\n\nConsider the event objects you just looked at. An array can just as easily store all the information they contain, but it would be difficult to determine what any of the values represent.\n\n**The syntax for creating objects of your own is shown below**\n\n* Curly braces are placed around the contents of an object `{}`\n* Names are separated from values with a colon `:`\n* Name value pairs are separated by commas `,`\n* Names must be strings. If they are not they will be coerced to strings, possibly creating unpredictable behavior.\n* **Example:** `var user = {\"userName\":\"Ada\", \"password\":\"csIsAwesome\", \"yearBorn\":1815};`\n\n# Do This\n\n**Starter code** is provided which creates an empty object and displays its value.\n\n* Modify the code **using the syntax above** to create an object of your own. Your object should contain **at least 5 pieces of information including both strings and numbers**.\n* **Run the program** and confirm all values in your object appear as you expected.",
-        "CSP U4L01 SFLP_markdown_instruction": "<div style=\"width: 250px; text-align: center; float: right; margin-left: 50px\">\n  <a href=\"https://images.code.org/8abc8eedb4975d2c55ac5848cac0d0ed-image-1454087887353.png\" target=\"_blank\">\n    <img src=\"https://images.code.org/8abc8eedb4975d2c55ac5848cac0d0ed-image-1454087887353.png\" style=\"width: 250px; float: right\">\n  </a>\n  <i>Click to enlarge.</i>\n</div>",
         "CSP U5 AP Practice Choose the Algorithm_markdown_instruction": "# AP Practice - Identify the Algorithm\n\nOne component of the **AP Create Performance Task** is selecting an algorithm that you developed.\n\n<div style=\"width: 80%; margin: auto; background-color: #EEEEEE; padding: 10px; font-family: serif; font-size: 12pt\">\n\n<b>3. Program Code</b>\n<ul>\n<li>Mark with an <b>oval</b> the segment of program code that implements the algorithm you created for your program that integrates other algorithms and integrates mathematical and/or logical concepts.</li>\n</ul>\n</div>\n<br>\nHere's the scoring guide for this question\n<div style=\"magin:auto\">\n\t<img src=\"https://images.code.org/3240bf9a7f457b8590cf28c4dd4d5418-image-1516294760622.58.32 AM.png\">\n    <img src=\"https://images.code.org/4edd1b265ad8932a7d6b9294e5622106-image-1516294762983.58.44 AM.png\">\n</div>\n\n\n# Choose the Student-Developed Algorithm\n\nThe program code below is taken from the Color Sleuth activity you just completed.\n\n![](https://images.code.org/4708875d71e4dc7cd06e2c1e472d8fdc-image-1516311447828.png)\n\n**Write which of the ovals (A, B, C, or D) is placed around code that best meets the criteria as a student-developed algorithm.**\n\n**Explain your answer using the criteria in the scoring guide.**",
         "CSP U5 AP Practice Choose the Algorithm_2018_markdown_instruction": "# AP Practice - Identify the Algorithm\n\nOne component of the **AP Create Performance Task** is selecting an algorithm that you developed.\n\n<div style=\"width: 80%; margin: auto; background-color: #EEEEEE; padding: 10px; font-family: serif; font-size: 12pt\">\n\n<b>3. Program Code</b>\n<ul>\n<li>Mark with an <b>oval</b> the segment of program code that implements the algorithm you created for your program that integrates other algorithms and integrates mathematical and/or logical concepts.</li>\n</ul>\n</div>\n<br>\nHere's the scoring guide for this question\n<div style=\"magin:auto\">\n\t<img src=\"https://images.code.org/3240bf9a7f457b8590cf28c4dd4d5418-image-1516294760622.58.32 AM.png\">\n    <img src=\"https://images.code.org/4edd1b265ad8932a7d6b9294e5622106-image-1516294762983.58.44 AM.png\">\n</div>\n\n\n# Choose the Student-Developed Algorithm\n\nThe program code below is taken from the Color Sleuth activity you just completed.\n\n![](https://images.code.org/4708875d71e4dc7cd06e2c1e472d8fdc-image-1516311447828.png)\n\n**Write which of the ovals (A, B, C, or D) is placed around code that best meets the criteria as a student-developed algorithm.**\n\n**Explain your answer using the criteria in the scoring guide.**",
         "CSPPD PD goals_markdown_instruction": "***Now that you've learned more about the CSP Professional Development, let's consider your goals***\n\n<br>\n__What are your personal goals for your CSP PD experience (what do you hope to accomplish, how do you hope to grow)?__ *NOTE: These goals might change over time, and we'll revisit your responses as we go through the course so we can check in on how we're progressing towards those goals.*\n",
@@ -4484,8 +4060,6 @@
         "Course 4 Artist Binary pre1_markdown_instruction": "Binary is a way of representing information using only two options. In this case, <b>off</b> and <b>on</b>.\n<br/>\nHere, we're going to use the number <b>0</b> as code for \"off\" and the number <b>1</b> as code for \"on\".\n<hr/>\nWe've provided you with a grid of \"pixels\" that you can walk through and make designs by turning on only certain squares.\n\n<b>Use the blocks below to have the artist draw \"01010101\" in binary in the first row.</b>",
         "Course 4 Artist For Loops 2_markdown_instruction": "I've put the code for drawing a triangle inside a `for loop` that counts from 50 to 100 by 10. \n\n<br/>\n<strong>NOTE:</strong> Make sure you look at the code *before* you hit \"Run\".",
         "Course 4 Artist For Loops 7_markdown_instruction": "What happens if you remove the \"Repeat 3\" from this algorithm, keeping the \"move\" and \"turn\" blocks in the for loop? \n\n<br/>\nIn this spiraling triangle, each side is 20 pixels longer than the last.\n\n",
-        "Course 4 Artist For Loops inspire_markdown_instruction": "<br/><br/>\n<img src=\"https://images.code.org/9b5897e059bb29bd2faf8504659a3cfc-image-1440719685627.49.33.png\" width=\"250px\"/>  \n<br/><br/>\n**Free-Play Inspiration:** You've now learned everything you need to know to make a pattern like this! If this picture inspires you, try to make something similar. Otherwise, create something all your own.",
-        "Course 4 Artist Functions 13.1_markdown_instruction": "Now, let's make a function called `jump to upper right` that moves the artist to the upper-right of the octagon that you just drew so we can finish this pattern.  \n<br/>\n*Hint:  To get yourself to the upper-right corner, try jumping in a pattern that makes just 3/8 of the octagon.*  ",
         "Course 4 Artist Functions Inspiration_markdown_instruction": "<img src=\"https://images.code.org/cf373e03bede480ae54aec72ce823454-image-1442951867535.54.11.png\" width=\"250px\"/>\n\n**Free-Play Inspiration:** You've now learned everything you need to know to make a pattern like this! \n\nIf this picture inspires you, try to make something similar. Otherwise, create something all your own. ",
         "Course 4 Artist Functions challenge_markdown_instruction": "<img src=\"https://images.code.org/69f1c2b415f907c86aaa6ed2534c3682-image-1442870371171.13.38.png\" width=\"250px\"/>\n\n**Challenge Level:** Use what you've learned in this stage and others to figure out how to make the drawing above.  ",
         "Course 4 Artist Functions inspire_markdown_instruction": "<img src=\"https://images.code.org/6c6ff8e3b5a763926102033a94720f8b-image-1441300952649.19.47.png\" width=\"250px\"/>\n\n**Free-Play Inspiration:** You've now learned everything you need to know to make a pattern like this! \n\nIf this picture inspires you, try to make something similar. Otherwise, create something all your own.  \n<br/>\n\n<h4>\n<details>\n<summary><b>Hints</b></summary>\n\t<br/><br/>\n\t<h5>\n\t<details>\n\t<summary><b>Hint #1</b></summary>\n    \t<br/>\n    \tUse a `for loop`, then use its counter variable inside of a nested `repeat` loop. \n    \t<br/><br/>\n    </details>\n\t</h5>\n    \n    <h5>\n\t<details>\n\t<summary><b>Hint #2</b></summary>\n    \t<br/>\n    \tEach iteration, you should `draw a square` then jump forward.\n    \t<br/><br/>\n    </details>\n\t</h5>\n    \n    <h5>\n\t<details>\n\t<summary><b>Hint #3</b></summary>\n    \t<br/>\n    \tYou will need to turn left by 90 degrees outside of your `repeat`, but still inside the `for loop`.\n    \t<br/><br/>\n    </details>\n\t</h5>\n    \n    <h5>\n\t<details>\n\t<summary><b>Solution</b></summary>\n    \t<br/>\n    \t<br/>\n    \t<img src=\"https://images.code.org/6b07c5de58a1fa573bef19182105f516-image-1441300922567.14.00.png\" width=\"450px\"/>\n    \t<br/><br/>\n    </details>\n\t</h5>\n</details>\n</h4>\n\n<br/>\nWhat happens if you make the squares a little bigger or smaller?  How about if you turn right instead of left?",
@@ -4507,7 +4081,6 @@
         "Course 4 Play Labs For Loops 8a_markdown_instruction": "To finish our game, we need to bring back the `increment` variable!    Let's tie it to the level of the game.\n\n1) Keep track of the number of times The Wizard is clicked.  \n2) If The Wizard is clicked at least 10 times before Dog counts to 30, raise `increment` by 1 and start again.  \n3) If The Wizard does not get clicked at least 10 times, the game is over.  ",
         "Course 4 Playlab For Loops 6b_markdown_instruction": "Now we're going to use `for` loops in a whole different way!\n\nThis game gets hard quickly because the time between disappearances shrinks fast!\n\n<hr/>\n\n**Edit this `for` loop to create a game that's fun for you to play!**  \n\n<hr/>\n\nPress \"Run\" and click Madame Unicorn as many times as you can.  Can you beat our score of 24? ",
         "Course 4 SCF 3_markdown_instruction": "**Functions Super Challenge:** Use what you learned in the previous level to draw an image like this.\n\n*Note: The code becomes more simple if you incorporate parameters.*\n\n<br/>\n<img src=\"https://images.code.org/d3d6a51fafdcc0a09a5c6b0e0f3c2b92-image-1446239805818.08.59.png\" width=\"300px\"/>\n<br/>  ",
-        "Course 4 SCFL 2_markdown_instruction": "**For-Loops Super Challenge:** Solve this puzzle with the fewest number of blocks possible.  \n<br/>",
         "Course 4 SCFL 3_markdown_instruction": "**For-Loops Super Challenge:** Can you figure out how to re-create this drawing? \n\n<img src=\"https://images.code.org/724b2efa8aefe863bd0d6491a3f1590f-image-1445563707400.26.50.png\" width=\"350px\"/>",
         "Course 4 SCFL 4_markdown_instruction": "**For-Loops Super Challenge:** Can you figure out how to re-create this drawing? \n\n<img src=\"https://images.code.org/407f502735beec686187451bdf67aada-image-1446002848700.59.34.png\" width=\"350px\"/>",
         "Course 4 SCFL 5_markdown_instruction": "**For-Loops Super Challenge #5:** Can you figure out how to re-create this drawing? \n\n<img src=\"https://images.code.org/407f502735beec686187451bdf67aada-image-1446002848700.59.34.png\" width=\"350px\"/>\n\n<h4>\n<details>\n<summary><b>Hints</b></summary>\n\t<br/><br/>\n\t<h5>\n\t<details>\n\t<summary><b>Hint #1</b></summary>\n    \t<br/>\n    \tThe color change happens using the `set color with red, green, blue` block.  Red is always the value of `counter`, green is always `255 - counter`, and blue remains constant at 255 exactly.\n    \t<br/><br/>\n    </details>\n\t</h5>\n    \n    <h5>\n\t<details>\n\t<summary><b>Hint #2</b></summary>\n    \t<br/>\n    \tEach shape is a square with sides that are `counter` pixels long, starting with 5px, and increasing by 5px all the way up to 200px.\n    \t<br/><br/>\n    </details>\n\t</h5>\n    \n    <h5>\n\t<details>\n\t<summary><b>Hint #3</b></summary>\n    \t<br/>\n    \tThe artist turns 15 degrees between each square.\n    \t<br/><br/>\n    </details>\n\t</h5>\n    \n    <h5>\n\t<details>\n\t<summary><b>Solution</b></summary>\n    \t<br/>\n    \t<br/>\n    \t<img src=\"https://images.code.org/0bf4c87e33459f832258939ec53ad595-image-1446002848701.59.15.png\" width=\"450px\"/>\n    \t<br/><br/>\n    </details>\n\t</h5>\n</details>\n</h4>",
@@ -4823,8 +4396,6 @@
         "U1L11 NetSim numbers with Ascii_markdown_instruction": "## Sending Formatted Text Activity\n\n**Directions:**  \nWork with a partner or in a small team to develop a protocol that allows you to send formatted text. \n\n**Guidelines:**  \n- Both the text and the formatting instructions must be derived from the printable ASCII character set (i.e. codes 32-126).\n- Your protocol must encode at least:\n\t- bold, italics, and underlining\n\t- three different font sizes (large, medium, and small)\n\t- three different font colors (red, black, blue)\n- You will demonstrate that your protocol works by having the recipient be able to faithfully draw (or produce in some fashion) the formatted text based only on the data she received through an ASCII-text version of the Internet Simulator. A sample message can be found below.\n\n![](https://images.code.org/6fa1d53e4d36a9d0bac5b9b8fb4bc81d-image-1434427211242.PNG)\n\n**Develop Your Protocol:**  \nUse the worksheet handed out by your teacher to brainstorm ideas for your protocol. Iteratively improve your protocol by testing it out with simple sample messages.\n",
         "U1L13 Assess Text Compression amount_markdown_instruction": "Here's the same compressed text that you saw on the last level, but now we also see the size of the original, uncompressed text. On the previous level you reconstructed the text by tracing back through the dictionary. Now we're going to think about if this is a \"good\" compression rate.\n\n![](https://images.code.org/ffb941527193cd04c02ff2ce392d02e6-image-1439479301236.20.23 AM.png)\n\nIn the text box below, answer the following two questions:\n\n- What is the compression rate, or the compressed text size + dictionary size compared to the original text size? (as a percentage) \n- Is this a \"good\" compression rate? Why or why not? \n\n\n",
         "U1L13 Assess Text Compression amount_2018_markdown_instruction": "Here's the same compressed text that you saw on the last level, but now we also see the size of the original, uncompressed text. On the previous level you reconstructed the text by tracing back through the dictionary. Now we're going to think about if this is a \"good\" compression rate.\n\n![](https://images.code.org/ffb941527193cd04c02ff2ce392d02e6-image-1439479301236.20.23 AM.png)\n\nIn the text box below, answer the following two questions:\n\n1. What is the compression rate? The compression rate says by how much the text was compressed from the original as a percentage. Don't forget that the compressed version of the text is the compressed text size + dictionary size. (see note below) \n\n2. Is this a \"good\" compression rate? Why or why not? \n\n\n(*NOTE: to calculate, the compression rate is slightly different than simply stating the compressed size as a fraction of the original. It's just opposite sides of the same coin.  For example: if you find the compressed text + dictionary size is 70% of the original, that means the text was compressed by 30%.*)\n",
-        "U1L14 Assessment 1_markdown_instruction": "Please answer the following 3 questions in the space below.\n\n1. What are the **dimensions** (width and height) of the **largest image** we can make with the pixelation widget? \n\n2. How many **total bits** would there be in the the largest possible image we could make with the pixelation widget (assuming 1 bit per pixel)?\n\n3. How many **total bits** bits would it take to represent **the smallest possible image** (i.e. an image with one pixel)?\n",
-        "U1L14 Assessment 1_2018_markdown_instruction": "Please answer the following 3 questions in the space below.\n\n1. What are the **dimensions** (width and height) of the **largest image** we can make with the pixelation widget? \n\n2. How many **total bits** would there be in the the largest possible image we could make with the pixelation widget (assuming 1 bit per pixel)?\n\n3. How many **total bits** bits would it take to represent **the smallest possible image** (i.e. an image with one pixel)?\n",
         "U1L4 NetSim SendAB_markdown_instruction": "## Coordination and Binary Messages Activity\n\n**Develop your Protocol**\nDevelop a protocol that allows you to use Internet Simulator to relay a message, i.e. one member sends a message and the other member sends the same message back. You or a teacher will say “Go” to begin the exchange but otherwise all communication must be through the widget. As you’re working, consider:\n\n- How will you know when the exchange is supposed to begin?\n- How will you know whose turn it is to send or receive the message?\n- How will you coordinate your actions?\n\nDocument your protocol on the worksheet provided, and test your protocol using the Internet Simulator",
         "U1L5 Free Response Lesson Review_markdown_instruction": "Complete these three sentences.\n\nThree big ideas from the lesson today are _____ and _____ and _____ . \nBut the most important or interesting thing I learned today is _____. \n\nAt the beginning of the class, I thought _______ but now i know _______.\n",
         "U1L8 NetSim numbers with decimal_markdown_instruction": "## Sending Numbers Activity\n\n**Challenge:** Develop a protocol or set of rules for communicating a drawing to your partners using only bits.\n\n**Challenge Rules:**\nThe image will be a line drawing created by connecting points on a grid, like the one seen here.\nYou can discuss and agree on a protocol ahead of time, but the image exchange must happen without communication between the two parties other than through using the Internet Simulator.\n\n**Things to Consider:**\n- How will your points be formatted?\n- How does the recipient know when one number ends and the next begins?\n\n**Your Protocol:** Write the steps of your protocol on the worksheet provided by your teacher.\n\n![](https://images.code.org/d79263f7a6e129962f830ce0af2ed3cc-image-1434414362601.PNG)",
@@ -4844,8 +4415,6 @@
         "U2L05 - NetSim - Packets and Building TCP_markdown_instruction": "## Packets and Making a Reliable Internet\n\n**Challenge:** Develop a protocol for reliably sending a message across an unreliable network\n\n**An Unreliable Internet Simulator:** The current version of the Internet Simulator is modeled after some actual constraints of the Internet\n- Messages must be divided into packets which may contain <em><strong> at most eight (8) ASCII characters </em></strong>\n- Messages should be long enough to require at least 10 packets\n- Packets may not arrive in the order sent\n- Packets may be dropped while in transmission\n\n**Directions:** In a group or individually join a router in the Internet Simulator and practice sending messages given these new constraints. Once you are comfortable with the challenge, iteratively design a protocol that can reliably send a message to a partner. You and your partner should join <em><strong> DIFFERENT </strong></em> routers.\n\n**Protocol Requirements:**\n- All communication can only be done through the Internet Simulator\n- You must send a message that spans at least 10 packets (i.e. an 80 character ASCII message). \n- The protocol should account for the possibility that the characters might be entirely random (i.e. not necessarily English - do not count on human intuition to reconstruct the message. The message is not known beforehand.)\n- The sender and receiver must be confident the full message was successfully transmitted and reconstructed.",
         "U2L05 Lossy vs. Lossless FR 1_2018_markdown_instruction": "# When to use lossy compression?\n\nIn general, what are reasons that someone would choose to use lossy compression? Write a brief response below including at least one example of a situation when lossy compression would be appropriate.",
         "U2L08 Assessment 0_markdown_instruction": "## Router Table: Assessment\n\nIn this activity you filled in a routing table by visiting other routers you were directly connected to find out what paths they were using. Why do routers need to use this method of talking to their direct neighbors in order to fill in their routing tables?\n",
-        "U2L10 FR why best worst viz_markdown_instruction": "\nChoose the visualization that you thought was the best or worst (pick one) from the ones you saw in class and do the following:\n\n1. Describe the visualization so the reader knows which one you are talking about (example: \"Collection A #2 -- Average divorce rates in America\")\n\n2. Say whether this was the best or worst visualization for you and *and why*.  Justify your opinion by citing principles of visualizations that you have learned about.  Use the visualization 101 guide as a resource. \n\nTry to keep your response to around 100 words (about 3-5 sentences).\n",
-        "U2L10 FR why best worst viz_2018_markdown_instruction": "\nChoose the visualization that you thought was the best or worst (pick one) from the ones you saw in class and do the following:\n\n1. Describe the visualization so the reader knows which one you are talking about (example: \"Collection A #2 -- Average divorce rates in America\")\n\n2. Say whether this was the best or worst visualization for you and *and why*.  Justify your opinion by citing principles of visualizations that you have learned about.  Use the visualization 101 guide as a resource. \n\nTry to keep your response to around 100 words (about 3-5 sentences).\n",
         "U2L10 NetSim Automatic DNS_markdown_instruction": "## The Need for DNS\n\nIn this version of the Internet Simulator, a Domain Name System (DNS) is provided for you and knows the IP addresses of all connected computers. You can only see the hostnames of other connected computers.   \n![](https://images.code.org/3ac2c23ed610abc7e785ec85054e89a9-image-1434746293690.PNG)\n\nThe address of the DNS is always &lt;yourRouterNumber&gt;.15. Send a message with protocol `GET [hostname]`, for example `GET Bob2`, to the DNS to get another student's address. You can keep track of the responses in the Notes section in the DNS tab.  \n![](https://images.code.org/c81c1a6b876eb46674a7f7e5e70506ce-image-1434746797267.png)",
         "U2L14 Assessment2_markdown_instruction": "Using the Vigenere cipher, does the length of the key matter? \nFor example, if one key is length 5 and another is 20, does one produce a “better” encrypted message than the other, or is it basically the same? Yes or no? Explain your reasoning.",
         "U2L14 Assessment2_2018_markdown_instruction": "Using the Vigenere cipher, does the length of the key matter? \nFor example, if one key is length 5 and another is 20, does one produce a “better” encrypted message than the other, or is it basically the same? Yes or no? Explain your reasoning.",
@@ -4856,8 +4425,6 @@
         "U2L20 Free Response Wrap Up 2_markdown_instruction": "## Security and Hacking in the Real World: Written Response\n*Answer this prompt below with 200 words or less.*\n\n**Prompt:** Explain how the information covered in your visual artifact is related to one of the topics below. Use relevant terminology in your answer. Include specific references to lessons and activities.\n\nEncryption and Algorithms <br>\nCracking an Encryption with Heuristics (i.e. Frequency Analysis)<br>\nSymmetric Encryption (i.e. Caesar)<br>\nHarder to Crack Encryption (i.e. Vigenere)<br>\nAsymmetric Encryption (Alice and Bob)<br>\nComputationally Hard Problems<br>\nPublic Key Encryption<br>\nOne-way Functions<br>\nOpen Standards<br>\nCertificate Authorities<br>\n\n",
         "U2L20 Free Response Wrap Up_markdown_instruction": "## Security and Hacking in the Real World: Written Response\n*Answer this prompt below with 200 words or less.*\n\n**Prompt:** Clearly describe the computing tools, techniques, and development process used to create the artifact such that someone can reproduce the artifact.\n",
         "U2L3 NetSim Hub Mode_markdown_instruction": "# Test It Out! (Optional)\n\nAfter you've finished developing your protocol feel free to test it out using the Internet Simulator. Does your protocol work as well as you thought?",
-        "U2L9 FR digital divide issue_markdown_instruction": "Consider the following statement from the CS Principles course framework:\n\n```\n7.4.1C The global distribution of computing resources raises issues of equity, access, and power.\n```\n\nBriefly describe one of these issues that you learned about in the lesson and how it affects your life or the lives of people you know.  Keep your response to about 100 words (about 3-5 sentences).",
-        "U2L9 FR digital divide issue_2018_markdown_instruction": "Consider the following statement from the CS Principles course framework:\n\n```\n7.4.1C The global distribution of computing resources raises issues of equity, access, and power.\n```\n\nBriefly describe one of these issues that you learned about in the lesson and how it affects your life or the lives of people you know.  Keep your response to about 100 words (about 3-5 sentences).",
         "U3 - Arrays - Demo App_markdown_instruction": "# My Favorite Things\n\nCheck out this simple app for creating a collection of your favorite things. **We're going to be working towards building this app** over the next several exercises. As you might expect, this application **uses an array** to store and organize information.\n\n# Do This:\n\n* Use the \"My Favorite Things\" app and try to **predict how arrays are used to create the functionality you observe.** \n* Some features to notice:\n\t* The app keeps track of a **list of your favorite things**.\n    * You may use buttons to **move forward and backward through your list**.\n    * The **current entry and total number of entries** are indicated at the top.\n    * You may **add a new entry** at the current location in your list.",
         "U3 - Arrays - Wrap Up 1_markdown_instruction": "## Choose: Array or Variable?\n\nYour app needs to store the following information. For each type of information, decide whether you would use an array or a variable to store it:\n \n* All the messages a user has sent\n* The highest score a user has ever reached on the app\n* A username and password to unlock the app\n\n",
         "U3 - Arrays - Wrap Up 2_markdown_instruction": "## Free Response: Choosing Array or Variable\n\nIn general, when do you think you should store information in an array, and when should you use a variable?\n",
@@ -5228,7 +4795,6 @@
         "U3L08 how to add comments_markdown_instruction": "# Now you try it - Add a comment\n\nThe starting code provided has some comments already in it.\n\n# Do This\n\nInsert a comment that says `// Draw all the starfish` just above the first call to `drawStarfish()`. \n\n* The `// Comment` block is in the Functions toolbox ([Show me](#triggercallout=show_comment))\n* **See how:**\n![expandable](https://images.code.org/1f97df1d6fc1ca2d5bd371ad7b0f76a3-image-1508960669302.gif)\n\n**Click finish** once you've added the comment.  And keep adding comments as you go!!!",
         "U3L08 how to add comments_2018_markdown_instruction": "# Now you try it - Add a comment\n\nThe starting code provided has some comments already in it.\n\n# Do This\n\nInsert a comment that says `// Draw all the starfish` just above the first call to `drawStarfish()`. \n\n* The `// Comment` block is in the Functions toolbox ([Show me](#triggercallout=show_comment))\n* **See how:**\n![expandable](https://images.code.org/1f97df1d6fc1ca2d5bd371ad7b0f76a3-image-1508960669302.gif)\n\n**Click finish** once you've added the comment.  And keep adding comments as you go!!!",
         "U3L1 - Simulation - Template_markdown_instruction": "# Simulating Coin Flips\n\nOver the next several exercises we are going to be building a program that simulates flipping 10,000 coins, or even more if you like. Along the way we're going to be keeping track of the patterns that develop and hopefully learning something about the patterns that develop.\n\nThis is a great problem to simulate on a computer. If you wanted to flip 10 coins you'd probably just do it by hand. Flipping 10,000 coins would take significantly longer (about 3 hours if you flip one per second) and so **we'd much rather use a program to do the work for us.** Not only is it a lot faster to write the program, but once you're done you can run your program over and over, repeating the experiment. As we'll see, **simulations like this make it much easier to quickly notice patterns, test hypotheses, and develop new ideas to investigate**.\n\n**Starting Small:** Our simulations are going to start small. We'll actually only be flipping 10 coins to begin with, and then developing programs that keep track of patterns in this smaller set of data. That way we'll be able to visually confirm that our programs are working as intended. **Once we've verified that our programs work at a smaller scale we'll gradually increaese the number of flips our program is working on until we're at the full 10,000.**\n\n# Do This\n\n* When we want to flip a coin with a computer we will instead **generate a random number between 0 and 1**\n* Write a program that **uses a while loop** that **flips 10 coins** and writes their values to the screen\n\n![](https://images.code.org/970622047b06af13ea7bdd50ee86bcbf-image-1446739178483.gif)",
-        "U3L10 Free Response Getting Started_markdown_instruction": "* What is your personal goal for this project? \n\n* How will your personal goal impact the larger collaborative project?\n\n\n",
         "U3L12 - Reflection - Mission Unsortable_markdown_instruction": "Activity Reflection\n\n**Prompt:** \nThinking back on the \"Mission Unsortable\" activity, describe a time when one person's mission conflicted with another person's mission. \n\nWhat happened? Describe how you might modify the missions so that the problem occur.\n",
         "U3L13 - Debug Id Problem_markdown_instruction": "# Choosing Good IDs\n\n<img src=\"https://images.code.org/f968ce4b09d2500b224af1bf9bacbacd-image-1444155536105.png\" style=\"float: right\">**Good IDs** are **meaningful and descriptive**.\nJust like good names for functions, you will want an ID to describe the intended purpose of the element.  For example, if you have many buttons in your program, you will want to give each an ID that describes what the button does. For example \"forwardButton\", \"leftButton\", etc.\n\n**IDs are also case-sensitive** which means you'll want to develop a style for capitalizing IDs. A common strategy is to use a style called **camelcase**.  In camelcase style, words are combined together with no spaces and each new word, after the first, is capitalized. itTypicallyLooksLikeThis.  \n\n**Why?** Many computer systems do not allow keywords like function names and IDs to contain spaces.  You've already seen several examples like this: `moveForward`, `onEvent`, `turnLeft`, etc.  It's important to realize that camelcase is a style convention, not a hard and fast rule. Sometimes you'll see other styles such as using underscores: `move_forward`, `turn_left`.  But in App Lab we typically use camelcase.\n\n# Rules About IDs\nIn making descriptive and meaningful IDs there **are some rules about IDs** you need to know.  IDs...\n* cannot contain spaces.\n* *must* begin with a letter (A-Z or a-z) and may be followed by any number of digits and letters.\n* can contain hyphens (\"-\"), underscores (\"_\"), colons (\":\"), or periods (\".\").\n\n# Do This:\nThe code you will begin with has an error. If you run it, you'll see that the ID of the button and the event handler don't match.\n\n* **Improve ** the button ID by choosing a **descriptive and meaningful** ID.\n* **Change ** the event handler so that it correctly references the button by its new ID.\n* **Run ** the program to make sure it works.\n",
         "U3L13 - Debug Id plus logic problem_markdown_instruction": "# Debugging 1",
@@ -5241,7 +4807,6 @@
         "U3L13 eventsDetails_markdown_instruction": "# How Do Events Work?\nEvent-driven apps are made up of elements that can trigger events (such as buttons) and pieces of code called **event handlers**. Event handlers are commands that \"watch\" for certain events to occur in your program, and then run some function when an event occurs.\n\n<img src=\"https://images.code.org/96abf7d54a0be221a8b8eda80c696bf4-image-1444142010683.png\" style=\"float: right; width: 250px\">The `onEvent(id, type, callback)` command creates an **event handler** in your app. The three parameters are:\n* **id** - the ID of the element in the app you want to \"watch\", one that might trigger an event\n* **type** - the type of event to \"watch\" for (e.g. a click, a key press, a mousemove, etc.)\n* **callback** - a **callback function** is only different from a normal function in that you don't call it directly from your code. Instead it gets *called by the system at the time the specified event occurs*. You put the code into this function just like you would any other, and it will run when the event occurs.\n\nOnce created, the event handler will always \"watch\" that element as long as it exists. \n\n# Do This:\nThe program you are going to see has a button with a new ID but no event handler that is attached to it.\n* **Add an `onEvent` handler** that watches for a click on the button and *moves the turtle forward* when it happens. \n* **Run the program** to make sure it works.\n* **Try changing the event type** to something like \"mouseover\" and see what happens.  Not all event types will work with buttons but it's fun to play a little bit.\n\nOnce you've got the program responding to some event, move on to the next problem.\n\n",
         "U3L14 - Assigning Random Value_markdown_instruction": "# Other Ways to Assign Values to Variables\nPrograms become much more interesting when the values in variables change while the program is running. We can also assign to a variable the value returned by a function. For example:\n\n![](https://images.code.org/31447c1b90c925bba3ca86ead8d84a7d-image-1445892065474.png)\n\nBecause the `randomNumber` function *evaluates to a number* it means we can treat it *as though it were a number*. We've used it before by just \"plugging it in\" to some function that needed a number as a parameter like:\n![](https://images.code.org/5df0376d562bd75a1899e17c49b00144-image-1445941026356.png)\n\nBecause the `randomNumber` function generates a new and different number each time you call it, one thing we *could not* do before we had variables was generate a random number, and use that *same number* for two different things in a program. Now we can.\n\n# Do This:\n<img src=\"https://images.code.org/df3d2a8f4c1a3061981667c9f85b0071-image-1445549489133.png\" style=\"float: right; width: 350px\">Write a program that simulates the rolling of two dice and reports their individual values as well as the sum. \nThe program should:\n* Generate two random numbers between 1 and 6 and store each result in its own variable.\n* Display the individual values of the two dice.\n* Display the sum of the two dice (see right).\n* Every time you run the program the result will be a little different.\n\nWe have given you starting code that shows what to do for the first die. The *rest of the code is up to you!*  When you're done the output in the app display should look like what's above.\n\n",
         "U3L14 - Assigning User Input_markdown_instruction": "# Assigning user input to variables\nPrograms become *even more interesting* when we can interact with the user. A short way to ask a user for a number is with the `promptNum` command.\n\n`var userInput = promptNum(\"Enter a number?\")`\n\n`promptNum` is similar to `randomNumber` in that it is a function that *evaluates to a number*. The difference here is that promptNum pops up an input dialog box and waits for the user to type a number.  Once they do and hit 'Ok' the number they typed is returned and we can store it in a variable to use in our our programs.\n\n\n# Do This:\nWrite a program that acts as a simple calculator.\n* Ask the user to enter one number\n* Then ask for a second number\n* Display the result of some calculation.\n* An example output is shown at right.\n\nWe have given you starting code that shows you how to get the first number.  The rest of the code is up to you.\n\n",
-        "U3L14 - Journal Favorite Event_markdown_instruction": "Pick one of the two prompts below to answer.  Start by copy/pasting the prompt you're responding to.\n\n**Pick one:**\n\n* Think back a few lessons to the \"Mission: Unsortable\" card sorting activity. Relate something that happened in that activity to something you found with event-driven programming in this lesson. Were there any \"unfortunate events\" in the card sorting activity that were similar to \"unfortunate events\" while programming in this lesson?  \n\n* What was your favorite event type? Explain what the event type is and how you might use it in an app that you want to write.  \n\nWrite your response below in 100 words or less.\n",
         "U3L14 - Mini Calculator embed_markdown_instruction": "# Getting User Input - A Simple Calculator\nPrograms become *even more interesting* when we can interact with the user. A short way to ask a user for a number is with the `promptNum` command, which pops up a dialog box asking the user to enter a number.\n\nThis very simple app demonstrates a new behavior: getting input from the user.\n**You will write code to re-create this program** on the next page.\n\n# Do This:\n* Click \"Run\" on the app.\n* You will be prompted for two numbers, one right after the other.  \n\t* If you don't enter a number it will simply re-prompt you until you do.\n* See what happens.  \n* Re-run the program and enter different numbers until you get the idea.\n\nClick **Finish** to move on.",
         "U3L14 - User Input Division calculator_markdown_instruction": "# Assigning User Input to Variables\n<img src=\"https://images.code.org/bad81f7d5e514a1d727e51aab52aac10-image-1445552999503.gif\" style=\"width: 350px; float:right\">\nLet's use `promptNum` to make a simple calculator. The `promptNum` command appears in the variables toolbox because it's typically used as a way to get a value from the user that you want to hold on to while the program runs.\n\n`promptNum` is similar to `randomNumber` in that it is a function whose return value *evaluates to a number*. The difference here is that `promptNum` pops up an input dialog box and waits for the user to type a number.  Once they do and hit \"OK\" the number they typed is returned and we can store it in a variable to use in our programs.\n\n\n# Do This:\nWrite a program that acts as a simple calculator. (An animation of the end result is shown at right.) <img src=\"https://images.code.org/e644d4b17d1d6fdb6b5a93651d512f8a-image-1445552700557.gif\" style=\"width: 250px; float: right\">\n* Ask the user to **enter a number**.\n* Then ask the user to **enter a second number**.\n* **Display the result** of *some* calculation.\n  * The example shows division but you may choose something else if you like.\n\nWe have given you starting code that shows you how to get the first number.  The rest of the code is up to you.\n\n",
         "U3L14 - Variable ReAssignment pt2_markdown_instruction": "# Variable Re-assignment - Part 2: Updating Values\n\nAll of our examples so far have shown how to set the value of a variable by using combinations of numbers and other variables.  But what if you wanted to do something like **add 10 to the *current* value of a variable**? \n\nBecause updating the value in a variable is just moving memory around, the process has to go something like this:\n* Read the current value of a variable.\n* Add 10 to it.\n* Store the new value back into the same variable.\n\nThe technical term for this is called **variable re-assignment** - when you change the value of a variable based on its current contents.   To increase the value of `num1` by 10 you actually need to do this:\n\n<img src=\"https://images.code.org/c49b1a0fb81de4b90558fdb278e40987-image-1445942169121.png\" style=\"float:right\">\n```\nnum1 = num1 + 10;\n```\nThe diagram at right shows a picture of what's happening (it assumes the value of `num1` is 7 before the line is executed).  It's actually very similar to what happens with plain old arithmetic: compute a value, then store it in a variable.  Because the computation has to happen before storing the result in a variable, there is no contradiction here.\n\n<details>\n<Summary><strong>Common Mistakes & Tips</strong> [click to expand]</Summary>\n\n<h3>\nMistake 1\n</h3>\n<p>To increase the value of variable by 10 (for example) a common mistake is to think that this statement alone will do the trick.\n</p><p>\n\n```\nnum1 + 10;\n```\n</p><p>\nIt doesn't. This tells the computer to add 10 to whatever the value of `num1` is.  And the computer will do that, and the result will go....nowhere.  It will be lost.\n</p><p>\nBecause you are trying assign a new value to a variable it should make sense that **the = sign must be involved somehow**.  \n</p>\n<h3>\nMistake 2\n</h3>\n<p>\nIf you were in math class this statment would make no sense:\n```\nnum1 = num1 + 10;\n```\n</p><p>\nBut **remember to read = as \"gets.\"** If you read the statement above as: \"num1 *gets* the value of num1's current value plus 10\" it might make more sense.  Get in the habit of using \"gets.\"\n</p>\n</details>\n\n# Do This:\n\n  * **Make a prediction.**\n We start you out with some code again (see below). \n\n <img src=\"https://images.code.org/60b25394c387bc111451f0e481528733-image-1447800367736.43.42.png\" style=\"width: 500px;\"> \n\n Trace the code and predict what you think will be printed to the console.  (NOTE: We're serious about this \"make a prediction\" stuff. When you force yourself to make a prediction about what code will do you will learn faster since it triggers you to apply your mental model of what's happening.)\n  \n  * **Run the program** to see if you were right.\n \n  * **Add a `console.log` statement**.\n \n  We've left you with a *little bit* of programming to do: add a `console.log` statement at the end of the program to see the last value of `someNum` to see if your full prediction is correct.\n",
@@ -5323,9 +4888,7 @@
         "U3L19 - write var and string with same name_markdown_instruction": "# Debugging Variables\n<img src=\"https://images.code.org/1363b1799cd0f70e383664b4c6359ef4-image-1445479475849.png\" style=\"float:right; width: 200px\">There is a simple command called `write` in the UI Controls toolbox that is a fast and easy way to display text in the app itself. The way you use it is very similar to `console.log`.  Let's debug another problem only using `write` instead of `console.log`.  \n\nYou may have already run into this problem!  But it's worth mentioning again. To display the value of a variable you *should not* use quotes. Notice the difference between these two statements - the comments next each line explains the differnece:\n``` \n write(\"score\");  // will display the literal characters s-c-o-r-e\n write(score);    // will retrieve the value of score and display it\n```\n\n# Do This\n<img src=\"https://images.code.org/a0ff680a245dba5546183e07ebbeaef2-image-1447270477159.png\" style=\"float: right; width: 250px\">To solve these problems you **should only add or remove quotation marks**\n* **Run the starter code**\n* **Locate and Fix the problems**\n\n**GOAL:** Make the app display what's shown at right by only adding or removing quotation marks from the code given.\n\n![]()",
         "U3L2 Using Simple Commands_markdown_instruction": "<img src=\"https://images.code.org/0aca9e3ba0945f31ddd56438a45ed69c-image-1436286498758.png\" align=right>\n\nGiven only 4 turtle commands, write code in App Lab to complete the drawings in each of the challenges below.  Your goal is to write code that solves the problem as efficiently as possible using only the commands provided.\n\nWhat does “efficient” mean?  In computer science it can actually mean several different things depending on what you’re talking about.  Work on these challenges, try to solve them in a way that you think is best and we’ll ask about efficiency at the end.\n\n<img src=\"https://images.code.org/d26ed114448c5ffe75a75ed761fab5f0-image-1447888033281.gif\" align=right>\n# Do This: \nDraw a 1 x 1 square to the front and left of the turtle as efficiently as possible. The program should stop with turtle in its original position, facing its original direction.\n\nOnce you think you have a solution, click the Finish button - it will appear once you run the program.",
         "U3L2 Using Simple Commands_2018_markdown_instruction": "<img src=\"https://images.code.org/0aca9e3ba0945f31ddd56438a45ed69c-image-1436286498758.png\" align=right>\n\nGiven only 4 turtle commands, write code in App Lab to complete the drawings in each of the challenges below.  Your goal is to write code that solves the problem as efficiently as possible using only the commands provided.\n\nWhat does “efficient” mean?  In computer science it can actually mean several different things depending on what you’re talking about.  Work on these challenges, try to solve them in a way that you think is best and we’ll ask about efficiency at the end.\n\n<img src=\"https://images.code.org/d26ed114448c5ffe75a75ed761fab5f0-image-1447888033281.gif\" align=right>\n# Do This: \nDraw a 1 x 1 square to the front and left of the turtle as efficiently as possible. The program should stop with turtle in its original position, facing its original direction.\n\nOnce you think you have a solution, click the Finish button - it will appear once you run the program.",
-        "U3L20 Free Response Getting Started_markdown_instruction": "Think about these statements. Are they true or false?\n\n    There are 7 days in the week. \n    Candy Crush is a fun app.\n    2 + 1 = 4\n    A beach vacation is the best.\n\nIn 50 words, speculate on what you think it means to be true or false in a computer compared to true or false in life.\n\n\n",
         "U3L20 Free Response Wrap Up_markdown_instruction": "Share your game with a partner. \nExamine the conditional and help each other resolve any problems.\n\nWhat help or suggestions did you provide to your partner? \n\nWhat suggestions did your partner offer to you that improved the decision making in your game?\n\n\n",
-        "U3L22 Reflection_markdown_instruction": "Use the rubric to assess your Clicker Game project. Then, reflect on your learning by answering the following questions.\n\nAnswer in 100 words:\n\n* What are you most proud of in this project? Why?\n\n* What problems did you have?\n\n* How did you resolve them? \n\n* What did you learn from the problems? \n\n* Were some of the problems avoidable? How? \n\n* If you were to do this activity again, what would you do differently?\n",
         "U3L23 Chatbot Conditionals 1_markdown_instruction": "# Adding Intelligence Using Conditionals\n\nSo far the digital assistant you created responds with the same message no matter what the user types. Let's look at how to make the digital assistant smarter. Let's work on creating a Movie Bot example before returning to your digital assistant.\n\nIn the last lesson we learned about `if`, `else-if`, and `else` statements. These allow us to make decisions. In the digital assistant we want to make decisions based on keywords. **The first keywords we want the Movie Bot to respond to are the movie genres: comedy, romance, action, and horror. **\n\n**Note: ** Check out the flowchart below to see the logic we are trying to add. The current portions of the diagram that we are creating are <mark>highlighted in yellow</mark>.\n\n# Do This:\n\n* **Run the code** to understand what it does.\n\n* **Add `else-if` statements** to the `if` to check if the word the user typed matches **action, romance and horror**.  **Note:** Movie Bot will only understand input in the form of \"comedy\" not \"Comedy\" or \"What is a comedy?\" \n\n* **Add an `else` statement** to print a default answer for any other input.\n\n<img src=\"https://images.code.org/8ec655795042a2a3a22a85f0886f0d21-image-1446067226646.png\" style=\"width: 100%\">\n\n<a href=\"https://images.code.org/8ec655795042a2a3a22a85f0886f0d21-image-1446067226646.png\" target=\"_blank\">Open diagram in a new tab</a>\n",
         "U3L23 Chatbot Intro 1a_markdown_instruction": "So far, the digital assisant doesn't do much. We'll need to start building up a conversation between the user and the digital assistant. Do the tasks for the next several levels inside the `generateResponse` function.\n\n<details>\n<summary>**Tips of the trade (click)**</summary>\nThe event handler should only handle an event and the actions directly related to it. Everything that is involved in the running of the application (such as storing the user's input inside a variable), should be abstracted into a different function (i.e. `generateResponse`). If that function starts to get complicated, you should create a *helper function* to help abstract some of the complexity.\n</details>\n\n### Instructions:\nThe following instructions should be carried out within the `generateResponse` function\n\n* First store the user's input inside a variable (let's call it `userInput`).\n\n* Make sure the input is correctly stored - log the variable to the console\n\n<details>\n<summary>**Example**</summary>\nIf I type \"What is a function?\" into the input box of my digital assistant, the following lines should be logged to the console.\n<br/><br/>\n&nbsp;&nbsp;&nbsp;text_input entered text: What is a function?<br/>\n&nbsp;&nbsp;&nbsp;generating response<br/>\n&nbsp;&nbsp;&nbsp;What is a function?\n</details>\n<br/>\n<details>\n<summary>**Hint**</summary>\nYou may need the getText block.\n</details>\n\n<br/>\nThe next level will deal with building the conversation variable",
         "U3L23 Chatbot Intro 2_markdown_instruction": "Just like Siri and Cortana, you will want your digital assistant to display both the user's question as well as its own response. How can we build a question-answer conversation?\n\n### Instructions\n\n* Use string concatenation to build up the conversation variable\n* The user's input should be stored as `User: <input>`\n* The assistant's answer should be stored as `<name>: <default response>`\n* Once these phrases have been added to the conversation variable, log the variable to the console\n\n<details>\n<summary>**Example**</summary>\nIf the user asks \"What color is the sky?\" and my assistant's name is \"Bot\" and its default response is \"I don't know.\", the conversation variable should log<br/><br/>\n&nbsp;&nbsp;&nbsp;User: What color is the sky?Bot: I don't know.\n<br/><br/>\n</details>\n\n\n<details>\n<summary>**String concatenation review**</summary>\n<ul>\n<li>You can join two strings together by typing `var newString = str1 + str2;` if str1 and str2 are pre-existing variables.</li>\n<li>If you want to *append* a string to another string, you can type `existingString = existingString + \"appended string\";`</li>\n<li>To shorten things up, you can type `existingString += \"appended string\";`</li>\n</ul><br/>\n</details>\n\n\n<details>\n<summary>**Hint**</summary>\nThe variables `NAME`, `conversation`, `DEFAULT_RESPONSE`, and `userInput` already exist\n</details>\n\n<br/>\nIn the next level, we will look at printing the conversation onto the screen.",
@@ -5358,7 +4921,6 @@
         "U3L25 Free Response 1_markdown_instruction": "What is the output of this code segment?\n\n\tvar sentence = \"This sentence contains five words?\";\n\tvar spaceIndex = sentence.indexOf(\" \");\n\tvar smallerSentence = sentence.substring(spaceIndex + 1, sentence.length);\n\tconsole.log(smallerSentence);\n\n<br/>\n",
         "U3L25 Free Response 2_markdown_instruction": "What is the output of this code segment?\n\n    var str = \"Hello World\";\n\tvar worldIndex = str.indexOf(\"World\");\n\tvar answer = str.substring(worldIndex, worldIndex + \"World\".length);\n\tconsole.log(answer);\n\n<br/>\n",
         "U3L25 Free Response 3_markdown_instruction": "What is the output of this code segment?\n\n\tvar phrase = \"I am so\";\n\tvar emotion = \"excited\";\n\tvar sentence = phrase + \" \" + emotion.toUpperCase() + \"!\";\n\tconsole.log(sentence);\n<br/>\n",
-        "U3L25 Free Response Getting Started_markdown_instruction": "Examine these three sentences.\n\n1. If you have the letter S in your name, please stand.\n\n2. If you play an instrument or sing in the choir, please put your head down on your desk.\n\n3. If the number of your home address is an even number please stand, otherwise please put your head down on your desk.\n\nDescribe how they are logically different.\n\n\n",
         "U3L25 String Parsing 1_markdown_instruction": "## Challenge 1\n\nGiven the string <samp>\"Wisdom begins with wonder.\"</samp> what is the index of the following characters <samp>W</samp>, <samp>t</samp>, <samp>w</samp>, <samp>.</samp>, <samp>d</samp>, and <samp>k</samp>? Confirm your expectation using the <samp>string.indexOf()</samp> function.",
         "U3L25 String Parsing 2_markdown_instruction": "## Challenge 2.1\n\nUse <samp>str.length</samp> to find the length of the following strings:\n\n1. <samp>“Hello World”</samp>\n\n1. <samp>“Computer science rocks!\"</samp>\n\n1. <samp>“I promise to do my homework every day.”</samp>\n",
         "U3L25 String Parsing 3_markdown_instruction": "## Challenge 2.2\n\nWrite a password length checker that writes “yes” to the console if a string has a length greater than 10, or “no” if its length is less than or equal to 10.\n\nTest your function using two strings, one that will satisfy each conditional option.",
@@ -5680,7 +5242,6 @@
         "aE3alternateB_markdown_instruction": "\n<div style=\"color: #7665a0; font-size: 1.6em; line-height: 1.4em;\" >\nThis alternate shows what the image would look like if the user chose triangle napkins and got bold with the code.\n</div>\n\n",
         "aE4_markdown_instruction": "\n<div style=\"color: #7665a0; font-size: 1.6em; line-height: 1.4em;\" >\nOh No! Our napkins are too small! \n<br/><br/>\nWe need to have the napkins twice as big and still keep the tablecloth the same size. What numbers can you change to make that happen?\n<br/><br/>\n(as shown in triangles)\n</div>\n\n",
         "aE5_markdown_instruction": "\n<div style=\"color: #7665a0; font-size: 1.6em; line-height: 1.4em;\" >\nLet's pull the look together with some window decorations!\n<br/><br/>\nHere is your original code for drawing a line of napkins. Piece 4 lines together to make a pattern that goes around your window frame.\n</div>\n\n",
-        "aE6_markdown_instruction": "<div style=\"color: #7665a0; font-size: 1.6em; line-height: 1.4em;\" >\nThe guests are going to need something to sit on!\n<br/><br/>\nThe artist has an idea to make some fun chairs. How many times do you need to loop this to draw half of a circle?\n</div>",
         "aE7_markdown_instruction": "<div style=\"color: #7665a0; font-size: 1.6em; line-height: 1.4em;\" >\nHow about some streamers?\n<br/><br/>\nIf you create another loop like this one, but turn left instead of right, what happens? \n\nCan you repeat all of that to draw this wave?\n</div>",
         "aE8_markdown_instruction": "<div style=\"color: #7665a0; font-size: 1.6em; line-height: 1.4em;\" >\nThe artist wants to give picture frames as party favors!\n<br/><br/>\nLet's loop the code from our streamers four times to create this frame. \n<br/><br/>We've added a special block called `curvy corner` to give you fancy round corners!\n</div>",
         "aEfreeplay_markdown_instruction": "<div style=\"color: #7665a0; font-size: 1.6em; line-height: 1.4em;\" >\n<b>Free Play:</b>\nFor a final touch, we need some ornaments to hang around the house.\n<br/><br/>\nCan you design a decoration to spice up the party?\n</div>\n<br/>\n<h4>\n<details>\n<summary>Need Ideas?</summary>\n<br/>\n<br/>\nTry making a tablecloth full of diamond napkins!  \n<img src=\"https://images.code.org/2c092ea5edbb33405c019110df3f5710-image-1466095499984.43.56.png\" width=\"200px\"/>  \n<hr/>\n<br/>\nMake an ornament!   \n<img src=\"https://images.code.org/361d2ad667853418a040ec9383505169-image-1466096394561.56.12.png\" width=\"200px\"/>  \n<hr/>\n\n<br/>Make something completely new!  \n<img src=\"https://images.code.org/6809a1bd2a364ae7e0ff42745ec1fe1b-image-1466097871045.23.44.png\" width=\"200px\"/>  \n<hr/>\n\n\n</details>\n</h4>\n\n",
@@ -5912,10 +5473,6 @@
         "courseF_artist_variables_challenge1a_markdown_instruction": "<img src=\"https://images.code.org/7469d6b9aaaae532d864caecb65bd2cc-image-1444706295435.54.39.png\" width=\"250px\"/>\n\nYou've now learned everything you need to know to make a pattern like this! This puzzle is meant to be difficult.  Can you stick with it until you figure out the solution?",
         "courseF_artist_variables_challenge2_markdown_instruction": "<img src=\"https://images.code.org/7469d6b9aaaae532d864caecb65bd2cc-image-1444706295435.54.39.png\" width=\"250px\"/>\n\nYou've now learned everything you need to know to make a pattern like this! This puzzle is meant to be difficult.  Can you stick with it until you figure out the solution?",
         "courseF_artist_variables_challenge2_2018_markdown_instruction": "<img src=\"https://images.code.org/7469d6b9aaaae532d864caecb65bd2cc-image-1444706295435.54.39.png\" width=\"250px\"/>\n\nYou've now learned everything you need to know to make a pattern like this! This puzzle is meant to be difficult.  Can you stick with it until you figure out the solution?",
-        "courseF_bee_functions7_markdown_instruction": "Rebuild your function from the last puzzle to solve this maze.\n\nTurn left at the honeycomb and right at the flowers.  \n**Note:** Some corners are unmarked!",
-        "courseF_bee_functions7_2018_markdown_instruction": "Rebuild your function from the last puzzle to solve this maze.\n\nTurn left at the honeycomb and right at the flowers.  \n**Note:** Some corners are unmarked!",
-        "courseF_bee_functionsPre7_markdown_instruction": "Now try building a function to solve this maze.  How is it different from last time?  \n\nTurn left at the honeycomb and right at the flowers.  \n**Note:** Some corners are unmarked!",
-        "courseF_bee_functionsPre7_2018_markdown_instruction": "Now try building a function to solve this maze.  How is it different from last time?  \n\nTurn left at the honeycomb and right at the flowers.  \n**Note:** Some corners are unmarked!",
         "courseF_bee_fwp2_markdown_instruction": "Here's some code that solves the last puzzle.  \nLet's pull it into a function, then call the function to check this row for nectar.  \n___\nThis may seem like a strange step now, but it will be really helpful soon!",
         "courseF_bee_fwp2_2018_markdown_instruction": "Here's some code that solves the last puzzle.  \nLet's pull it into a function, then call the function to check this row for nectar.  \n___\nThis may seem like a strange step now, but it will be really helpful soon!",
         "coursef_maze_ramp3_markdown_instruction": "*\"This pig is ruffling my feathers.\"*\n\nThere is one extra block that is going to cause the bird to crash.  \nThrow it away by dragging it back to the toolbox.",
@@ -6057,17 +5614,9 @@
         "cspu5_assess1_shortresponse_markdown_instruction": "**Short Response:** \n\nTwo students, Kaleb and Hunter, are arguing in class about an App Lab project. Kaleb states, “Huh, a button and an image are basically the same thing!”.  Hunter replies, “That doesn’t make any sense at all!”.\n\tExplain what Kaleb may have meant by that statement.",
         "cspu5_assess1_shortresponse_2018_markdown_instruction": "**Short Response:** \n\nTwo students, Kaleb and Hunter, are arguing in class about an App Lab project. Kaleb states, “Huh, a button and an image are basically the same thing!”.  Hunter replies, “That doesn’t make any sense at all!”.\n\tExplain what Kaleb may have meant by that statement.",
         "cspu5_assess1_shortresponse_exam_prep_markdown_instruction": "**Short Response:** \n\nTwo students, Kaleb and Hunter, are arguing in class about an App Lab project. Kaleb states, “Huh, a button and an image are basically the same thing!”.  Hunter replies, “That doesn’t make any sense at all!”.\n\tExplain what Kaleb may have meant by that statement.",
-        "cspu5_assess2_match_markdown_instruction": "The following statements are true about event handlers, if-statements, or both in App Lab.  Place the letter next to each statement into the appropriate area of the table below.\n\n**Statements:**\n\n* A. Runs code in response to a user action\n* B. Runs code in response to statement being evaluated to True\n* C. Evaluated sequentially once execution is “inside” the statement\n* D. Can be triggered at any time\n* E. Used to run a block of code\n\n_Note: Make a new line for each box._\n\n    Event Handlers: x, x\n    if Statements: x, x\n    Both: x, x\n",
-        "cspu5_assess2_pseudocode2_markdown_instruction": "A _pseudocode_ program is started below that asks the user for input and stores the value in a variable.  Continue writing pseudocode to accomplish this task: \n\nIf the hour is within the school day (8 to 15) then display  “Nice to see you!”, Otherwise, display “It’s time to go home!\n\n    DISPLAY (“Enter the hour of day (0-23)”)\n    hour <- INPUT ()",
-        "cspu5_assess2_pseudocode2_2018_markdown_instruction": "A _pseudocode_ program is started below that asks the user for input and stores the value in a variable.  Continue writing pseudocode to accomplish this task: \n\nIf the hour is within the school day (8 to 15) then display  “Nice to see you!”, Otherwise, display “It’s time to go home!\n\n    DISPLAY (“Enter the hour of day (0-23)”)\n    hour <- INPUT ()",
-        "cspu5_assess2_pseudocode2_exam_prep_markdown_instruction": "A _pseudocode_ program is started below that asks the user for input and stores the value in a variable.  Continue writing pseudocode to accomplish this task: \n\nIf the hour is within the school day (8 to 15) then display  “Nice to see you!”, Otherwise, display “It’s time to go home!\n\n    DISPLAY (“Enter the hour of day (0-23)”)\n    hour <- INPUT ()",
-        "cspu5_assess2_trueFalse_markdown_instruction": "For each expression below, circle whether it evaluates to true or false. The variable temperature is initialized as shown.\n\n    var temperature = 30;\n\nExpressions:\n\n* (temperature > 0) && (temperature < 32)\n* (temperature > 0) || (temperature < 32)\n* (temperature != 0) && (temperature < 32)\n* (temperature == 0) || (temperature > 32)\n* (temperature < 0) || (temperature > 32)\n\n_Note: Write \"true\" or \"false\" on a new line for each expression._",
         "cspu5_assess4_challenge_markdown_instruction": "**Challenge Question:** Imagine a list that represents the height in feet of equidistant points along a mountainous path.  Here is an example of the data with a diagram that reflects the data. For example: \n\n![](https://images.code.org/8046cbdb63d7e7d68eb133c58362b099-image-1477862090668.png)\n\nA programmer wants to write a procedure that calculates the net elevation -  total number of feet a traveler goes up and down. For example, looking at the first 3 segments of travel, the net elevation is 7 feet (up 3, up 1, down 3).  \n\nWrite procedure (in either JavaScript or pseudocode) called processPath(data) that:\n\n* Accepts a list of elevation data as a parameter\n* For every value in the list\n\t* Compute the absolute difference between that value and the value next to it on the path\n\t* Add the difference to a running total\n* Return the total elevation traveled\n\nIn writing your procedure you should assume that you can call a function called _absDiff(a,b)_.\n\n![](https://images.code.org/0a7b91a830319d5d690ddf2efa264395-image-1477862205239.png)\n\nWrite the full procedure below.",
         "cspu5_assess4_challenge_2018_markdown_instruction": "**Challenge Question:** Imagine a list that represents the height in feet of equidistant points along a mountainous path.  Here is an example of the data with a diagram that reflects the data. For example: \n\n![](https://images.code.org/8046cbdb63d7e7d68eb133c58362b099-image-1477862090668.png)\n\nA programmer wants to write a procedure that calculates the net elevation -  total number of feet a traveler goes up and down. For example, looking at the first 3 segments of travel, the net elevation is 7 feet (up 3, up 1, down 3).  \n\nWrite procedure (in either JavaScript or pseudocode) called processPath(data) that:\n\n* Accepts a list of elevation data as a parameter\n* For every value in the list\n\t* Compute the absolute difference between that value and the value next to it on the path\n\t* Add the difference to a running total\n* Return the total elevation traveled\n\nIn writing your procedure you should assume that you can call a function called _absDiff(a,b)_.\n\n![](https://images.code.org/0a7b91a830319d5d690ddf2efa264395-image-1477862205239.png)\n\nWrite the full procedure below.",
         "cspu5_assess4_challenge_exam_prep_markdown_instruction": "**Challenge Question:** Imagine a list that represents the height in feet of equidistant points along a mountainous path.  Here is an example of the data with a diagram that reflects the data. For example: \n\n![](https://images.code.org/8046cbdb63d7e7d68eb133c58362b099-image-1477862090668.png)\n\nA programmer wants to write a procedure that calculates the net elevation -  total number of feet a traveler goes up and down. For example, looking at the first 3 segments of travel, the net elevation is 7 feet (up 3, up 1, down 3).  \n\nWrite procedure (in either JavaScript or pseudocode) called processPath(data) that:\n\n* Accepts a list of elevation data as a parameter\n* For every value in the list\n\t* Compute the absolute difference between that value and the value next to it on the path\n\t* Add the difference to a running total\n* Return the total elevation traveled\n\nIn writing your procedure you should assume that you can call a function called _absDiff(a,b)_.\n\n![](https://images.code.org/0a7b91a830319d5d690ddf2efa264395-image-1477862205239.png)\n\nWrite the full procedure below.",
-        "cspu5_assess4_scoreToGrade_markdown_instruction": "**Short Answer:** Jimmy wrote the procedure scoreToGrade which accepts as a parameter score - a quiz score in the range 0-100.  The procedure is supposed to return a letter grade. He feels confident his program is correct because he has tested it using the scores 3, 29, and 67. Sally believes the program is incorrect because she tested the values 73 and 86.  The code is syntactically correct, and the programs runs without generating an error, but the results are sometimes wrong.  Why does the procedure return the correct values for Jimmy’s tests but not Sally’s? \n\n    PROCEDURE scoreToGrade (percent)\n    {\n        IF (percent < 60)\n        {\n            RETURN (\"F\")\n        }\n        ELSE IF (percent >= 60)\n        {\n        \tRETURN (\"D\")\n        }\n        ELSE IF (percent >= 70)\n        {\n            RETURN (\"C\")\n        }\n        ELSE IF (percent >= 80)\n        {\n            RETURN (\"B\")\n        }\n        ELSE\n        {\n        \tRETURN (\"A\")\n        }\n    }",
-        "cspu5_assess4_scoreToGrade_2018_markdown_instruction": "**Short Answer:** Jimmy wrote the procedure scoreToGrade which accepts as a parameter score - a quiz score in the range 0-100.  The procedure is supposed to return a letter grade. He feels confident his program is correct because he has tested it using the scores 3, 29, and 67. Sally believes the program is incorrect because she tested the values 73 and 86.  The code is syntactically correct, and the programs runs without generating an error, but the results are sometimes wrong.  Why does the procedure return the correct values for Jimmy’s tests but not Sally’s? \n\n    PROCEDURE scoreToGrade (percent)\n    {\n        IF (percent < 60)\n        {\n            RETURN (\"F\")\n        }\n        ELSE IF (percent >= 60)\n        {\n        \tRETURN (\"D\")\n        }\n        ELSE IF (percent >= 70)\n        {\n            RETURN (\"C\")\n        }\n        ELSE IF (percent >= 80)\n        {\n            RETURN (\"B\")\n        }\n        ELSE\n        {\n        \tRETURN (\"A\")\n        }\n    }",
-        "cspu5_assess4_scoreToGrade_exam_prep_markdown_instruction": "**Short Answer:** Jimmy wrote the procedure scoreToGrade which accepts as a parameter score - a quiz score in the range 0-100.  The procedure is supposed to return a letter grade. He feels confident his program is correct because he has tested it using the scores 3, 29, and 67. Sally believes the program is incorrect because she tested the values 73 and 86.  The code is syntactically correct, and the programs runs without generating an error, but the results are sometimes wrong.  Why does the procedure return the correct values for Jimmy’s tests but not Sally’s? \n\n    PROCEDURE scoreToGrade (percent)\n    {\n        IF (percent < 60)\n        {\n            RETURN (\"F\")\n        }\n        ELSE IF (percent >= 60)\n        {\n        \tRETURN (\"D\")\n        }\n        ELSE IF (percent >= 70)\n        {\n            RETURN (\"C\")\n        }\n        ELSE IF (percent >= 80)\n        {\n            RETURN (\"B\")\n        }\n        ELSE\n        {\n        \tRETURN (\"A\")\n        }\n    }",
         "debrief-monday_markdown_instruction": "# Day 1: End of Day Debrief\n\n* What were the key takeaways the leads had today (e.g., teachers’ gots and needs, working together as facilitators, keeping a healthy cohort rapport, etc.)?\n* Did they decide to make any adjustments to their approach for the next day? If so, what do they plan to change and why?",
         "debrief-thursday_markdown_instruction": "# Day 4: End of Day Debrief\n\n* What were the key takeaways the leads had today (e.g., teachers’ gots and needs, working together as facilitators, keeping a healthy cohort rapport, etc.)?\n* Did they decide to make any adjustments to their approach for the next day? If so, what do they plan to change and why?",
         "debrief-tuesday_markdown_instruction": "# Day 2: End of Day Debrief\n\n* What were the key takeaways the leads had today (e.g., teachers’ gots and needs, working together as facilitators, keeping a healthy cohort rapport, etc.)?\n* Did they decide to make any adjustments to their approach for the next day? If so, what do they plan to change and why?",
@@ -6111,7 +5660,6 @@
         "grade4_artist_functions_windows2_markdown_instruction": "Let's take the code for the window and add it to function `draw a window`. Now, we can call the function any time we need to draw a window without having to write the code again. \n\n<img src=\"https://images.code.org/57c016bcafe697e6ddb196e0f13c9ef9-image-1468602046641.gif\" width=\"450px\"/>\n<br/> \n\nTry solving this puzzle by creating `draw a window` and calling it five times. Watch out for the door!\n\n- The top windows are 50 pixels away from each other.  \n- The bottom windows are 100 pixels below the top set.",
         "grade4_artist_nestedLoops_challenge_markdown_instruction": "<img src=\"https://images.code.org/c876143212d195192013582f57c6df04-image-1445625392518.36.18.png\" width=\"150px;\" style=\"mix-blend-mode: multiply;\" />\n\n**Play time:**  Here is the code for an interesting shape.   \n\nWhat happens when you repeat it multiple times, turning between each iteration?   \n\nNotice that the turns in this shape add up to *420 degrees*, which means that when your artist is done drawing, it will be facing a different direction than when you started.  That new direction is exactly *60 degrees* to the *right* of where you began.\n\n<hr/>\n\n<h4>\n<details>\n<summary><b>Repeat 4</b></summary>\n<br/>\nIf you want to come full circle in just 4 repetitions, you need the artist to turn a total of **360 degrees/4 = 90 degrees** each time.  You can do that by adding an extra `turn right by 30 degrees` block to the outer loop (since **60+30 = 90**.)  \n<br/>\n<img src=\"https://images.code.org/9da67a628ed72e87520a02a0d917e2af-image-1440132370113.44.12.png\" width=\"500px;\" style=\"mix-blend-mode: multiply;\" />\n<br/><br/>\n</details>\n</h4>\n\n<h4>\n<details>\n<summary><b>Repeat 6</b></summary>\n<br/>\nWhen you repeat the shape as-is 6 times, you get a total rotation of **6x60 degrees** which is a full **360 degree** cycle.  \n<img src=\"https://images.code.org/b79f96b87097ce3afe8a6a5608d04e36-image-1440132287456.44.27.png\"  width=\"500px;\"  style=\"mix-blend-mode: multiply;\" />\n</details>\n</h4>\n\n<h4>\n<details>\n<summary><b>Repeat 12</b></summary>\n<br/>\nIf you want to repeat the image 12 times, you need the artist to turn a total of **360 degrees/12 = 30 degrees** each iteration.  That means you will need to adjust the artist back a bit with `turn left by 30 degrees` before you repeat the shape again.   <br/><br/>\n<img src=\"https://images.code.org/ad254952522674496918561096817c66-image-1440132424792.44.01.png\" width=\"500px;\" style=\"mix-blend-mode: multiply;\" />\n</details>\n</h4>\n\nNow it's your turn!  Can you recreate each image by repeating the starting shape?  ",
         "grade4_artist_nestedLoops_challenge2_markdown_instruction": "<img src=\"https://images.code.org/6cac10470af71bbb5d75bf5e2669046f-image-1439939145211.png\" width=\"200px\"/>\n\nNow for a challenge!  \n\nHere is a design that uses only blocks that you have already been shown.  Can you figure out how to recreate it?  Feel free to use trial and error. You are not expected to get it perfect the first time.\n\nThe repeated shape is almost identical to the one from the last puzzle, except that the length used in the first loop is a little smaller. ",
-        "grade4_artist_nested_loop_triangles2_markdown_instruction": "Let's make a quick adjustment to get completely different image!  \n<b>Hint:</b> ? × 10 = 360",
         "grade4_artist_parameters_squares1_markdown_instruction": "Click \"edit\" to fill in the function definition of `draw a square` and add a parameter.  \nIt should take a length parameter just like the triangle. \n\n**This time, draw 3 squares:** 25, 50 and 75 pixels in length. The lefthand corners are each 100 pixels away from the last.",
         "grade4_artist_parameters_triangles2b_markdown_instruction": "Can you complete this drawing? \n\nThe sides of each triangle are 25 pixels larger than the last.  \nThe first triangle has 25 pixel sides.",
         "grade4_artist_parameters_triangles3_markdown_instruction": "Can you complete this drawing? \n\nThe sides of each triangle are 25 pixels larger than the last.  \nThe first triangle has 25 pixel sides.",
@@ -6133,7 +5681,6 @@
         "grade5_artist_binary10_markdown_instruction": "<img src=\"https://images.code.org/0a30f23ff6138828d053267719d34fa8-image-1444435986654.00.22.png\" width=\"250px\"/>\n\n**Free-Play Inspiration:** You've now learned everything you need to know to make a pattern like this! \n\nIf this picture inspires you, try to make something similar. Otherwise, create something all your own. \n<br/>\n",
         "grade5_artist_for_loops7_markdown_instruction": "Make three small changes to the code from the last level to get this!  \n(This time, the `for` loop increments by 2)",
         "grade5_artist_for_loops7b_markdown_instruction": "Use the counter inside the `set alpha` block to get this faded center.  \n(This hexagon pattern was made using a 60 degree turn.)",
-        "grade5_artist_for_loopsfreeplay11_markdown_instruction": "<br/><br/>\n<img src=\"https://images.code.org/9b5897e059bb29bd2faf8504659a3cfc-image-1440719685627.49.33.png\" width=\"250px\"/>  \n<br/><br/>\n**Free-Play Inspiration:** You've now learned everything you need to know to make a pattern like this! If this picture inspires you, try to make something similar. Otherwise, create something all your own.",
         "grade5_artist_for_loopsfreeplay12_markdown_instruction": "**Free Play:** Try using the `counter` variable with other drawing elements to make magical images like this one.\n\n<img src=\"https://images.code.org/7910db8adf2ec7e4c5fdad0101c68368-image-1475911466143.24.03.png\" width=\"400px\"/>",
         "grade5_artist_functionparameters10_markdown_instruction": "<img src=\"https://images.code.org/1df195df9d808f0dd539bef0f5c2958b-image-1443049871563.02.54.png\" width=\"250px\"/>\n\n**Free-Play Inspiration:** You've now learned everything you need to know to make a pattern like this! \n\nIf this picture inspires you, try to make something similar. Otherwise, create something all your own.\n\nNotice: We've used the `set alpha` block to make the \"petals\" fade toward the outside.",
         "grade5_artist_functionparameters8_markdown_instruction": "Use the function from the last puzzle to draw this series of shapes.  \n\n\nThe triangle has 21 pixel sides, and the sides in each following shape are 7 pixels longer than the last.   \nUse the `multiplication`block to make this all happen with just one function call.\n<hr/>\nBe sure to jump 100 pixels between polygons. <br>\nThe multipication block looks like this ![](https://images.code.org/55e293447c6b26bbbcf29cda2036706b-image-1481322763779.png)\n\n",
