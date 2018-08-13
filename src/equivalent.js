@@ -33,6 +33,22 @@ const sanitize = function (node) {
       }
     }
   }
+
+  if (node.type === "text") {
+    // Normalize whitespace.
+    // According to https://www.w3.org/TR/css-text-3/#collapse:
+    // 1. all spaces and tabs immediately before and after a line break are ignored
+    node.value = node.value.replace(/[ \t]*([\n\r]+)[ \t]*/g, "$1");
+    // 2. all tab characters are handled as space characters
+    node.value = node.value.replace(/\t/g, " ");
+    // 3. line breaks are converted to spaces
+    node.value = node.value.replace(/[\n\r]/g, " ");
+    // 4. any space immediately following another space is ignored
+    node.value = node.value.replace(/ {2}/g, " ");
+    // 5. sequences of spaces at the beginning and end of a line are removed
+    node.value = node.value.replace(/^ */g, "");
+    node.value = node.value.replace(/ *$/g, "");
+  }
 }
 
 /**
