@@ -22,6 +22,28 @@ const sanitize = function (node) {
     if (node.properties && node.properties.alt === "") {
       delete node.properties.alt
     }
+
+    // urls should be decoded (really we just want them to be standardized, but
+    // decoding a decoded URI is a noop, whereas encoding an encoded URI will
+    // double-encode it, so we standardize on decoded)
+    if (node.properties && node.properties.src) {
+      try {
+        node.properties.src = decodeURI(node.properties.src);
+      } catch (e) {
+        // Ignore malformed URIs; these are probably just template strings
+      }
+    }
+  }
+
+  if (node.tagName === "a") {
+    // urls should be properly decoded
+    if (node.properties && node.properties.href) {
+      try {
+        node.properties.href = decodeURI(node.properties.href);
+      } catch (e) {
+        // Ignore malformed URIs; these are probably just template strings
+      }
+    }
   }
 
   if (node.children) {
