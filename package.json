@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "src/index.js",
   "dependencies": {
-    "@code-dot-org/redactable-markdown": "git://github.com/code-dot-org/redactable-markdown.git#2c203baa8e00fe20ebc908f7c9a4f30fc82a1f7d",
+    "@code-dot-org/redactable-markdown": "git://github.com/code-dot-org/redactable-markdown.git#e815d8c11a6c07a27ea96deda4a06313bd356d02",
     "marked": "^0.3.6",
     "rehype-parse": "^5.0.0",
     "tape": "^4.9.1"
