@@ -46,6 +46,20 @@ const sanitize = function (node) {
     }
   }
 
+  // top-level images shouldn't be children of paragraphs
+  if (node.type === "root" && node.children && node.children.length) {
+    for (let i = 0; i < node.children.length; i++) {
+      const child = node.children[i];
+      if (
+        child.tagName === 'p' &&
+        child.children.length === 1 &&
+        child.children[0].tagName === 'img'
+      ) {
+        node.children[i] = child.children[0];
+      }
+    }
+  }
+
   if (node.children) {
     // text nodes containing just whitespace are irrelevant
     for (let i = 0; i < node.children.length; i++) {
