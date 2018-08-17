@@ -8,39 +8,11 @@
         "Course 4 Artist 12_authored_hint": {
           "Course_4_Artist_12_c": "1) The first three lines are 60 pixels long and you need to turn 60 degrees.  \n 2) The next two lines are 80 pixels long and you need to turn 120 degrees "
         },
-        "course1_collector_loops_challenge3_authored_hint": {
-          "courseB_collector_loops_challenge1_c": "Move East twice between each path.\n<xml>\n  <block type=\"maze_moveEast\"/><next>\n  <block type=\"maze_moveEast\"/></next>next>\n  </xml>\nYou can do this with only 14 blocks. Click for one more hint to see a solution. \n"
-        },
-        "course1_playlab_events_challenge2_authored_hint": {
-          "courseA_playlab_events_challenge2_a": "You can make a bird sing.\n<xml> \n  <block type=\"studio_whenSpriteClicked\">\n    <title name=\"SPRITE\">2</title>\n    <next>\n\n          <block type=\"studio_saySprite\">\n            <title name=\"SPRITE\">2</title>\n            <title name=\"TEXT\">Tweet</title>\n          </block>\n    </next>\n  </block></xml>",
-          "courseA_playlab_events_challenge2_b": "You can make a robot beep.\n<xml>\n  <block type=\"studio_whenSpriteClicked\">\n    <title name=\"SPRITE\">6</title>\n    <next>\n      \n          <block type=\"studio_playSound\">\n            <title name=\"SOUND\">winpoint</title>\n          </block>\n        </next>\n\n  </block></xml>"
-        },
         "course2_artist_nestedLoops_challenge1_authored_hint": {
           "courseD_artist_nestedLoops_challenge1_c": "Use a nested loop:\n  - Repeat 8 times\n    - draw an octagon\n    - draw a triangle\n    - jump forward 50 pixels\n    - turn right by 90 degrees"
         },
-        "course3_artist_functions_challenge2_authored_hint": {
-          "courseE_artist_functions_challenge1_a": "<xml>\n\n  <block type=\"jump_to_xy\">\n    <title name=\"XPOS\">350</title>\n    <title name=\"YPOS\">200</title>\n  </block>\n  </xml>\n  \nThis `jump to` block lets you move the zombie artist to any pixel on the grid, whenever you want. It works by moving him a number of pixels over to the right and a number of pixels down. This is always counted from the top left corner, which it means it doesn't matter where the zombie artist is *before* the command is run!\n\n![](https://images.code.org/b90fdddc778a27e199221271ce91307a-image-1496450976440.png)"
-        },
         "course3_bee_debugging_challenge1_authored_hint": {
           "courseD_bee_debugging_challenge1_c": "After the bee makes it to the bottom row, have it repeat these commands:\n\n* Repeat 2 times:\n  * Move forward\n  * Make 3 honey\n* Move backward"
-        },
-        "course3_collector_debugging_challenge2_authored_hint": {
-          "courseD_collector_debugging_challenge2_a": "Start by focusing on collect TWO gems from each of the first two piles.\n\n![](https://images.code.org/8493c16a5b913b91e28b36eb2b280b8c-image-1494775939149.25.04 AM copy.png)\nUse these blocks.\n\n<xml>\n<block type=\"collector_collect\"></block>\n<block type=\"controls_repeat\" limit=\"2\">\n    <title name=\"TIMES\">2</title>\n  </block>\n<block type=\"maze_move\" x=\"175px\" y=\"17px\">\n                    <title name=\"DIR\">moveForward</title>\n\n                  </block>\n                  \n \n   <block type=\"controls_repeat\" limit=\"2\" x=\"175px\" y=\"56px\">\n    <title name=\"TIMES\">2</title>\n  </block>\n\n\n\n</xml>"
-        },
-        "course3_playlab_challenge2_authored_hint": {
-          "courseE_playlab_challenge2_c": "You will need to add more conditional statements to give the actors more things to say.\n\n<xml><block type=\"studio_ifActorHasEmotionParams\" inline=\"true\">\n            <title name=\"EMOTION\">2</title>\n            <value name=\"SPRITE\">\n              <block type=\"math_number\">\n                <title name=\"NUM\">1</title>\n              </block>\n            </value>\n            <statement name=\"DO\">\n              <block type=\"studio_saySpriteParamsTime\" inline=\"true\">\n            <value name=\"SPRITE\">\n              <block type=\"math_number\">\n                <title name=\"NUM\">1</title>\n              </block>\n            </value>\n            <value name=\"TEXT\">\n              <block type=\"text\">\n                <title name=\"TEXT\">???</title>\n              </block>\n            </value>\n            <value name=\"TIME\">\n              <block type=\"math_number\">\n                <title name=\"NUM\">2</title>\n              </block>\n            </value>\n          </block>\n              </statement></block></xml>\n              \nDon't forget to change which moods the actor will show inside of the `repeat forever` loop. You can also set the moods randomly!"
-        },
-        "course4_artist_functions_challenge2_authored_hint": {
-          "courseE_artist_functions_challenge1_a": "<xml>\n\n  <block type=\"jump_to_xy\">\n    <title name=\"XPOS\">350</title>\n    <title name=\"YPOS\">200</title>\n  </block>\n  </xml>\n  \nThis `jump to` block lets you move the zombie artist to any pixel on the grid, whenever you want. It works by moving him a number of pixels over to the right and a number of pixels down. This is always counted from the top left corner, which it means it doesn't matter where the zombie artist is *before* the command is run!\n\n![](https://images.code.org/b90fdddc778a27e199221271ce91307a-image-1496450976440.png)"
-        },
-        "course4_playlab_variables_challenge3_authored_hint": {
-          "courseF_playlab_variables_challenge3_c": "You will need to add more conditional statements to give the actors more things to say.\n\n<xml><block type=\"studio_ifActorHasEmotionParams\" inline=\"true\">\n            <title name=\"EMOTION\">2</title>\n            <value name=\"SPRITE\">\n              <block type=\"math_number\">\n                <title name=\"NUM\">1</title>\n              </block>\n            </value>\n            <statement name=\"DO\">\n              <block type=\"variables_set\" inline=\"false\">\n                <title name=\"VAR\">fortune</title>\n                <value name=\"VALUE\">\n                  <block type=\"text\" movable=\"false\">\n                    <title name=\"TEXT\">???</title>\n                  </block>\n                </value>\n              </block>\n              </statement></block></xml>\n              \nDon't forget to change which moods the actor will show inside of the `repeat forever` loop. You can also set the moods randomly!"
-        },
-        "courseA_artist_loops5_authored_hint": {
-          "courseA_artist_loops5_c": "Since you can only use one <xml><block type=\"simple_move_right\"/></xml> block, try putting it inside of the \n<xml><block type=\"controls_repeat_simplified_dropdown\"><title name=\"TIMES\" config=\"3-10\">???</title></block></xml>\nloop."
-        },
-        "courseA_artist_loops5_2018_authored_hint": {
-          "courseA_artist_loops5_c": "Since you can only use one <xml><block type=\"simple_move_right\"/></xml> block, try putting it inside of the \n<xml><block type=\"controls_repeat_simplified_dropdown\"><title name=\"TIMES\" config=\"3-10\">???</title></block></xml>\nloop."
         },
         "courseA_artist_loops7_authored_hint": {
           "courseA_artist_loops7_c": "Remember you can put more than one block in a <xml><block type=\"controls_repeat\">\n<title name=\"TIMES\">???</title>\n</block></xml> loop."
@@ -49,49 +21,28 @@
           "courseA_artist_loops7_c": "Remember you can put more than one block in a <xml><block type=\"controls_repeat\">\n<title name=\"TIMES\">???</title>\n</block></xml> loop."
         },
         "courseA_artist_loops9_authored_hint": {
-          "courseA_artist_loops9_b": "The block you add should go inside of the \n<xml><block type=\"controls_repeat_simplified_dropdown\"><title name=\"TIMES\" config=\"3-10\">5</title></block>\n</xml> loop."
+          "courseA_artist_loops9_b": "The block you add should go inside of the \n\n<xml><block type=\"controls_repeat_simplified_dropdown\"><title name=\"TIMES\" config=\"3-10\">5</title></block>\n</xml> loop."
         },
         "courseA_artist_loops9_2018_authored_hint": {
-          "courseA_artist_loops9_b": "The block you add should go inside of the \n<xml><block type=\"controls_repeat_simplified_dropdown\"><title name=\"TIMES\" config=\"3-10\">5</title></block>\n</xml> loop."
+          "courseA_artist_loops9_b": "The block you add should go inside of the \n\n<xml><block type=\"controls_repeat_simplified_dropdown\"><title name=\"TIMES\" config=\"3-10\">5</title></block>\n</xml> loop."
         },
         "courseA_collector_loops3_authored_hint": {
-          "courseA_collector_loops3_a": "Try using a \n<xml><block type=\"controls_repeat_simplified_dropdown\"><title name=\"TIMES\" config=\"3-10\">???</title></block></xml> loop!"
+          "courseA_collector_loops3_a": "Try using a \n\n<xml><block type=\"controls_repeat_simplified_dropdown\"><title name=\"TIMES\" config=\"3-10\">???</title></block></xml> loop!"
         },
         "courseA_collector_loops3_2018_authored_hint": {
-          "courseA_collector_loops3_a": "Try using a \n<xml><block type=\"controls_repeat_simplified_dropdown\"><title name=\"TIMES\" config=\"3-10\">???</title></block></xml> loop!"
+          "courseA_collector_loops3_a": "Try using a \n\n<xml><block type=\"controls_repeat_simplified_dropdown\"><title name=\"TIMES\" config=\"3-10\">???</title></block></xml> loop!"
         },
         "courseA_harvester_loops2_authored_hint": {
-          "courseA_harvester_loops2_a": "Your code will have **four** `move west`\n<xml><block type=\"maze_moveWest\"/></xml>\nblocks and **four** <xml>\n`pick corn`\n  <block type=\"harvester_corn\"/>\n</xml> blocks. "
+          "courseA_harvester_loops2_a": "Your code will have **four** `move west`\n\n<xml><block type=\"maze_moveWest\"/></xml>\n\nblocks and **four** <xml>\n`pick corn`\n  <block type=\"harvester_corn\"/>\n</xml> blocks. "
         },
         "courseA_maze_seq13_authored_hint": {
-          "courseA_maze_seq13_c": "These <xml><block type=\"maze_moveNorth\"/></xml>\n<xml><block type=\"maze_moveEast\"/></xml> blocks will help you move closer to the pig."
+          "courseA_maze_seq13_c": "These <xml><block type=\"maze_moveNorth\"/></xml>\n\n<xml><block type=\"maze_moveEast\"/></xml> blocks will help you move closer to the pig."
         },
         "courseA_maze_seq13_2018_authored_hint": {
-          "courseA_maze_seq13_c": "These <xml><block type=\"maze_moveNorth\"/></xml>\n<xml><block type=\"maze_moveEast\"/></xml> blocks will help you move closer to the pig."
-        },
-        "courseA_playlab_events_challenge1a_authored_hint": {
-          "courseA_playlab_events_challenge1_a": "You can make a bird sing.\n<xml> \n  <block type=\"studio_whenSpriteClicked\">\n    <title name=\"SPRITE\">2</title>\n    <next>\n\n          <block type=\"studio_saySprite\">\n            <title name=\"SPRITE\">2</title>\n            <title name=\"TEXT\">Tweet</title>\n          </block>\n    </next>\n  </block></xml>",
-          "courseA_playlab_events_challenge1_b": "You can make a robot beep.\n<xml>\n  <block type=\"studio_whenSpriteClicked\">\n    <title name=\"SPRITE\">6</title>\n    <next>\n      \n          <block type=\"studio_playSound\">\n            <title name=\"SOUND\">winpoint</title>\n          </block>\n        </next>\n\n  </block></xml>"
-        },
-        "courseA_playlab_events_challenge2_authored_hint": {
-          "courseA_playlab_events_challenge2_a": "You can make a bird sing.\n<xml> \n  <block type=\"studio_whenSpriteClicked\">\n    <title name=\"SPRITE\">2</title>\n    <next>\n\n          <block type=\"studio_saySprite\">\n            <title name=\"SPRITE\">2</title>\n            <title name=\"TEXT\">Tweet</title>\n          </block>\n    </next>\n  </block></xml>",
-          "courseA_playlab_events_challenge2_b": "You can make a robot beep.\n<xml>\n  <block type=\"studio_whenSpriteClicked\">\n    <title name=\"SPRITE\">6</title>\n    <next>\n      \n          <block type=\"studio_playSound\">\n            <title name=\"SOUND\">winpoint</title>\n          </block>\n        </next>\n\n  </block></xml>"
-        },
-        "courseA_playlab_events_challenge2_2018_authored_hint": {
-          "courseA_playlab_events_challenge2_a": "You can make a bird sing.\n<xml> \n  <block type=\"studio_whenSpriteClicked\">\n    <title name=\"SPRITE\">2</title>\n    <next>\n\n          <block type=\"studio_saySprite\">\n            <title name=\"SPRITE\">2</title>\n            <title name=\"TEXT\">Tweet</title>\n          </block>\n    </next>\n  </block></xml>",
-          "courseA_playlab_events_challenge2_b": "You can make a robot beep.\n<xml>\n  <block type=\"studio_whenSpriteClicked\">\n    <title name=\"SPRITE\">6</title>\n    <next>\n      \n          <block type=\"studio_playSound\">\n            <title name=\"SOUND\">winpoint</title>\n          </block>\n        </next>\n\n  </block></xml>"
-        },
-        "courseB_collector_loops_challenge1_authored_hint": {
-          "courseB_collector_loops_challenge1_c": "Move East twice between each path.\n<xml>\n  <block type=\"maze_moveEast\"><next>\n  <block type=\"maze_moveEast\"></block></next></block>\n  </xml>\nYou can do this with only 14 blocks. Click for one more hint to see a solution. \n"
-        },
-        "courseB_collector_loops_challenge1_2018_authored_hint": {
-          "courseB_collector_loops_challenge1_c": "Move East twice between each path.\n<xml>\n  <block type=\"maze_moveEast\"><next>\n  <block type=\"maze_moveEast\"></block></next></block>\n  </xml>\nYou can do this with only 14 blocks. Click for one more hint to see a solution. \n"
+          "courseA_maze_seq13_c": "These <xml><block type=\"maze_moveNorth\"/></xml>\n\n<xml><block type=\"maze_moveEast\"/></xml> blocks will help you move closer to the pig."
         },
         "courseB_iceage_loops3_authored_hint": {
           "courseB_iceage_loops3_a": "Use this new block!\n <xml><block type=\"controls_repeat_simplified_dropdown\">\n    <title name=\"TIMES\" config=\"3-10\">5</title>\n    </block></xml>"
-        },
-        "courseC_PlayLab_events_challenge1_xy_blocks_authored_hint": {
-          "courseC_PlayLab_events_challenge_b": "You can decide which numbers to use, by thinking about how far over from the top left corner you'd like to move. The first number is the number of pixels from the left. The second number is the number of pixels from the top.\n<xml><block type=\"studio_setSpriteXY\" inline=\"true\">\n    <value name=\"SPRITE\">\n      <block type=\"math_number\" movable=\"false\">\n        <title name=\"NUM\">1</title>\n      </block>\n    </value>\n    <value name=\"XPOS\">\n      <block type=\"math_number\" movable=\"false\">\n        <title name=\"NUM\">37</title>\n      </block>\n    </value>\n    <value name=\"YPOS\">\n      <block type=\"math_number\" movable=\"false\">\n        <title name=\"NUM\">187</title>\n      </block>\n    </value>\n  </block></xml>\n![](https://images.code.org/b1559bf476ceb59f880c43271c5e10b2-image-1494111787192.59.49 PM.png)"
         },
         "courseD_artist_nestedLoops4_authored_hint": {
           "courseD_artist_nestedLoops4_a": "To make a circle:\n- Repeat 360 times\n  - Move forward 1 pixel\n  - Turn left 1 degree"
@@ -138,12 +89,6 @@
         "courseD_bee_nestedLoops7_2018_authored_hint": {
           "courseD_bee_nestedLoops7_c": "Nest your blocks three deep, like this:\n\n- repeat 4\n   - repeat 3\n      - repeat 12\n          - get nectar\n      - move forward\n   - turn right\n"
         },
-        "courseD_collector_debugging_challenge2_authored_hint": {
-          "courseD_collector_debugging_challenge2_a": "Start by collecting just **two** gems from each of the first **two** piles.\n\n![](https://images.code.org/8493c16a5b913b91e28b36eb2b280b8c-image-1494775939149.25.04 AM copy.png)\nUse these blocks.\n\n<xml>\n<block type=\"collector_collect\"></block>\n<block type=\"controls_repeat\" limit=\"2\">\n    <title name=\"TIMES\">2</title>\n  </block>\n<block type=\"maze_move\" x=\"175px\" y=\"17px\">\n                    <title name=\"DIR\">moveForward</title>\n\n                  </block>\n                  \n \n   <block type=\"controls_repeat\" limit=\"2\" x=\"175px\" y=\"56px\">\n    <title name=\"TIMES\">2</title>\n  </block>\n\n\n\n</xml>"
-        },
-        "courseD_collector_debugging_challenge2_2018_authored_hint": {
-          "courseD_collector_debugging_challenge2_a": "Start by collecting just **two** gems from each of the first **two** piles.\n\n![](https://images.code.org/8493c16a5b913b91e28b36eb2b280b8c-image-1494775939149.25.04 AM copy.png)\nUse these blocks.\n\n<xml>\n<block type=\"collector_collect\"></block>\n<block type=\"controls_repeat\" limit=\"2\">\n    <title name=\"TIMES\">2</title>\n  </block>\n<block type=\"maze_move\" x=\"175px\" y=\"17px\">\n                    <title name=\"DIR\">moveForward</title>\n\n                  </block>\n                  \n \n   <block type=\"controls_repeat\" limit=\"2\" x=\"175px\" y=\"56px\">\n    <title name=\"TIMES\">2</title>\n  </block>\n\n\n\n</xml>"
-        },
         "courseD_farmer_condLoops2_authored_hint": {
           "courseD_farmer_condLoops2_c": "Your `if` statement could look a lot like this:\n\n- if at corn\n  - pick corn\n- else\n  - if at lettuce\n  \t- pick lettuce\n\nIf there is nothing there, you won't pick anything!"
         },
@@ -176,29 +121,8 @@
           "courseD_artist_functions9_c": "To draw a line of triangles:\n  - repeat 4 times\n    - draw a triangle\n    - jump forward 50 pixels",
           "courseD_artist_functions9_d": "To draw the diamond:\n  - repeat 2 times\n    - draw a line of triangles\n    - turn 60 degrees\n    - draw a line of triangles\n    - turn 120 degrees"
         },
-        "courseE_artist_functions_challenge2_authored_hint": {
-          "courseE_artist_functions_challenge1_a": "<xml>\n\n  <block type=\"jump_to_xy\">\n    <title name=\"XPOS\">350</title>\n    <title name=\"YPOS\">200</title>\n  </block>\n  </xml>\n  \nThis `jump to` block lets you move the zombie artist to any pixel on the grid, whenever you want. It works by moving him a number of pixels over to the right and a number of pixels down. This is always counted from the top left corner, which it means it doesn't matter where the zombie artist is *before* the command is run!\n\n![](https://images.code.org/b90fdddc778a27e199221271ce91307a-image-1496450976440.png)"
-        },
-        "courseE_artist_functions_challenge2_2018_authored_hint": {
-          "courseE_artist_functions_challenge1_a": "<xml>\n\n  <block type=\"jump_to_xy\">\n    <title name=\"XPOS\">350</title>\n    <title name=\"YPOS\">200</title>\n  </block>\n  </xml>\n  \nThis `jump to` block lets you move the zombie artist to any pixel on the grid, whenever you want. It works by moving him a number of pixels over to the right and a number of pixels down. This is always counted from the top left corner, which it means it doesn't matter where the zombie artist is *before* the command is run!\n\n![](https://images.code.org/b90fdddc778a27e199221271ce91307a-image-1496450976440.png)"
-        },
-        "courseE_playlab_challenge2_authored_hint": {
-          "courseE_playlab_challenge2_c": "You will need to add more conditional statements to give the actors more things to say.\n\n<xml><block type=\"studio_ifActorHasEmotionParams\" inline=\"true\">\n            <title name=\"EMOTION\">2</title>\n            <value name=\"SPRITE\">\n              <block type=\"math_number\">\n                <title name=\"NUM\">1</title>\n              </block>\n            </value>\n            <statement name=\"DO\">\n              <block type=\"studio_saySpriteParamsTime\" inline=\"true\">\n            <value name=\"SPRITE\">\n              <block type=\"math_number\">\n                <title name=\"NUM\">1</title>\n              </block>\n            </value>\n            <value name=\"TEXT\">\n              <block type=\"text\">\n                <title name=\"TEXT\">???</title>\n              </block>\n            </value>\n            <value name=\"TIME\">\n              <block type=\"math_number\">\n                <title name=\"NUM\">2</title>\n              </block>\n            </value>\n          </block>\n              </statement></block></xml>\n              \nDon't forget to change which moods the actor will show inside of the `repeat forever` loop. You can also set the moods randomly!"
-        },
-        "courseE_playlab_variables_challenge2_authored_hint": {
-          "courseF_playlab_variables_challenge3_c": "You will need to add more conditional statements to give the actors more things to say.\n\n<xml><block type=\"studio_ifActorHasEmotionParams\" inline=\"true\">\n            <title name=\"EMOTION\">2</title>\n            <value name=\"SPRITE\">\n              <block type=\"math_number\">\n                <title name=\"NUM\">1</title>\n              </block>\n            </value>\n            <statement name=\"DO\">\n              <block type=\"variables_set\" inline=\"false\">\n                <title name=\"VAR\">fortune</title>\n                <value name=\"VALUE\">\n                  <block type=\"text\" movable=\"false\">\n                    <title name=\"TEXT\">???</title>\n                  </block>\n                </value>\n              </block>\n              </statement></block></xml>\n              \nDon't forget to change which moods the actor will show inside of the `repeat forever` loop. You can also set the moods randomly!"
-        },
         "courseF_IceAge_8_authored_hint": {
           "iceage_sound_and_points_b": "You will need both the `score a point` block and the 'play ____ sound` block to pass this level."
-        },
-        "courseF_bee_functions6_authored_hint": {
-          "courseF_bee_functions6_a": "If the puzzle seems challenging, try building your function a little at a time.  \n\nAdd some blocks, then try it out. Add more, then try again.  Soon, you'll get there!\n\n\n<xml>\n  <block type=\"procedures_defnoreturn\" editable=\"false\">\n    <mutation/>\n    <title name=\"NAME\">get nectar make honey</title>\n    <statement name=\"STACK\">\n\n    </statement>\n  </block>\n</xml>"
-        },
-        "courseF_bee_functionsPre7_authored_hint": {
-          "courseF_bee_functions7_b": "Remember to build code inside of the green function block.\n\n<xml>\n  <block type=\"procedures_defnoreturn\" editable=\"false\">\n    <mutation/>\n    <title name=\"NAME\">get nectar make honey</title>\n    <statement name=\"STACK\">\n\n    </statement>\n  </block>\n</xml>\n"
-        },
-        "courseF_playlab_variables_challenge3_authored_hint": {
-          "courseF_playlab_variables_challenge3_c": "You will need to add more conditional statements to give the actors more things to say.\n\n<xml><block type=\"studio_ifActorHasEmotionParams\" inline=\"true\">\n            <title name=\"EMOTION\">2</title>\n            <value name=\"SPRITE\">\n              <block type=\"math_number\">\n                <title name=\"NUM\">1</title>\n              </block>\n            </value>\n            <statement name=\"DO\">\n              <block type=\"variables_set\" inline=\"false\">\n                <title name=\"VAR\">fortune</title>\n                <value name=\"VALUE\">\n                  <block type=\"text\" movable=\"false\">\n                    <title name=\"TEXT\">???</title>\n                  </block>\n                </value>\n              </block>\n              </statement></block></xml>\n              \nDon't forget to change which moods the actor will show inside of the `repeat forever` loop. You can also set the moods randomly!"
         },
         "grade3_Conditionals_11_authored_hint": {
           "2-3_Bee_Conditionals_14_c": "Try breaking this up into two separate chunks:  \n\n![](https://images.code.org/670ac0889a8f523865ff4099b4c54844-image-1463445460440.36.42.png)\n\n1) Gather nectar 3 times\n  - Move forward 5 times\n  - Check to see if nectar, if so: get it\n  - Turn left\n  \n2) Make honey \n  - Move forward one time\n  - Make two honey"
@@ -214,622 +138,6 @@
         },
         "iceage_sound_and_points_2018_authored_hint": {
           "iceage_sound_and_points_b": "You will need both the `score a point` block and the 'play ____ sound` block to pass this level."
-        }
-      },
-      "match": {
-        "2-3 Big Event Match 1": {
-          "/script_assets/k_1_images/unplugged_images/big_event_1_a1.png": "/script_assets/k_1_images/unplugged_images/big_event_1_a1.png",
-          "/script_assets/k_1_images/unplugged_images/big_event_1_a2.png": "/script_assets/k_1_images/unplugged_images/big_event_1_a2.png",
-          "/script_assets/k_1_images/unplugged_images/big_event_1_a3.png": "/script_assets/k_1_images/unplugged_images/big_event_1_a3.png",
-          "/script_assets/k_1_images/unplugged_images/big_event_1_a4.png": "/script_assets/k_1_images/unplugged_images/big_event_1_a4.png",
-          "/script_assets/k_1_images/unplugged_images/big_event_1_desc.png": "/script_assets/k_1_images/unplugged_images/big_event_1_desc.png",
-          "/script_assets/k_1_images/unplugged_images/big_event_1_q1.png": "/script_assets/k_1_images/unplugged_images/big_event_1_q1.png",
-          "/script_assets/k_1_images/unplugged_images/big_event_1_q2.png": "/script_assets/k_1_images/unplugged_images/big_event_1_q2.png",
-          "/script_assets/k_1_images/unplugged_images/big_event_1_q3.png": "/script_assets/k_1_images/unplugged_images/big_event_1_q3.png",
-          "/script_assets/k_1_images/unplugged_images/big_event_1_q4.png": "/script_assets/k_1_images/unplugged_images/big_event_1_q4.png"
-        },
-        "2-3 Binary Match 1": {
-          "/script_assets/2-3_images/unplugged/binary_1_a1.png": "/script_assets/2-3_images/unplugged/binary_1_a1.png",
-          "/script_assets/2-3_images/unplugged/binary_1_a2.png": "/script_assets/2-3_images/unplugged/binary_1_a2.png",
-          "/script_assets/2-3_images/unplugged/binary_1_a3.png": "/script_assets/2-3_images/unplugged/binary_1_a3.png",
-          "/script_assets/2-3_images/unplugged/binary_1_a4.png": "/script_assets/2-3_images/unplugged/binary_1_a4.png",
-          "/script_assets/2-3_images/unplugged/binary_1_q.png, 250": "/script_assets/2-3_images/unplugged/binary_1_q.png, 250"
-        },
-        "2-3 Graph Paper Match 1": {
-          "/script_assets/2-3_images/unplugged/graph_paper_2_a1.png": "/script_assets/2-3_images/unplugged/graph_paper_2_a1.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_2_a2.png": "/script_assets/2-3_images/unplugged/graph_paper_2_a2.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_2_a3.png": "/script_assets/2-3_images/unplugged/graph_paper_2_a3.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_2_q1.png": "/script_assets/2-3_images/unplugged/graph_paper_2_q1.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_2_q2.png": "/script_assets/2-3_images/unplugged/graph_paper_2_q2.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_2_q3.png": "/script_assets/2-3_images/unplugged/graph_paper_2_q3.png"
-        },
-        "2-3 Maze Match 2": {
-          "/script_assets/2-3_images/maze/2-3_maze_match_2_a1.png": "/script_assets/2-3_images/maze/2-3_maze_match_2_a1.png",
-          "/script_assets/2-3_images/maze/2-3_maze_match_2_a2.png": "/script_assets/2-3_images/maze/2-3_maze_match_2_a2.png",
-          "/script_assets/2-3_images/maze/2-3_maze_match_2_a3.png": "/script_assets/2-3_images/maze/2-3_maze_match_2_a3.png",
-          "/script_assets/2-3_images/maze/2-3_maze_match_2_q1.png": "/script_assets/2-3_images/maze/2-3_maze_match_2_q1.png",
-          "/script_assets/2-3_images/maze/2-3_maze_match_2_q2.png": "/script_assets/2-3_images/maze/2-3_maze_match_2_q2.png",
-          "/script_assets/2-3_images/maze/2-3_maze_match_2_q3.png": "/script_assets/2-3_images/maze/2-3_maze_match_2_q3.png"
-        },
-        "2-3 Relay Programming Match 1": {
-          "/script_assets/2-3_images/unplugged/graph_paper_2_a1.png": "/script_assets/2-3_images/unplugged/graph_paper_2_a1.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_2_a2.png": "/script_assets/2-3_images/unplugged/graph_paper_2_a2.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_2_a3.png": "/script_assets/2-3_images/unplugged/graph_paper_2_a3.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_2_q1.png": "/script_assets/2-3_images/unplugged/graph_paper_2_q1.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_2_q2.png": "/script_assets/2-3_images/unplugged/graph_paper_2_q2.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_2_q3.png": "/script_assets/2-3_images/unplugged/graph_paper_2_q3.png"
-        },
-        "2-3 artist loops match 1": {
-          "/script_assets/2-3_images/artist/2-3_artistloops_match_1_a1.png": "/script_assets/2-3_images/artist/2-3_artistloops_match_1_a1.png",
-          "/script_assets/2-3_images/artist/2-3_artistloops_match_1_a2.png": "/script_assets/2-3_images/artist/2-3_artistloops_match_1_a2.png",
-          "/script_assets/2-3_images/artist/2-3_artistloops_match_1_a3.png": "/script_assets/2-3_images/artist/2-3_artistloops_match_1_a3.png",
-          "/script_assets/2-3_images/artist/2-3_artistloops_match_1_a4.png": "/script_assets/2-3_images/artist/2-3_artistloops_match_1_a4.png",
-          "/script_assets/2-3_images/artist/2-3_artistloops_match_1_q1.png": "/script_assets/2-3_images/artist/2-3_artistloops_match_1_q1.png",
-          "/script_assets/2-3_images/artist/2-3_artistloops_match_1_q2.png": "/script_assets/2-3_images/artist/2-3_artistloops_match_1_q2.png",
-          "/script_assets/2-3_images/artist/2-3_artistloops_match_1_q3.png": "/script_assets/2-3_images/artist/2-3_artistloops_match_1_q3.png",
-          "/script_assets/2-3_images/artist/2-3_artistloops_match_1_q4.png": "/script_assets/2-3_images/artist/2-3_artistloops_match_1_q4.png"
-        },
-        "2-3 artist match 1": {
-          "/script_assets/2-3_images/artist/2-3_artist_match_1_a1.png": "/script_assets/2-3_images/artist/2-3_artist_match_1_a1.png",
-          "/script_assets/2-3_images/artist/2-3_artist_match_1_a2.png": "/script_assets/2-3_images/artist/2-3_artist_match_1_a2.png",
-          "/script_assets/2-3_images/artist/2-3_artist_match_1_a3.png": "/script_assets/2-3_images/artist/2-3_artist_match_1_a3.png",
-          "/script_assets/2-3_images/artist/2-3_artist_match_1_a4.png": "/script_assets/2-3_images/artist/2-3_artist_match_1_a4.png",
-          "/script_assets/2-3_images/artist/2-3_artist_match_1_q1.png": "/script_assets/2-3_images/artist/2-3_artist_match_1_q1.png",
-          "/script_assets/2-3_images/artist/2-3_artist_match_1_q2.png": "/script_assets/2-3_images/artist/2-3_artist_match_1_q2.png",
-          "/script_assets/2-3_images/artist/2-3_artist_match_1_q3.png": "/script_assets/2-3_images/artist/2-3_artist_match_1_q3.png",
-          "/script_assets/2-3_images/artist/2-3_artist_match_1_q4.png": "/script_assets/2-3_images/artist/2-3_artist_match_1_q4.png"
-        },
-        "2-3 bounce match 1": {
-          "/script_assets/2-3_images/bounce/2-3_bounce_match_1_a1.png": "/script_assets/2-3_images/bounce/2-3_bounce_match_1_a1.png",
-          "/script_assets/2-3_images/bounce/2-3_bounce_match_1_a2.png": "/script_assets/2-3_images/bounce/2-3_bounce_match_1_a2.png",
-          "/script_assets/2-3_images/bounce/2-3_bounce_match_1_a3.png": "/script_assets/2-3_images/bounce/2-3_bounce_match_1_a3.png",
-          "/script_assets/2-3_images/bounce/2-3_bounce_match_1_a4.png": "/script_assets/2-3_images/bounce/2-3_bounce_match_1_a4.png",
-          "/script_assets/2-3_images/bounce/2-3_bounce_match_1_a5.png": "/script_assets/2-3_images/bounce/2-3_bounce_match_1_a5.png",
-          "/script_assets/2-3_images/bounce/2-3_bounce_match_1_q1.png": "/script_assets/2-3_images/bounce/2-3_bounce_match_1_q1.png",
-          "/script_assets/2-3_images/bounce/2-3_bounce_match_1_q2.png": "/script_assets/2-3_images/bounce/2-3_bounce_match_1_q2.png",
-          "/script_assets/2-3_images/bounce/2-3_bounce_match_1_q3.png": "/script_assets/2-3_images/bounce/2-3_bounce_match_1_q3.png",
-          "/script_assets/2-3_images/bounce/2-3_bounce_match_1_q4.png": "/script_assets/2-3_images/bounce/2-3_bounce_match_1_q4.png",
-          "/script_assets/2-3_images/bounce/2-3_bounce_match_1_q5.png": "/script_assets/2-3_images/bounce/2-3_bounce_match_1_q5.png"
-        },
-        "2-3 flappy match 1": {
-          "/script_assets/2-3_images/flappy/2-3_flappy_match_1_a1.png": "/script_assets/2-3_images/flappy/2-3_flappy_match_1_a1.png",
-          "/script_assets/2-3_images/flappy/2-3_flappy_match_1_a2.png": "/script_assets/2-3_images/flappy/2-3_flappy_match_1_a2.png",
-          "/script_assets/2-3_images/flappy/2-3_flappy_match_1_a3.png": "/script_assets/2-3_images/flappy/2-3_flappy_match_1_a3.png",
-          "/script_assets/2-3_images/flappy/2-3_flappy_match_1_q1.png": "/script_assets/2-3_images/flappy/2-3_flappy_match_1_q1.png",
-          "/script_assets/2-3_images/flappy/2-3_flappy_match_1_q2.png": "/script_assets/2-3_images/flappy/2-3_flappy_match_1_q2.png",
-          "/script_assets/2-3_images/flappy/2-3_flappy_match_1_q3.png": "/script_assets/2-3_images/flappy/2-3_flappy_match_1_q3.png"
-        },
-        "2-3 maze match 1": {
-          "/script_assets/2-3_images/maze/2-3_maze_match_1_a1.png": "/script_assets/2-3_images/maze/2-3_maze_match_1_a1.png",
-          "/script_assets/2-3_images/maze/2-3_maze_match_1_a2.png": "/script_assets/2-3_images/maze/2-3_maze_match_1_a2.png",
-          "/script_assets/2-3_images/maze/2-3_maze_match_1_a3.png": "/script_assets/2-3_images/maze/2-3_maze_match_1_a3.png",
-          "/script_assets/2-3_images/maze/2-3_maze_match_1_q1.png": "/script_assets/2-3_images/maze/2-3_maze_match_1_q1.png",
-          "/script_assets/2-3_images/maze/2-3_maze_match_1_q2.png": "/script_assets/2-3_images/maze/2-3_maze_match_1_q2.png",
-          "/script_assets/2-3_images/maze/2-3_maze_match_1_q3.png": "/script_assets/2-3_images/maze/2-3_maze_match_1_q3.png"
-        },
-        "4-5 Computational Thinking Match 1": {
-          "/script_assets/4-5_images/unplugged/comp_thinking_2_a1.png": "/script_assets/4-5_images/unplugged/comp_thinking_2_a1.png",
-          "/script_assets/4-5_images/unplugged/comp_thinking_2_a2.png": "/script_assets/4-5_images/unplugged/comp_thinking_2_a2.png",
-          "/script_assets/4-5_images/unplugged/comp_thinking_2_a3.png": "/script_assets/4-5_images/unplugged/comp_thinking_2_a3.png",
-          "/script_assets/4-5_images/unplugged/comp_thinking_2_a4.png": "/script_assets/4-5_images/unplugged/comp_thinking_2_a4.png"
-        },
-        "4-5 Suncatchers Match 1": {
-          "/script_assets/4-5_images/unplugged/suncatchers_1.png": "/script_assets/4-5_images/unplugged/suncatchers_1.png",
-          "/script_assets/4-5_images/unplugged/suncatchers_1_a1.png": "/script_assets/4-5_images/unplugged/suncatchers_1_a1.png",
-          "/script_assets/4-5_images/unplugged/suncatchers_1_a2.png": "/script_assets/4-5_images/unplugged/suncatchers_1_a2.png",
-          "/script_assets/4-5_images/unplugged/suncatchers_1_a3.png": "/script_assets/4-5_images/unplugged/suncatchers_1_a3.png",
-          "/script_assets/4-5_images/unplugged/suncatchers_1_a4.png": "/script_assets/4-5_images/unplugged/suncatchers_1_a4.png"
-        },
-        "4-5 maze match 1": {
-          "/script_assets/4-5_images/maze/4-5_maze_match_1_a1.png": "/script_assets/4-5_images/maze/4-5_maze_match_1_a1.png",
-          "/script_assets/4-5_images/maze/4-5_maze_match_1_a2.png": "/script_assets/4-5_images/maze/4-5_maze_match_1_a2.png",
-          "/script_assets/4-5_images/maze/4-5_maze_match_1_a3.png": "/script_assets/4-5_images/maze/4-5_maze_match_1_a3.png",
-          "/script_assets/4-5_images/maze/4-5_maze_match_1_q1.png": "/script_assets/4-5_images/maze/4-5_maze_match_1_q1.png",
-          "/script_assets/4-5_images/maze/4-5_maze_match_1_q2.png": "/script_assets/4-5_images/maze/4-5_maze_match_1_q2.png",
-          "/script_assets/4-5_images/maze/4-5_maze_match_1_q3.png": "/script_assets/4-5_images/maze/4-5_maze_match_1_q3.png"
-        },
-        "Coordinate Matching": {
-          "/script_assets/msm/Unit 1/exercise_3_ninjacat.png": "/script_assets/msm/Unit 1/exercise_3_ninjacat.png"
-        },
-        "K-1 Artist 2 Match 1": {
-          "/script_assets/k_1_images/artist_images/square_above_ball.png": "/script_assets/k_1_images/artist_images/square_above_ball.png",
-          "/script_assets/k_1_images/artist_images/square_below_ball.png": "/script_assets/k_1_images/artist_images/square_below_ball.png",
-          "/script_assets/k_1_images/artist_images/square_next_ball.png": "/script_assets/k_1_images/artist_images/square_next_ball.png"
-        },
-        "K-1 Artist 2 Match 2": {
-          "/script_assets/k_1_images/artist_images/large_rectangle.png": "/script_assets/k_1_images/artist_images/large_rectangle.png",
-          "/script_assets/k_1_images/artist_images/large_square.png": "/script_assets/k_1_images/artist_images/large_square.png",
-          "/script_assets/k_1_images/artist_images/large_triangle.png": "/script_assets/k_1_images/artist_images/large_triangle.png",
-          "/script_assets/k_1_images/artist_images/medium_circle.png": "/script_assets/k_1_images/artist_images/medium_circle.png",
-          "/script_assets/k_1_images/artist_images/medium_rectangle.png": "/script_assets/k_1_images/artist_images/medium_rectangle.png",
-          "/script_assets/k_1_images/artist_images/small_circle.png": "/script_assets/k_1_images/artist_images/small_circle.png",
-          "/script_assets/k_1_images/artist_images/small_square.png": "/script_assets/k_1_images/artist_images/small_square.png",
-          "/script_assets/k_1_images/artist_images/small_triangle.png": "/script_assets/k_1_images/artist_images/small_triangle.png"
-        },
-        "K-1 Artist 2 Match 3": {
-          "/script_assets/k_1_images/artist_images/large_circle.png": "/script_assets/k_1_images/artist_images/large_circle.png",
-          "/script_assets/k_1_images/artist_images/large_rectangle.png": "/script_assets/k_1_images/artist_images/large_rectangle.png",
-          "/script_assets/k_1_images/artist_images/large_square.png": "/script_assets/k_1_images/artist_images/large_square.png",
-          "/script_assets/k_1_images/artist_images/large_triangle2.png": "/script_assets/k_1_images/artist_images/large_triangle2.png",
-          "/script_assets/k_1_images/artist_images/medium_triangle.png": "/script_assets/k_1_images/artist_images/medium_triangle.png",
-          "/script_assets/k_1_images/artist_images/small_circle.png": "/script_assets/k_1_images/artist_images/small_circle.png",
-          "/script_assets/k_1_images/artist_images/small_rectangle2.png": "/script_assets/k_1_images/artist_images/small_rectangle2.png",
-          "/script_assets/k_1_images/artist_images/small_square.png": "/script_assets/k_1_images/artist_images/small_square.png"
-        },
-        "K-1 Artist Loops Match 1": {
-          "/script_assets/k_1_images/artist_images/K-1_artistloops_match_1_a1.png": "/script_assets/k_1_images/artist_images/K-1_artistloops_match_1_a1.png",
-          "/script_assets/k_1_images/artist_images/K-1_artistloops_match_1_a2.png": "/script_assets/k_1_images/artist_images/K-1_artistloops_match_1_a2.png",
-          "/script_assets/k_1_images/artist_images/K-1_artistloops_match_1_a3.png": "/script_assets/k_1_images/artist_images/K-1_artistloops_match_1_a3.png",
-          "/script_assets/k_1_images/artist_images/K-1_artistloops_match_1_q1.png": "/script_assets/k_1_images/artist_images/K-1_artistloops_match_1_q1.png",
-          "/script_assets/k_1_images/artist_images/K-1_artistloops_match_1_q2.png": "/script_assets/k_1_images/artist_images/K-1_artistloops_match_1_q2.png",
-          "/script_assets/k_1_images/artist_images/K-1_artistloops_match_1_q3.png": "/script_assets/k_1_images/artist_images/K-1_artistloops_match_1_q3.png"
-        },
-        "K-1 Bee Loops Match 1": {
-          "/script_assets/k_1_images/bee_images/4_gnectar.png": "/script_assets/k_1_images/bee_images/4_gnectar.png",
-          "/script_assets/k_1_images/bee_images/5_ghoney.png": "/script_assets/k_1_images/bee_images/5_ghoney.png",
-          "/script_assets/k_1_images/bee_images/r4_gnectar.png": "/script_assets/k_1_images/bee_images/r4_gnectar.png",
-          "/script_assets/k_1_images/bee_images/r5_ghoney.png": "/script_assets/k_1_images/bee_images/r5_ghoney.png",
-          "/script_assets/k_1_images/move_blocks/EEEEE.png": "/script_assets/k_1_images/move_blocks/EEEEE.png",
-          "/script_assets/k_1_images/move_blocks/NNN.png": "/script_assets/k_1_images/move_blocks/NNN.png",
-          "/script_assets/k_1_images/move_blocks/r3_N.png": "/script_assets/k_1_images/move_blocks/r3_N.png",
-          "/script_assets/k_1_images/move_blocks/r5_E.png": "/script_assets/k_1_images/move_blocks/r5_E.png"
-        },
-        "K-1 Big Event Match 1": {
-          "/script_assets/k_1_images/unplugged_images/big_event_1_a1.png": "/script_assets/k_1_images/unplugged_images/big_event_1_a1.png",
-          "/script_assets/k_1_images/unplugged_images/big_event_1_a2.png": "/script_assets/k_1_images/unplugged_images/big_event_1_a2.png",
-          "/script_assets/k_1_images/unplugged_images/big_event_1_a3.png": "/script_assets/k_1_images/unplugged_images/big_event_1_a3.png",
-          "/script_assets/k_1_images/unplugged_images/big_event_1_desc.png": "/script_assets/k_1_images/unplugged_images/big_event_1_desc.png",
-          "/script_assets/k_1_images/unplugged_images/big_event_1_q1.png": "/script_assets/k_1_images/unplugged_images/big_event_1_q1.png",
-          "/script_assets/k_1_images/unplugged_images/big_event_1_q2.png": "/script_assets/k_1_images/unplugged_images/big_event_1_q2.png",
-          "/script_assets/k_1_images/unplugged_images/big_event_1_q3.png": "/script_assets/k_1_images/unplugged_images/big_event_1_q3.png"
-        },
-        "K-1 Flappy Match 1": {
-          "/script_assets/k_1_images/flappy_images/click.png": "/script_assets/k_1_images/flappy_images/click.png",
-          "/script_assets/k_1_images/flappy_images/end.png": "/script_assets/k_1_images/flappy_images/end.png",
-          "/script_assets/k_1_images/flappy_images/flap.png": "/script_assets/k_1_images/flappy_images/flap.png",
-          "/script_assets/k_1_images/flappy_images/hit_ground.png": "/script_assets/k_1_images/flappy_images/hit_ground.png",
-          "/script_assets/k_1_images/flappy_images/pass_obstacle.png": "/script_assets/k_1_images/flappy_images/pass_obstacle.png",
-          "/script_assets/k_1_images/flappy_images/score.png": "/script_assets/k_1_images/flappy_images/score.png"
-        },
-        "K-1 Happy Maps Match 1": {
-          "/script_assets/k_1_images/unplugged_images/happy_maps_2_q1.png": "/script_assets/k_1_images/unplugged_images/happy_maps_2_q1.png",
-          "/script_assets/k_1_images/unplugged_images/happy_maps_2_q2.png": "/script_assets/k_1_images/unplugged_images/happy_maps_2_q2.png",
-          "/script_assets/k_1_images/unplugged_images/happy_maps_2_q3.png": "/script_assets/k_1_images/unplugged_images/happy_maps_2_q3.png",
-          "/script_assets/k_1_images/unplugged_images/left.png": "/script_assets/k_1_images/unplugged_images/left.png",
-          "/script_assets/k_1_images/unplugged_images/right.png": "/script_assets/k_1_images/unplugged_images/right.png",
-          "/script_assets/k_1_images/unplugged_images/up.png": "/script_assets/k_1_images/unplugged_images/up.png"
-        },
-        "K-1 Maze Match 1": {
-          "/script_assets/k_1_images/maze_images/maze_EN.png": "/script_assets/k_1_images/maze_images/maze_EN.png",
-          "/script_assets/k_1_images/maze_images/maze_ENE.png": "/script_assets/k_1_images/maze_images/maze_ENE.png",
-          "/script_assets/k_1_images/maze_images/maze_WSS.png": "/script_assets/k_1_images/maze_images/maze_WSS.png",
-          "/script_assets/k_1_images/maze_images/maze_WW.png": "/script_assets/k_1_images/maze_images/maze_WW.png",
-          "/script_assets/k_1_images/move_blocks/EN.png": "/script_assets/k_1_images/move_blocks/EN.png",
-          "/script_assets/k_1_images/move_blocks/ENE.png": "/script_assets/k_1_images/move_blocks/ENE.png",
-          "/script_assets/k_1_images/move_blocks/WSS.png": "/script_assets/k_1_images/move_blocks/WSS.png",
-          "/script_assets/k_1_images/move_blocks/WW.png": "/script_assets/k_1_images/move_blocks/WW.png"
-        },
-        "K-1 Move It Match 1": {
-          "/script_assets/k_1_images/unplugged_images/leftup.png": "/script_assets/k_1_images/unplugged_images/leftup.png",
-          "/script_assets/k_1_images/unplugged_images/move_it_2_q1.png": "/script_assets/k_1_images/unplugged_images/move_it_2_q1.png",
-          "/script_assets/k_1_images/unplugged_images/move_it_2_q2.png": "/script_assets/k_1_images/unplugged_images/move_it_2_q2.png",
-          "/script_assets/k_1_images/unplugged_images/move_it_2_q3.png": "/script_assets/k_1_images/unplugged_images/move_it_2_q3.png",
-          "/script_assets/k_1_images/unplugged_images/rightdown.png": "/script_assets/k_1_images/unplugged_images/rightdown.png",
-          "/script_assets/k_1_images/unplugged_images/rightrightup.png": "/script_assets/k_1_images/unplugged_images/rightrightup.png"
-        },
-        "Match circles to code": {
-          "/script_assets/msm/Unit 1/Exercise_5_question_1.png": "/script_assets/msm/Unit 1/Exercise_5_question_1.png",
-          "/script_assets/msm/Unit 1/Exercise_5_question_2.png": "/script_assets/msm/Unit 1/Exercise_5_question_2.png",
-          "/script_assets/msm/Unit 1/Exercise_5_question_3.png": "/script_assets/msm/Unit 1/Exercise_5_question_3.png",
-          "/script_assets/msm/Unit 1/Exercise_5_question_4.png": "/script_assets/msm/Unit 1/Exercise_5_question_4.png"
-        },
-        "Match math to circles": {
-          "/script_assets/msm/Unit 1/Exercise_4_question_1.png": "/script_assets/msm/Unit 1/Exercise_4_question_1.png",
-          "/script_assets/msm/Unit 1/Exercise_4_question_2.png": "/script_assets/msm/Unit 1/Exercise_4_question_2.png",
-          "/script_assets/msm/Unit 1/Exercise_4_question_3.png": "/script_assets/msm/Unit 1/Exercise_4_question_3.png",
-          "/script_assets/msm/Unit 1/Exercise_4_question_4.png": "/script_assets/msm/Unit 1/Exercise_4_question_4.png"
-        },
-        "Poorva match PL": {
-          "red_sprite gets bigger and blue_sprite gets smaller": "red_sprite gets bigger and blue_sprite gets smaller",
-          "red_sprite moves up and blue_sprite moves down": "red_sprite moves up and blue_sprite moves down"
-        }
-      },
-      "multi": {
-        "2-3 Algorithms Multi 1": {
-          "/script_assets/2-3_images/unplugged/algorithms_1_q.png": "/script_assets/2-3_images/unplugged/algorithms_1_q.png"
-        },
-        "2-3 Algorithms Multi 2": {
-          "/script_assets/2-3_images/unplugged/algorithms_2_a1.png": "/script_assets/2-3_images/unplugged/algorithms_2_a1.png",
-          "/script_assets/2-3_images/unplugged/algorithms_2_a2.png": "/script_assets/2-3_images/unplugged/algorithms_2_a2.png",
-          "/script_assets/2-3_images/unplugged/algorithms_2_a3.png": "/script_assets/2-3_images/unplugged/algorithms_2_a3.png",
-          "/script_assets/2-3_images/unplugged/algorithms_2_a4.png": "/script_assets/2-3_images/unplugged/algorithms_2_a4.png"
-        },
-        "2-3 Binary Multi 1": {
-          "/script_assets/2-3_images/unplugged/graph_paper_1_a1.png": "/script_assets/2-3_images/unplugged/graph_paper_1_a1.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_1_a2.png": "/script_assets/2-3_images/unplugged/graph_paper_1_a2.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_1_a3.png": "/script_assets/2-3_images/unplugged/graph_paper_1_a3.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_1_q.png": "/script_assets/2-3_images/unplugged/graph_paper_1_q.png"
-        },
-        "2-3 Conditionals Multi 1": {
-          "/script_assets/2-3_images/unplugged/conditionals_1_a1.png": "/script_assets/2-3_images/unplugged/conditionals_1_a1.png",
-          "/script_assets/2-3_images/unplugged/conditionals_1_a2.png": "/script_assets/2-3_images/unplugged/conditionals_1_a2.png",
-          "/script_assets/2-3_images/unplugged/conditionals_1_a3.png": "/script_assets/2-3_images/unplugged/conditionals_1_a3.png",
-          "/script_assets/2-3_images/unplugged/conditionals_1_a4.png": "/script_assets/2-3_images/unplugged/conditionals_1_a4.png",
-          "/script_assets/2-3_images/unplugged/conditionals_1_q.png": "/script_assets/2-3_images/unplugged/conditionals_1_q.png"
-        },
-        "2-3 Getting Loopy Multi 1": {
-          "/script_assets/2-3_images/unplugged/getting_loopy_1_a1.png": "/script_assets/2-3_images/unplugged/getting_loopy_1_a1.png",
-          "/script_assets/2-3_images/unplugged/getting_loopy_1_a2.png": "/script_assets/2-3_images/unplugged/getting_loopy_1_a2.png",
-          "/script_assets/2-3_images/unplugged/getting_loopy_1_a3.png": "/script_assets/2-3_images/unplugged/getting_loopy_1_a3.png",
-          "/script_assets/2-3_images/unplugged/getting_loopy_1_a4.png": "/script_assets/2-3_images/unplugged/getting_loopy_1_a4.png",
-          "/script_assets/2-3_images/unplugged/getting_loopy_1_q.png": "/script_assets/2-3_images/unplugged/getting_loopy_1_q.png"
-        },
-        "2-3 Graph Paper Multi 1": {
-          "/script_assets/2-3_images/unplugged/graph_paper_1_a1.png": "/script_assets/2-3_images/unplugged/graph_paper_1_a1.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_1_a2.png": "/script_assets/2-3_images/unplugged/graph_paper_1_a2.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_1_a3.png": "/script_assets/2-3_images/unplugged/graph_paper_1_a3.png",
-          "/script_assets/2-3_images/unplugged/graph_paper_1_q.png": "/script_assets/2-3_images/unplugged/graph_paper_1_q.png"
-        },
-        "2-3 Maze Multi 2": {
-          "/script_assets/2-3_images/maze/2-3_maze_multi_2_a1.png": "/script_assets/2-3_images/maze/2-3_maze_multi_2_a1.png",
-          "/script_assets/2-3_images/maze/2-3_maze_multi_2_a2.png": "/script_assets/2-3_images/maze/2-3_maze_multi_2_a2.png",
-          "/script_assets/2-3_images/maze/2-3_maze_multi_2_a3.png": "/script_assets/2-3_images/maze/2-3_maze_multi_2_a3.png",
-          "/script_assets/2-3_images/maze/2-3_maze_multi_2_a4.png": "/script_assets/2-3_images/maze/2-3_maze_multi_2_a4.png",
-          "/script_assets/2-3_images/maze/2-3_maze_multi_2_q.png, 500": "/script_assets/2-3_images/maze/2-3_maze_multi_2_q.png, 500"
-        },
-        "2-3 Relay Programming Multi 1": {
-          "/script_assets/2-3_images/unplugged/relay_programming_1_a1.png": "/script_assets/2-3_images/unplugged/relay_programming_1_a1.png",
-          "/script_assets/2-3_images/unplugged/relay_programming_1_a2.png": "/script_assets/2-3_images/unplugged/relay_programming_1_a2.png",
-          "/script_assets/2-3_images/unplugged/relay_programming_1_a3.png": "/script_assets/2-3_images/unplugged/relay_programming_1_a3.png",
-          "/script_assets/2-3_images/unplugged/relay_programming_1_q.png": "/script_assets/2-3_images/unplugged/relay_programming_1_q.png"
-        },
-        "2-3 Relay Programming Multi 2": {
-          "/script_assets/2-3_images/unplugged/relay_programming_2_a1.png": "/script_assets/2-3_images/unplugged/relay_programming_2_a1.png",
-          "/script_assets/2-3_images/unplugged/relay_programming_2_a2.png": "/script_assets/2-3_images/unplugged/relay_programming_2_a2.png",
-          "/script_assets/2-3_images/unplugged/relay_programming_2_a3.png": "/script_assets/2-3_images/unplugged/relay_programming_2_a3.png"
-        },
-        "2-3 artist debug multi 1": {
-          "/script_assets/2-3_images/artist/2-3_artistdebug_multi_1_a1.png": "/script_assets/2-3_images/artist/2-3_artistdebug_multi_1_a1.png",
-          "/script_assets/2-3_images/artist/2-3_artistdebug_multi_1_a2.png": "/script_assets/2-3_images/artist/2-3_artistdebug_multi_1_a2.png",
-          "/script_assets/2-3_images/artist/2-3_artistdebug_multi_1_a3.png": "/script_assets/2-3_images/artist/2-3_artistdebug_multi_1_a3.png",
-          "/script_assets/2-3_images/artist/2-3_artistdebug_multi_1_a4.png": "/script_assets/2-3_images/artist/2-3_artistdebug_multi_1_a4.png",
-          "/script_assets/2-3_images/artist/2-3_artistdebug_multi_1_q1.png, 700": "/script_assets/2-3_images/artist/2-3_artistdebug_multi_1_q1.png, 700"
-        },
-        "2-3 artist functions multi 1": {
-          "/script_assets/2-3_images/artist/2-3_artistfunctions_multi_1_a1.png": "/script_assets/2-3_images/artist/2-3_artistfunctions_multi_1_a1.png",
-          "/script_assets/2-3_images/artist/2-3_artistfunctions_multi_1_a2.png": "/script_assets/2-3_images/artist/2-3_artistfunctions_multi_1_a2.png",
-          "/script_assets/2-3_images/artist/2-3_artistfunctions_multi_1_a3.png": "/script_assets/2-3_images/artist/2-3_artistfunctions_multi_1_a3.png",
-          "/script_assets/2-3_images/artist/2-3_artistfunctions_multi_1_q.png, 500": "/script_assets/2-3_images/artist/2-3_artistfunctions_multi_1_q.png, 500"
-        },
-        "2-3 artist loops multi 1": {
-          "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_a3.png, 500": "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_a3.png, 500",
-          "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q1.png": "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q1.png",
-          "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q2.png": "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q2.png",
-          "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q3.png": "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q3.png",
-          "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q4.png": "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q4.png"
-        },
-        "2-3 artist loops multi 2": {
-          "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_a4.png, 500": "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_a4.png, 500",
-          "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q1.png": "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q1.png",
-          "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q2.png": "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q2.png",
-          "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q3.png": "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q3.png",
-          "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q4.png": "/script_assets/2-3_images/artist/2-3_artistloops_multi_1_q4.png"
-        },
-        "2-3 bee conditionals multi 1": {
-          "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_1_a1.png": "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_1_a1.png",
-          "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_1_a2.png": "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_1_a2.png",
-          "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_1_a3.png": "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_1_a3.png",
-          "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_1_a4.png": "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_1_a4.png"
-        },
-        "2-3 bee conditionals multi 2": {
-          "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_2b_a1.png": "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_2b_a1.png",
-          "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_2b_a2.png": "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_2b_a2.png",
-          "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_2b_a3.png": "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_2b_a3.png",
-          "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_2b_a4.png": "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_2b_a4.png",
-          "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_2b_q.png, 500": "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_2b_q.png, 500"
-        },
-        "2-3 bee conditionals multi 3": {
-          "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_3_a1.png": "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_3_a1.png",
-          "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_3_a2.png": "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_3_a2.png",
-          "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_3_a3.png": "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_3_a3.png",
-          "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_3_a4.png": "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_3_a4.png",
-          "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_3_q.png, 500": "/script_assets/2-3_images/bee/2-3_beeconditionals_multi_3_q.png, 500"
-        },
-        "2-3 bee loops multi 1": {
-          "/script_assets/2-3_images/bee/2-3_beeloops_multi_1_a1.png": "/script_assets/2-3_images/bee/2-3_beeloops_multi_1_a1.png",
-          "/script_assets/2-3_images/bee/2-3_beeloops_multi_1_a2.png": "/script_assets/2-3_images/bee/2-3_beeloops_multi_1_a2.png",
-          "/script_assets/2-3_images/bee/2-3_beeloops_multi_1_a3.png": "/script_assets/2-3_images/bee/2-3_beeloops_multi_1_a3.png",
-          "/script_assets/2-3_images/bee/2-3_beeloops_multi_1_a4.png": "/script_assets/2-3_images/bee/2-3_beeloops_multi_1_a4.png",
-          "/script_assets/2-3_images/bee/2-3_beeloops_multi_1_q.png, 500": "/script_assets/2-3_images/bee/2-3_beeloops_multi_1_q.png, 500"
-        },
-        "2-3 maze multi 1": {
-          "/script_assets/2-3_images/maze/2-3_maze_multi_1_a1.png": "/script_assets/2-3_images/maze/2-3_maze_multi_1_a1.png",
-          "/script_assets/2-3_images/maze/2-3_maze_multi_1_a2.png": "/script_assets/2-3_images/maze/2-3_maze_multi_1_a2.png",
-          "/script_assets/2-3_images/maze/2-3_maze_multi_1_a3.png": "/script_assets/2-3_images/maze/2-3_maze_multi_1_a3.png",
-          "/script_assets/2-3_images/maze/2-3_maze_multi_1_a4.png": "/script_assets/2-3_images/maze/2-3_maze_multi_1_a4.png",
-          "/script_assets/2-3_images/maze/2-3_maze_multi_1_q.png, 500": "/script_assets/2-3_images/maze/2-3_maze_multi_1_q.png, 500"
-        },
-        "4-5 Crowdsourcing Multi 1": {
-          "/script_assets/4-5_images/unplugged/crowdsourcing_2_a1.png": "/script_assets/4-5_images/unplugged/crowdsourcing_2_a1.png",
-          "/script_assets/4-5_images/unplugged/crowdsourcing_2_a2.png": "/script_assets/4-5_images/unplugged/crowdsourcing_2_a2.png"
-        },
-        "4-5 Internet Multi 1": {
-          "/script_assets/4-5_images/unplugged/internet_1_q.png": "/script_assets/4-5_images/unplugged/internet_1_q.png"
-        },
-        "4-5 Internet Multi 2": {
-          "/script_assets/4-5_images/unplugged/internet_1_q.png": "/script_assets/4-5_images/unplugged/internet_1_q.png"
-        },
-        "4-5 Songwriting Multi 1": {
-          "/script_assets/4-5_images/unplugged/songwriting_1_q.png": "/script_assets/4-5_images/unplugged/songwriting_1_q.png"
-        },
-        "4-5 Suncatchers Multi 1": {
-          "/script_assets/4-5_images/unplugged/suncatchers_2_a1.png": "/script_assets/4-5_images/unplugged/suncatchers_2_a1.png",
-          "/script_assets/4-5_images/unplugged/suncatchers_2_a2.png": "/script_assets/4-5_images/unplugged/suncatchers_2_a2.png",
-          "/script_assets/4-5_images/unplugged/suncatchers_2_a3.png": "/script_assets/4-5_images/unplugged/suncatchers_2_a3.png",
-          "/script_assets/4-5_images/unplugged/suncatchers_2_q.png": "/script_assets/4-5_images/unplugged/suncatchers_2_q.png"
-        },
-        "4-5 artist functions multi 1": {
-          "/script_assets/4-5_images/artist/4-5_artistfunctions_multi_1_a1.png": "/script_assets/4-5_images/artist/4-5_artistfunctions_multi_1_a1.png",
-          "/script_assets/4-5_images/artist/4-5_artistfunctions_multi_1_a2.png": "/script_assets/4-5_images/artist/4-5_artistfunctions_multi_1_a2.png",
-          "/script_assets/4-5_images/artist/4-5_artistfunctions_multi_1_a3.png": "/script_assets/4-5_images/artist/4-5_artistfunctions_multi_1_a3.png",
-          "/script_assets/4-5_images/artist/4-5_artistfunctions_multi_1_a4.png": "/script_assets/4-5_images/artist/4-5_artistfunctions_multi_1_a4.png",
-          "/script_assets/4-5_images/maze/4-5_artistfunctions_multi_1_q.png, 500": "/script_assets/4-5_images/maze/4-5_artistfunctions_multi_1_q.png, 500"
-        },
-        "4-5 artist loops multi 1": {
-          "/script_assets/4-5_images/artist/4-5_artistloops_multi_1_a1.png": "/script_assets/4-5_images/artist/4-5_artistloops_multi_1_a1.png",
-          "/script_assets/4-5_images/artist/4-5_artistloops_multi_1_a2.png": "/script_assets/4-5_images/artist/4-5_artistloops_multi_1_a2.png",
-          "/script_assets/4-5_images/artist/4-5_artistloops_multi_1_a3.png": "/script_assets/4-5_images/artist/4-5_artistloops_multi_1_a3.png",
-          "/script_assets/4-5_images/artist/4-5_artistloops_multi_1_a4.png": "/script_assets/4-5_images/artist/4-5_artistloops_multi_1_a4.png",
-          "/script_assets/4-5_images/artist/4-5_artistloops_multi_1_q.png, 500": "/script_assets/4-5_images/artist/4-5_artistloops_multi_1_q.png, 500"
-        },
-        "4-5 artist loops multi 2": {
-          "/script_assets/4-5_images/artist/4-5_artistloops_multi_2_a1.png": "/script_assets/4-5_images/artist/4-5_artistloops_multi_2_a1.png",
-          "/script_assets/4-5_images/artist/4-5_artistloops_multi_2_a2.png": "/script_assets/4-5_images/artist/4-5_artistloops_multi_2_a2.png",
-          "/script_assets/4-5_images/artist/4-5_artistloops_multi_2_a3.png": "/script_assets/4-5_images/artist/4-5_artistloops_multi_2_a3.png",
-          "/script_assets/4-5_images/artist/4-5_artistloops_multi_2_a4.png": "/script_assets/4-5_images/artist/4-5_artistloops_multi_2_a4.png"
-        },
-        "4-5 artist multi 1": {
-          "/script_assets/4-5_images/artist/4-5_artist_multi_1_a1.png": "/script_assets/4-5_images/artist/4-5_artist_multi_1_a1.png",
-          "/script_assets/4-5_images/artist/4-5_artist_multi_1_a2.png": "/script_assets/4-5_images/artist/4-5_artist_multi_1_a2.png",
-          "/script_assets/4-5_images/artist/4-5_artist_multi_1_a3.png": "/script_assets/4-5_images/artist/4-5_artist_multi_1_a3.png",
-          "/script_assets/4-5_images/artist/4-5_artist_multi_1_a4.png": "/script_assets/4-5_images/artist/4-5_artist_multi_1_a4.png"
-        },
-        "4-5 artist multi 2": {
-          "/script_assets/4-5_images/artist/4-5_artist_multi_2_a1.png": "/script_assets/4-5_images/artist/4-5_artist_multi_2_a1.png",
-          "/script_assets/4-5_images/artist/4-5_artist_multi_2_a2.png": "/script_assets/4-5_images/artist/4-5_artist_multi_2_a2.png",
-          "/script_assets/4-5_images/artist/4-5_artist_multi_2_a3.png": "/script_assets/4-5_images/artist/4-5_artist_multi_2_a3.png",
-          "/script_assets/4-5_images/artist/4-5_artist_multi_2_a4.png": "/script_assets/4-5_images/artist/4-5_artist_multi_2_a4.png"
-        },
-        "4-5 bee conditionals multi 1": {
-          "/script_assets/4-5_images/bee/4-5_beeconditionals_multi_1_a1.png": "/script_assets/4-5_images/bee/4-5_beeconditionals_multi_1_a1.png",
-          "/script_assets/4-5_images/bee/4-5_beeconditionals_multi_1_a2.png": "/script_assets/4-5_images/bee/4-5_beeconditionals_multi_1_a2.png",
-          "/script_assets/4-5_images/bee/4-5_beeconditionals_multi_1_a3.png": "/script_assets/4-5_images/bee/4-5_beeconditionals_multi_1_a3.png",
-          "/script_assets/4-5_images/bee/4-5_beeconditionals_multi_1_a4.png": "/script_assets/4-5_images/bee/4-5_beeconditionals_multi_1_a4.png",
-          "/script_assets/4-5_images/bee/4-5_beeconditionals_multi_1_q.png": "/script_assets/4-5_images/bee/4-5_beeconditionals_multi_1_q.png"
-        },
-        "4-5 bee debug multi 1": {
-          "/script_assets/4-5_images/bee/4-5_beedebug_multi_1_a1.png": "/script_assets/4-5_images/bee/4-5_beedebug_multi_1_a1.png",
-          "/script_assets/4-5_images/bee/4-5_beedebug_multi_1_a2.png": "/script_assets/4-5_images/bee/4-5_beedebug_multi_1_a2.png",
-          "/script_assets/4-5_images/bee/4-5_beedebug_multi_1_a3.png": "/script_assets/4-5_images/bee/4-5_beedebug_multi_1_a3.png",
-          "/script_assets/4-5_images/bee/4-5_beedebug_multi_1_a4.png": "/script_assets/4-5_images/bee/4-5_beedebug_multi_1_a4.png",
-          "/script_assets/4-5_images/bee/4-5_beedebug_multi_1_q1.png": "/script_assets/4-5_images/bee/4-5_beedebug_multi_1_q1.png",
-          "/script_assets/4-5_images/bee/4-5_beedebug_multi_1_q2.png": "/script_assets/4-5_images/bee/4-5_beedebug_multi_1_q2.png"
-        },
-        "4-5 bee loops multi 1": {
-          "/script_assets/4-5_images/bee/4-5_beeloops_multi_1_a1.png": "/script_assets/4-5_images/bee/4-5_beeloops_multi_1_a1.png",
-          "/script_assets/4-5_images/bee/4-5_beeloops_multi_1_a2.png": "/script_assets/4-5_images/bee/4-5_beeloops_multi_1_a2.png",
-          "/script_assets/4-5_images/bee/4-5_beeloops_multi_1_a3.png": "/script_assets/4-5_images/bee/4-5_beeloops_multi_1_a3.png",
-          "/script_assets/4-5_images/bee/4-5_beeloops_multi_1_a4.png": "/script_assets/4-5_images/bee/4-5_beeloops_multi_1_a4.png",
-          "/script_assets/4-5_images/bee/4-5_beeloops_multi_1_q.png": "/script_assets/4-5_images/bee/4-5_beeloops_multi_1_q.png"
-        },
-        "4-5 farmer loops multi 1": {
-          "/script_assets/4-5_images/farmer/4-5_farmerloops_multi_1_a1.png": "/script_assets/4-5_images/farmer/4-5_farmerloops_multi_1_a1.png",
-          "/script_assets/4-5_images/farmer/4-5_farmerloops_multi_1_a2.png": "/script_assets/4-5_images/farmer/4-5_farmerloops_multi_1_a2.png",
-          "/script_assets/4-5_images/farmer/4-5_farmerloops_multi_1_a3.png": "/script_assets/4-5_images/farmer/4-5_farmerloops_multi_1_a3.png",
-          "/script_assets/4-5_images/farmer/4-5_farmerloops_multi_1_a4.png": "/script_assets/4-5_images/farmer/4-5_farmerloops_multi_1_a4.png",
-          "/script_assets/4-5_images/farmer/4-5_farmerloops_multi_1_q.png, 500": "/script_assets/4-5_images/farmer/4-5_farmerloops_multi_1_q.png, 500"
-        },
-        "4-5 maze conditionals multi 1": {
-          "/script_assets/4-5_images/maze/4-5_mazeconditionals_multi_1_a1.png": "/script_assets/4-5_images/maze/4-5_mazeconditionals_multi_1_a1.png",
-          "/script_assets/4-5_images/maze/4-5_mazeconditionals_multi_1_a2.png": "/script_assets/4-5_images/maze/4-5_mazeconditionals_multi_1_a2.png",
-          "/script_assets/4-5_images/maze/4-5_mazeconditionals_multi_1_a3.png": "/script_assets/4-5_images/maze/4-5_mazeconditionals_multi_1_a3.png",
-          "/script_assets/4-5_images/maze/4-5_mazeconditionals_multi_1_a4.png": "/script_assets/4-5_images/maze/4-5_mazeconditionals_multi_1_a4.png",
-          "/script_assets/4-5_images/maze/4-5_mazeconditionals_multi_1_q.png, 500": "/script_assets/4-5_images/maze/4-5_mazeconditionals_multi_1_q.png, 500"
-        },
-        "4-5 maze multi 1": {
-          "/script_assets/4-5_images/maze/4-5_maze_multi_1_a1.png": "/script_assets/4-5_images/maze/4-5_maze_multi_1_a1.png",
-          "/script_assets/4-5_images/maze/4-5_maze_multi_1_a2.png": "/script_assets/4-5_images/maze/4-5_maze_multi_1_a2.png",
-          "/script_assets/4-5_images/maze/4-5_maze_multi_1_a3.png": "/script_assets/4-5_images/maze/4-5_maze_multi_1_a3.png",
-          "/script_assets/4-5_images/maze/4-5_maze_multi_1_a4.png": "/script_assets/4-5_images/maze/4-5_maze_multi_1_a4.png",
-          "/script_assets/4-5_images/maze/4-5_maze_multi_1_q.png, 500": "/script_assets/4-5_images/maze/4-5_maze_multi_1_q.png, 500"
-        },
-        "Circle to code": {
-          "/script_assets/msm/Unit%202/exercise_1.png": "/script_assets/msm/Unit%202/exercise_1.png"
-        },
-        "K-1 Artist 1 Multi 1": {
-          "/script_assets/k_1_images/artist_images/E-S-S.png": "/script_assets/k_1_images/artist_images/E-S-S.png",
-          "/script_assets/k_1_images/artist_images/E-S.png": "/script_assets/k_1_images/artist_images/E-S.png",
-          "/script_assets/k_1_images/artist_images/S-E-E.png": "/script_assets/k_1_images/artist_images/S-E-E.png",
-          "/script_assets/k_1_images/artist_images/W-S-S.png": "/script_assets/k_1_images/artist_images/W-S-S.png",
-          "/script_assets/k_1_images/artist_images/rshort_dlong.png, 500": "/script_assets/k_1_images/artist_images/rshort_dlong.png, 500"
-        },
-        "K-1 Artist 1 Multi 2": {
-          "/script_assets/k_1_images/artist_images/E-S-W-N.png": "/script_assets/k_1_images/artist_images/E-S-W-N.png",
-          "/script_assets/k_1_images/artist_images/N-E-S-W.png": "/script_assets/k_1_images/artist_images/N-E-S-W.png",
-          "/script_assets/k_1_images/artist_images/N-S-E-W.png": "/script_assets/k_1_images/artist_images/N-S-E-W.png",
-          "/script_assets/k_1_images/artist_images/N-W-S-E.png": "/script_assets/k_1_images/artist_images/N-W-S-E.png",
-          "/script_assets/k_1_images/artist_images/square.png, 500": "/script_assets/k_1_images/artist_images/square.png, 500"
-        },
-        "K-1 Artist 2 Multi 1": {
-          "/script_assets/k_1_images/artist_images/medium_circle.png": "/script_assets/k_1_images/artist_images/medium_circle.png",
-          "/script_assets/k_1_images/artist_images/medium_square.png": "/script_assets/k_1_images/artist_images/medium_square.png",
-          "/script_assets/k_1_images/artist_images/medium_triangle.png": "/script_assets/k_1_images/artist_images/medium_triangle.png",
-          "/script_assets/k_1_images/artist_images/small_rectangle.png": "/script_assets/k_1_images/artist_images/small_rectangle.png",
-          "/script_assets/k_1_images/artist_images/sq+sq.png, 500": "/script_assets/k_1_images/artist_images/sq+sq.png, 500"
-        },
-        "K-1 Artist Loops Multi 1": {
-          "/script_assets/k_1_images/artist_images/K-1_artistloops_multi_1_a1.png": "/script_assets/k_1_images/artist_images/K-1_artistloops_multi_1_a1.png",
-          "/script_assets/k_1_images/artist_images/K-1_artistloops_multi_1_a2.png": "/script_assets/k_1_images/artist_images/K-1_artistloops_multi_1_a2.png",
-          "/script_assets/k_1_images/artist_images/K-1_artistloops_multi_1_a3.png": "/script_assets/k_1_images/artist_images/K-1_artistloops_multi_1_a3.png",
-          "/script_assets/k_1_images/artist_images/K-1_artistloops_multi_1_a4.png": "/script_assets/k_1_images/artist_images/K-1_artistloops_multi_1_a4.png",
-          "/script_assets/k_1_images/artist_images/K-1_artistloops_multi_1_q.png, 300": "/script_assets/k_1_images/artist_images/K-1_artistloops_multi_1_q.png, 300"
-        },
-        "K-1 Bee 1 Multi 1": {
-          "/script_assets/k_1_images/bee_images/1nectar+2nectar.png": "/script_assets/k_1_images/bee_images/1nectar+2nectar.png",
-          "/script_assets/k_1_images/bee_images/2nectar.png": "/script_assets/k_1_images/bee_images/2nectar.png",
-          "/script_assets/k_1_images/bee_images/3nectar.png": "/script_assets/k_1_images/bee_images/3nectar.png",
-          "/script_assets/k_1_images/bee_images/4nectar.png": "/script_assets/k_1_images/bee_images/4nectar.png",
-          "/script_assets/k_1_images/bee_images/nectar.png": "/script_assets/k_1_images/bee_images/nectar.png"
-        },
-        "K-1 Bee 1 Multi 2": {
-          "/script_assets/k_1_images/bee_images/2nectar+2nectar.png": "/script_assets/k_1_images/bee_images/2nectar+2nectar.png",
-          "/script_assets/k_1_images/bee_images/2nectar.png": "/script_assets/k_1_images/bee_images/2nectar.png",
-          "/script_assets/k_1_images/bee_images/3nectar.png": "/script_assets/k_1_images/bee_images/3nectar.png",
-          "/script_assets/k_1_images/bee_images/4nectar.png": "/script_assets/k_1_images/bee_images/4nectar.png",
-          "/script_assets/k_1_images/bee_images/nectar.png": "/script_assets/k_1_images/bee_images/nectar.png"
-        },
-        "K-1 Digital Footprint Multi 1": {
-          "/script_assets/k_1_images/unplugged_images/digital_footprint_1_a1.png": "/script_assets/k_1_images/unplugged_images/digital_footprint_1_a1.png",
-          "/script_assets/k_1_images/unplugged_images/digital_footprint_1_a2.png": "/script_assets/k_1_images/unplugged_images/digital_footprint_1_a2.png",
-          "/script_assets/k_1_images/unplugged_images/digital_footprint_1_a3.png": "/script_assets/k_1_images/unplugged_images/digital_footprint_1_a3.png",
-          "/script_assets/k_1_images/unplugged_images/digital_footprint_1_q.png": "/script_assets/k_1_images/unplugged_images/digital_footprint_1_q.png"
-        },
-        "K-1 Getting Loopy Multi 1": {
-          "/script_assets/k_1_images/unplugged_images/getting_loopy_1_a1.png": "/script_assets/k_1_images/unplugged_images/getting_loopy_1_a1.png",
-          "/script_assets/k_1_images/unplugged_images/getting_loopy_1_a2.png": "/script_assets/k_1_images/unplugged_images/getting_loopy_1_a2.png",
-          "/script_assets/k_1_images/unplugged_images/getting_loopy_1_a3.png": "/script_assets/k_1_images/unplugged_images/getting_loopy_1_a3.png",
-          "/script_assets/k_1_images/unplugged_images/getting_loopy_1_q.png": "/script_assets/k_1_images/unplugged_images/getting_loopy_1_q.png"
-        },
-        "K-1 Happy Maps Multi 1": {
-          "/script_assets/k_1_images/unplugged_images/down.png": "/script_assets/k_1_images/unplugged_images/down.png",
-          "/script_assets/k_1_images/unplugged_images/happy_maps_1q.png": "/script_assets/k_1_images/unplugged_images/happy_maps_1q.png",
-          "/script_assets/k_1_images/unplugged_images/left.png": "/script_assets/k_1_images/unplugged_images/left.png",
-          "/script_assets/k_1_images/unplugged_images/right.png": "/script_assets/k_1_images/unplugged_images/right.png",
-          "/script_assets/k_1_images/unplugged_images/up.png": "/script_assets/k_1_images/unplugged_images/up.png"
-        },
-        "K-1 Keep it Private Multi 1": {
-          "/script_assets/k_1_images/unplugged_images/keep_it_private_1_a1.png": "/script_assets/k_1_images/unplugged_images/keep_it_private_1_a1.png",
-          "/script_assets/k_1_images/unplugged_images/keep_it_private_1_a2.png": "/script_assets/k_1_images/unplugged_images/keep_it_private_1_a2.png",
-          "/script_assets/k_1_images/unplugged_images/keep_it_private_1_a3.png": "/script_assets/k_1_images/unplugged_images/keep_it_private_1_a3.png"
-        },
-        "K-1 Maze Debugging Multi 1": {
-          "/script_assets/k_1_images/maze_images/EESq.png, 700": "/script_assets/k_1_images/maze_images/EESq.png, 700",
-          "/script_assets/k_1_images/move_blocks/E.png": "/script_assets/k_1_images/move_blocks/E.png",
-          "/script_assets/k_1_images/move_blocks/N.png": "/script_assets/k_1_images/move_blocks/N.png",
-          "/script_assets/k_1_images/move_blocks/S.png": "/script_assets/k_1_images/move_blocks/S.png",
-          "/script_assets/k_1_images/move_blocks/W.png": "/script_assets/k_1_images/move_blocks/W.png"
-        },
-        "K-1 Maze Loops Multi 1": {
-          "/script_assets/k_1_images/move_blocks/NNNequals.png, 300": "/script_assets/k_1_images/move_blocks/NNNequals.png, 300",
-          "/script_assets/k_1_images/move_blocks/r3_N.png": "/script_assets/k_1_images/move_blocks/r3_N.png",
-          "/script_assets/k_1_images/move_blocks/r3_NN.png": "/script_assets/k_1_images/move_blocks/r3_NN.png",
-          "/script_assets/k_1_images/move_blocks/r4_N.png": "/script_assets/k_1_images/move_blocks/r4_N.png"
-        },
-        "K-1 Maze Loops Multi 2": {
-          "/script_assets/k_1_images/move_blocks/SESESEequals.png, 240": "/script_assets/k_1_images/move_blocks/SESESEequals.png, 240",
-          "/script_assets/k_1_images/move_blocks/r3_ES.png": "/script_assets/k_1_images/move_blocks/r3_ES.png",
-          "/script_assets/k_1_images/move_blocks/r3_S.png": "/script_assets/k_1_images/move_blocks/r3_S.png",
-          "/script_assets/k_1_images/move_blocks/r3_SE.png": "/script_assets/k_1_images/move_blocks/r3_SE.png"
-        },
-        "K-1 Maze Multiple Choice 2": {
-          "/script_assets/k_1_images/maze_images/maze_WS.png, 500": "/script_assets/k_1_images/maze_images/maze_WS.png, 500",
-          "/script_assets/k_1_images/move_blocks/EN.png": "/script_assets/k_1_images/move_blocks/EN.png",
-          "/script_assets/k_1_images/move_blocks/ES.png": "/script_assets/k_1_images/move_blocks/ES.png",
-          "/script_assets/k_1_images/move_blocks/WN.png": "/script_assets/k_1_images/move_blocks/WN.png",
-          "/script_assets/k_1_images/move_blocks/WS.png": "/script_assets/k_1_images/move_blocks/WS.png"
-        },
-        "K-1 Move It Multi 1": {
-          "/script_assets/k_1_images/unplugged_images/leftdown.png": "/script_assets/k_1_images/unplugged_images/leftdown.png",
-          "/script_assets/k_1_images/unplugged_images/leftleft.png": "/script_assets/k_1_images/unplugged_images/leftleft.png",
-          "/script_assets/k_1_images/unplugged_images/move_it_1_q.png": "/script_assets/k_1_images/unplugged_images/move_it_1_q.png",
-          "/script_assets/k_1_images/unplugged_images/rightright.png": "/script_assets/k_1_images/unplugged_images/rightright.png",
-          "/script_assets/k_1_images/unplugged_images/upleft.png": "/script_assets/k_1_images/unplugged_images/upleft.png"
-        },
-        "K-1 Plant a Seed Multi 1": {
-          "/script_assets/k_1_images/unplugged_images/dirty-teeth.png": "/script_assets/k_1_images/unplugged_images/dirty-teeth.png",
-          "/script_assets/k_1_images/unplugged_images/foot-in-shoe.png": "/script_assets/k_1_images/unplugged_images/foot-in-shoe.png",
-          "/script_assets/k_1_images/unplugged_images/plant_a_seed_1_q.png": "/script_assets/k_1_images/unplugged_images/plant_a_seed_1_q.png",
-          "/script_assets/k_1_images/unplugged_images/poke-hole.png": "/script_assets/k_1_images/unplugged_images/poke-hole.png"
-        },
-        "K-1 Plant a Seed Multi 2": {
-          "/script_assets/k_1_images/unplugged_images/brush-teeth.png": "/script_assets/k_1_images/unplugged_images/brush-teeth.png",
-          "/script_assets/k_1_images/unplugged_images/cover-seed.png": "/script_assets/k_1_images/unplugged_images/cover-seed.png",
-          "/script_assets/k_1_images/unplugged_images/plant_a_seed_2_q.png": "/script_assets/k_1_images/unplugged_images/plant_a_seed_2_q.png",
-          "/script_assets/k_1_images/unplugged_images/water-pot.png": "/script_assets/k_1_images/unplugged_images/water-pot.png"
-        },
-        "K-1 Word Search Multi 1": {
-          "/script_assets/k_1_images/move_blocks/EEES.png": "/script_assets/k_1_images/move_blocks/EEES.png",
-          "/script_assets/k_1_images/move_blocks/EESS.png": "/script_assets/k_1_images/move_blocks/EESS.png",
-          "/script_assets/k_1_images/move_blocks/ESSS.png": "/script_assets/k_1_images/move_blocks/ESSS.png",
-          "/script_assets/k_1_images/search_images/move.png, 450": "/script_assets/k_1_images/search_images/move.png, 450"
-        },
-        "K-1 Word Search Multi 2": {
-          "/script_assets/k_1_images/move_blocks/EENN.png": "/script_assets/k_1_images/move_blocks/EENN.png",
-          "/script_assets/k_1_images/move_blocks/NENE.png": "/script_assets/k_1_images/move_blocks/NENE.png",
-          "/script_assets/k_1_images/move_blocks/NNEE.png": "/script_assets/k_1_images/move_blocks/NNEE.png",
-          "/script_assets/k_1_images/search_images/jump.png, 450": "/script_assets/k_1_images/search_images/jump.png, 450"
-        },
-        "K-1 Word Search Multi 3": {
-          "/script_assets/k_1_images/search_images/square.png, 700": "/script_assets/k_1_images/search_images/square.png, 700"
-        },
-        "K-1 multi 4": {
-          "/script_assets/multis/driver_helper.jpg": "/script_assets/multis/driver_helper.jpg"
-        },
-        "K-1 multi 5": {
-          "/script_assets/multis/driver_helper.jpg": "/script_assets/multis/driver_helper.jpg"
-        },
-        "Math to Code 2": {
-          "(+ (+ (* (* (/ 20 2) 3) 7) 2) (+ 4 6))": "(+ (+ (* (* (/ 20 2) 3) 7) 2) (+ 4 6))",
-          "(+ (+ (+ 4 6) (* (* (/ 2 20) 7) 3) 2)": "(+ (+ (+ 4 6) (* (* (/ 2 20) 7) 3) 2)",
-          "(+ (+ (+ 4 6) (* (* (/ 20 2) 3) 7)) 2)": "(+ (+ (+ 4 6) (* (* (/ 20 2) 3) 7)) 2)",
-          "(+ 4 (+ 6 (/ 20 (* 2 (* 3 (+ 7 2))))))": "(+ 4 (+ 6 (/ 20 (* 2 (* 3 (+ 7 2))))))"
-        },
-        "PS U3 Q1-8": {
-          "function drawStar(){ <br>&nbsp;&nbsp;&nbsp;&nbsp; for(var i = 0; i &lt 5; i++){ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;moveForward(100); <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;turnLeft(36);<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>} ": "function drawStar(){ <br>&nbsp;&nbsp;&nbsp;&nbsp; for(var i = 0; i &lt 5; i++){ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;moveForward(100); <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;turnLeft(36);<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>} "
-        },
-        "U2L06 - MC: Which is an MST?": {
-          "<p>The images below all show the same map (or graph) but have different paths between the points highlighted.</p>\n<p>Please choose the image that is highlighting a Minimum Spanning Tree for the map. </p>\n<p>NOTE: The “distance” between points is depicted by the number of line segments connecting any two points.</p> \n<img src='https://images.code.org/2d7f0372e3fc8a4b128ee1021347e211-image-1433800100730.png'>": "<p>The images below all show the same map (or graph) but have different paths between the points highlighted.</p>\n<p>Please choose the image that is highlighting a Minimum Spanning Tree for the map. </p>\n<p>NOTE: The “distance” between points is depicted by the number of line segments connecting any two points.</p> \n<img src='https://images.code.org/2d7f0372e3fc8a4b128ee1021347e211-image-1433800100730.png'>"
-        },
-        "U2L13 Assessment4_2018": {
-          "26 x 25 x 24 x***x 3 x 2 x 1": "26 x 25 x 24 x***x 3 x 2 x 1"
-        },
-        "U3L13 - Making Predications MC": {
-          "<h1>Make a prediction - Learning to Code Better, Faster</h1>\n<p>As you are learning to program you will encounter more and more new features of a language and be naturally curious about how things work.  Research has shown that when you encounter a new piece of code or new situation, you learn faster by simply making a prediction about what will happen before you run the program for the first time.  \n</p><p>Making a prediction forces you to study the code and use your intuitions based on what you already know. Even experienced programmers might disagree about what a piece of code would do!  So making a prediction is not like some sort of test about how smart you are.  <strong>By making a prediction first, when you run the code you learn so much more whether you were right, wrong or somewhere in between.  You construct a stronger mental model for how code works than if you just ran the program to see what happened.</strong></p>\n<p>  So let's try it...</p>\n<h1> What do you think will happen?</h1>\n<p><img src=\"https://images.code.org/34f6a627f0d62b6dc015c9e318372de9-image-1444076081470.png\" align=right>Here is a piece of code with two buttons and two event handlers.  Notice that both buttons still have the default IDs of \"id\". You will need to fix this because we know it causes a warning message.  But it turns out the program can still run and it does do <i>something.</i></p>\n<p><strong>What do you think will happen with this code is run?</strong></p>": "<h1>Make a prediction - Learning to Code Better, Faster</h1>\n<p>As you are learning to program you will encounter more and more new features of a language and be naturally curious about how things work.  Research has shown that when you encounter a new piece of code or new situation, you learn faster by simply making a prediction about what will happen before you run the program for the first time.  \n</p><p>Making a prediction forces you to study the code and use your intuitions based on what you already know. Even experienced programmers might disagree about what a piece of code would do!  So making a prediction is not like some sort of test about how smart you are.  <strong>By making a prediction first, when you run the code you learn so much more whether you were right, wrong or somewhere in between.  You construct a stronger mental model for how code works than if you just ran the program to see what happened.</strong></p>\n<p>  So let's try it...</p>\n<h1> What do you think will happen?</h1>\n<p><img src=\"https://images.code.org/34f6a627f0d62b6dc015c9e318372de9-image-1444076081470.png\" align=right>Here is a piece of code with two buttons and two event handlers.  Notice that both buttons still have the default IDs of \"id\". You will need to fix this because we know it causes a warning message.  But it turns out the program can still run and it does do <i>something.</i></p>\n<p><strong>What do you think will happen with this code is run?</strong></p>"
-        },
-        "U3L20 Assessment9": {
-          ">": ">"
-        },
-        "image code from circle": {
-          "/script_assets/msm/Unit%202/exercise_5.png": "/script_assets/msm/Unit%202/exercise_5.png"
-        },
-        "msm variables multi 10": {
-          "/script_assets/msm/define_f.png, 300": "/script_assets/msm/define_f.png, 300"
-        },
-        "msm variables multi 11": {
-          "/script_assets/msm/define_f.png, 300": "/script_assets/msm/define_f.png, 300"
-        },
-        "msm variables multi 13": {
-          "/script_assets/msm/define_f.png, 300": "/script_assets/msm/define_f.png, 300"
-        },
-        "msm variables multi 4": {
-          "/script_assets/msm/define_xpq.png, 600": "/script_assets/msm/define_xpq.png, 600"
-        },
-        "msm variables multi 5": {
-          "/script_assets/msm/define_xpq.png, 600": "/script_assets/msm/define_xpq.png, 600"
-        },
-        "msm variables multi 6": {
-          "/script_assets/msm/define_xpq.png, 600": "/script_assets/msm/define_xpq.png, 600"
-        }
-      },
-      "text_match": {
-        "U1L13 - Assess Text Compression reverse process": {
-          "the_big_bug_bit_the_bull_but_the_bull_bit_the_big_bug_back": "the_big_bug_bit_the_bull_but_the_bull_bit_the_big_bug_back"
-        },
-        "U1L13 - Assess Text Compression reverse process_2018": {
-          "the_big_bug_bit_the_bull_but_the_bull_bit_the_big_bug_back": "the_big_bug_bit_the_bull_but_the_bull_bit_the_big_bug_back"
-        },
-        "text match test": {
-          "/script_assets/msm/Unit 1/Exercise_5_question_2.png": "/script_assets/msm/Unit 1/Exercise_5_question_2.png"
         }
       },
       "instructions": {
@@ -3968,6 +3276,7 @@
         "Video. Introduction to Conditionals - Part 2_markdown_instruction": "### Points to pay attention to:\n\n* **NOTE:** Stop play at 1:37.  \n    It's all you need for the exercises that follow.  You'll watch the remainder of the video after that.\n\n* An IF statement can have an else clause, but an ELSE clause cannot exist on its own.\n* With an else clause you are *guaranteeing* that one of two portions of code will run.\n\n",
         "Vigenere_markdown_instruction": "# Encrypt and decrypt a message with the Vigenère cipher\n\nThis is an interactive version of the Vigenère cipher that animates the encryption and decryption as it’s happening, given a piece of text to encrypt or decrypt and the key.\n\n# Do this\n### Encrypt a message\nClick Step several times, and trace what’s happening. Pay attention to:\n\n- How the ciphertext is being produced\n- What happens when you get to the last character of the key\n- After you’ve stepped through a few characters click Play to watch the rest animate\n- Hit Restart and play the animation again. You can use the speed slider to speed it up or slow it down  \n\n![](https://images.code.org/06858f88ac12997bba73f4f76638a068-image-1443574425185.gif)\n\n### Decrypt a message\nEncrypt a message as above, then:  \n\n- Highlight and copy the ciphertext\n- Paste it into the plaintext area. Note: Don’t change the key\n- Change the Encrypt/Decrypt toggle to Decrypt\n- Hit Step a few times, and then Play\n\nYou should see the original text emerge.  \n![](https://images.code.org/dc89d6c19c17adb23b6b5ff9a62c4583-image-1443574425182.gif)\n\n\nHow hard would it be to crack a message encrypted with this cipher? Does the length of the key make a difference?\n",
         "Virtual Pet 3_markdown_instruction": "We can’t have a dirty giraffe wandering around!  \n\n1)  Add a new soap sprite to the screen.  \n2)  Can you make it so that when the giraffe and the soap touch, the giraffe goes back to its normal color?\n\n---\n\nTo reset the color, use this block:\n<xml><block type=\"gamelab_removeTint\" inline=\"true\">\n      <value name=\"THIS\">\n        <block type=\"sprite_variables_get\">\n          <title name=\"VAR\">mySprite</title>\n        </block>\n      </value>\n    </block></xml>\n",
+        "Virtual Pet 3_simple_markdown_instruction": "The giraffe is too dirty!  \n\n1)  Add a new soap sprite to the screen.\n2)  When the giraffe and the soap touch, change the giraffe to its normal color.\n\n---\n\nTo change to the giraffe's normal color, use this block:\n<xml><block type=\"gamelab_removeTint\" inline=\"true\">\n      <value name=\"THIS\">\n        <block type=\"sprite_variables_get\">\n          <title name=\"VAR\">mySprite</title>\n        </block>\n      </value>\n    </block></xml>\n",
         "Visual Accessibility_markdown_instruction": "# Visual Accessibility: Color Contrast\n\nPeople need to be able to see and read the content on your web page for it to be useful. Not everyone will see your website the same way you do. Some people might have bad eye sight, others are color blind. How do you design with these differences in mind?\n\nOne of the easiest ways to insure that many people will be able to read the content on your website is to make sure their is enough contrast between the different colors you are using together on your site. Contrast is the state of being strikingly different from something else. Check out the below example of contrasting colors.\n\n| Example 1 | Example 2 |\n| --------- | --------- |\n|<img src=\"https://images.code.org/f4f8acab4c8fe45cddef0436c52084cf-image-1476231852248.jpg\" style=\"width:200px\"> | <img src=\"https://images.code.org/76ea7aba97b7a9717f8b784b0987a055-image-1476231855350.jpg\" style=\"width:200px\"> |\n\nStare at example 1 for a few seconds. You might notice that the edges of the text blur with the background or it feels like the image is pulsing. This is because the value of the colors is too close together. The second is definitely easier to look at because one color is dark and one is light.\n\nA way to test this is convert everything to grayscale. Notice how in the example below the example with contrasting colors is easier to view in grayscale.\n\n<img src=\"https://images.code.org/40be05f66945d5cf0fda69be95986a4a-image-1476232151166.jpg\" style=\"width:300px\">\n\nContrast can be a powerful tool to use in your website. You can direct a users eye to a certain part of the page using contrast. Check out this page. Where is your eye drawn?\n\n<img src=\"https://images.code.org/63af145760dc94d66dfff8791c1dfe65-image-1476232407521.32.15 PM.jpg\" style=\"width:500px\">\n\nYour answer is probably the orange buttons. Thats because those buttons have contrasting colors to the rest of the page which are lighter.\n\n# Do This\n\n* Use the <a href=\"http://contrastchecker.com/\"> color contrast checker </a> to see the difference in contrast of the different colors you are using together on your site. This website uses hex codes for colors. Remember that you can find the hex codes for your colors in your color information from lesson 10.\n* Click the \"See Grayscale\" button to see how well you can read the different text and background colors\n* Consider making changes to your color choices by darkening or lightening up certain colors to make them easier to read.\n\n** Images and examples from http://gomedia.com/zine/tutorials/rule-three-contrast-contrast-contrast/ **",
         "Website Comparison_markdown_instruction": "# Comparing Websites\n\n**Prompt:** Imagine you have a new puppy at home who has chewed through her old leash. Decide between which of these two websites you would ultimately decide to buy your puppy’s new leash. Why?\n\n* Website 1: <a href=\"https://thimbleprojects.org/nickianselmo/84613/\"> Uncle Joe's Pet Store</a>\n* Website 2: <a href=\"http://www.petsmart.com/\"> PetSmart</a>\n\nWrite your answer in the box below. When you are done wait for directions from your teacher before moving on.",
         "Website: Data Breaches_markdown_instruction": "## Website: Data Breaches\n\nIn lesson 3 students begin to explore the types of security breakdowns that have happened over time, and consider what information is actually out there about them. The lessons starts with an exploration of an interactive data visualization website, linked below: ",
@@ -4282,8 +3591,6 @@
         "gradek_artist_loopsFP_markdown_instruction": "The artist saw something funny in the distance.  Draw what you think he saw.\n\n<hr/>\n<h3>Ideas</h3>\n<table>\n<tr>\n<td>\n<img src=\"https://images.code.org/8f4f2a68dae2cf0aa82cc0a49ea4df04-image-1466787750475.gif\" width=\"150\"/><br/>\n<h4>A Singing Snail</h4><br/><br/>\n</td>\n\n<td>\n<img src=\"https://images.code.org/732ce5dd91c7f49f06e88da1a9f664f3-image-1466794904255.gif\" width=\"150\"/><br/>\n<h4>A Big City</h4><br/><br/>\n</td>\n\n<td>\n<img src=\"https://images.code.org/37fdd6fdd761df09fd4949d5e43f0a7f-image-1466795165642.gif\" width=\"150\"/><br/>\n<h4>A Concert</h4><br/><br/>\n</td>\n\n<td>\n<img src=\"https://images.code.org/f7bf86b0f86669d82ee2c1565738b9cb-image-1466794447737.gif\" width=\"150\"/><br/>\n<h4>A Birthday Cake</h4><br/><br/>\n</td>\n\n</tr>\n</table>\n",
         "harvester_Kahoot_markdown_instruction": "*\"Oooh, veggies are cropping up everywhere!\"*\n\nNow help the farmer pick all of the corn on the way to the pumpkin at the end.\n___\n##### Note: Every square on the path that leads to the pumpkin will either have *one* corn or nothing.  You will need to use an `if` statement to check whether there is corn before you try to pick it!",
         "harvey_pixelation_markdown_instruction": "# Make your own image of any size\n\n![](https://images.code.org/01c15fed4f1a2c6c3af531edc35e736e-image-1439596066108.png)\n![](https://images.code.org/24efcaa184d1fc852f37c32911b3b87c-image-1439596070178.png)\n![](https://images.code.org/c9a5d0fd5ba445b7f6b5744e08b50e49-image-1439596071878.png)\n![](https://images.code.org/f14e1b8dd722b0ca5bc54fa96b34f2eb-image-1439596074236.png)\n![](https://images.code.org/fe938c0c16453b9d461b4023098079df-image-1439596075744.png)\n![](https://images.code.org/02c88a7da51289b2f2d1f64bd8c97b28-image-1439596077514.png)\n![](https://images.code.org/309e3157dcfd91956181007f483f8e58-image-1439596079084.png)\n\n\n**Directions:**\n\n* Encode an image of anything you like using `binary`.\n* The binary language will be represented with `0` and `1` only.\n* You might want to do some planning and sketching with graph paper first. \n* Depict something, perhaps your name written out, your initials, an icon or logo of some sort.\n* Get creative! The image doesn't have to be a perfect square, it can be long and skinny.",
-        "harvey_snowflake_artist1_markdown_instruction": "*It's time to get your snowflake ready for 3d printing!*\n\n![](https://images.code.org/ba50acd509bd25e07e7d4622a86ba158-image-1503785370113.08.08 PM.png)In order for your image to print correctly, follow these rules:\n\n* Make sure your image is all **one piece**! Separate pieces will print separately.\n* Make sure your image **fits** entirely on the canvas\n* Use just **black lines** on a white background.\n* Jump the artist off the top left corner (-10 over, -10 down) at the end of your program:\n<xml>    <block type=\"jump_to_xy\"><title name=\"XPOS\">-10</title><title name=\"YPOS\">-10</title>\n    </block>\n    <block type=\"jump_to\"><title name=\"VALUE\">7</title>\n    </block></xml>\n    When you are finished, right-click to save the image, then send it to me on <a href=\"https://classroom.google.com\">Google Classroom</a>.",
-        "harvey_snowflake_artist2_markdown_instruction": "*It's time to get your snowflake ready for 3d printing!*\n\n![](https://images.code.org/ba50acd509bd25e07e7d4622a86ba158-image-1503785370113.08.08 PM.png)In order for your image to print correctly, follow these rules:\n\n* Make sure your image is all **one piece**! Separate pieces will print separately.\n* Make sure your image **fits** entirely on the canvas\n* Use just **black lines** on a white background.\n* Jump the artist off the top left corner (-10 over, -10 down) at the end of your program:\n<xml>    <block type=\"jump_to_xy\"><title name=\"XPOS\">-10</title><title name=\"YPOS\">-10</title>\n    </block>\n    <block type=\"jump_to\"><title name=\"VALUE\">7</title>\n    </block></xml>\nWhen you are finished, right-click to save the image, then send it to me on <a href=\"https://classroom.google.com\">Google Classroom</a>.",
         "instructional-strategy-tuesday_markdown_instruction": "# Day 2: Instructional Strategies\n\nName two Instructional Strategies (from the Curriculum Guide) you saw modeled in the 5 Model Lesson or TLOs you’ve seen in the past couple of days?\n\n* When were they successful?\n* What were characteristics of situations where there was room for improvement?\n",
         "jessie-test_markdown_instruction": "# Cool\n\n## Markdown\n\n### Instructions\n\n#### here\n\n##### now\n\n###### forever",
         "lesson-exploration-tuesday_markdown_instruction": "# Day 2: Lesson Exploration\n\nYou have seen 2 Model Lessons (taught by facilitators) and today you will see 1 more Model Lesson and  2 Participant TLOs (taught by teachers). What patterns do you notice about what facilitators do during these sessions (consider the lessons themselves and the debriefs)?\n\n* What are facilitators doing during lesson?\n* What are facilitators doing during debrief?\n* What are teachers doing throughout the session?\n* What is the key takeaway from the session?\n",
@@ -4322,56 +3629,6 @@
         "testing code callout_markdown_instruction": "# Click the link!\n[Show me where the sprite moves](#triggercallout=code_triggered)\n",
         "u3-old-drawing-view_markdown_instruction": "# Your Own Drawing\n\nIt is your turn to create your own drawing. You should have drawn out your plan on paper first.\n\n# Do This\nAs a reminder make sure you hit the objectives:\n\n* Creates an identifiable and named object or design (i.e. no random splatters of shapes)\n* Uses at least 10 shapes or text items (rect, ellipse, regularPolygon, text)\n* Uses at least 4 different color fills\n* Uses at least 2 different color outlines\n* Contains at least 3 different logical blocks of code with comments\n"
       }
-    },
-    "section": {
-      "code_with_teacher": "%{section_code} with %{teacher_name}"
-    },
-    "follower": {
-      "error": {
-        "no_teacher": "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
-      }
-    },
-    "teacher": {
-      "student_teacher_disassociated": "You have left section %{section_code} with %{teacher_name}."
-    },
-    "user": {
-      "create_personal_login_terms": "By creating a personal login, I agree to be bound by the Code.org <a href='%{terms_of_service_url}', target='_blank'>terms of service</a>. If I am under 13 years of age, I confirm that I have my parent or legal guardian's permission to use the Code.org services even without a teacher.",
-      "create_personal_login_email_note": "Note: Email addresses are not stored in a form that allows us to contact students. Students will never receive emails from Code.org except for password recovery. See our <a href='%{privacy_policy_url}', target='_blank'>privacy policy</a> for more information."
-    },
-    "home": {
-      "lines_of_code_linebreak": "%{lines_count} LINES OF CODE<br/>WRITTEN BY %{students_count} MILLION STUDENTS",
-      "teacher_averages": "On average your students have earned %{trophy_average} out of %{trophy_max} \"Concept Mastery\" trophies.",
-      "student_stats": "You've earned %{trophy_count} out of %{trophy_max} \"Concept Mastery\" trophies.",
-      "student_finished": "You've completed all Code.org tutorials. Pick another class %{online_link} or at a %{local_school_link}.",
-      "heading_hoc2014": "<h2>The Hour of Code for</h2><h1>All Ages</h1>",
-      "heading_elementary": "<h2>20 hour courses for</h2><h1>Computer Science Fundamentals (all ages)</h1>",
-      "heading_apps": "<h2>Fun for</h2><h1>Everybody</h1>",
-      "heading_tools": "<h2>Ready for the next step?</h2><h1>Tools for Middle and High School</h1>",
-      "heading_legacy": "<h2>Our accelerated course for</h2><h1>All Ages</h1>"
-    },
-    "move_students": {
-      "new_section_dne": "Sorry, but section %{new_section_code} does not exist. Please enter a different section code.",
-      "current_section_dne": "Sorry, but section %{current_section_code} does not exist. Please enter a different section code."
-    },
-    "footer": {
-      "art_from_html": "Minecraft&#8482; &copy; %{current_year} Microsoft. All Rights Reserved.<br />Star Wars&#8482; &copy; %{current_year} Disney and Lucasfilm. All Rights Reserved.<br />Frozen&#8482; &copy; %{current_year} Disney. All Rights Reserved.<br />Ice Age&#8482; &copy; %{current_year} 20th Century Fox. All Rights Reserved.<br />Angry Birds&#8482; &copy; 2009-%{current_year} Rovio Entertainment Ltd. All Rights Reserved.<br />Plants vs. Zombies&#8482; &copy; %{current_year} Electronic Arts Inc. All Rights Reserved.<br />The Amazing World of Gumball is trademark and &copy; %{current_year} Cartoon Network.",
-      "art_from_html_old": "Minecraft&#8482; &copy; %{current_year} Microsoft. All Rights Reserved. Star Wars&#8482; &copy; %{current_year} Disney and Lucasfilm. All Rights Reserved. Frozen&#8482; &copy; %{current_year} Disney. All Rights Reserved. Ice Age&#8482; &copy; %{current_year} 20th Century Fox. All Rights Reserved. Angry Birds&#8482; &copy; 2009-%{current_year} Rovio Entertainment Ltd. All Rights Reserved. Plants vs. Zombies&#8482; &copy; %{current_year} Electronic Arts Inc. All Rights Reserved. The Amazing World of Gumball is trademark and &copy; %{current_year} Cartoon Network."
-    },
-    "compatibility": {
-      "upgrade": {
-        "unsupported_message": "Your browser is not supported. Please upgrade your browser to <a href='%{supported_browsers_url}', target='_blank'>one of our supported browsers</a>. You can try viewing the page, but expect functionality to be broken."
-      }
-    },
-    "project": {
-      "abuse": {
-        "report_abuse_form": {
-          "abuse_type": {
-            "question": "How does this content violate the %{link_start}Terms of Service%{link_end}?"
-          },
-          "acknowledge": "By submitting this information, you acknowledge it will be handled in accordance with the terms of the %{link_start_privacy}Privacy Policy%{link_end} and the %{link_start_tos}Terms of Service%{link_end}."
-        }
-      }
     }
-  },
-  "headers": "# header"
+  }
 }
