@@ -55,10 +55,10 @@ const sanitize = function (node) {
     }
   }
 
-  // some top-level nodes shouldn't be children of paragraphs
   if (node.type === "root" && node.children && node.children.length) {
     for (let i = 0; i < node.children.length; i++) {
       const child = node.children[i];
+      // some top-level nodes shouldn't be children of paragraphs
       if (
         child.tagName === 'p' &&
         child.children.length === 1 &&
@@ -73,11 +73,23 @@ const sanitize = function (node) {
   }
 
   if (node.children) {
-    // text nodes containing just whitespace are irrelevant
     for (let i = 0; i < node.children.length; i++) {
-      if (node.children[i].type === "text" && allWhitespace.test(node.children[i].value)) {
+      const child = node.children[i];
+
+      // text nodes containing just whitespace are irrelevant
+      if (child.type === "text" && allWhitespace.test(child.value)) {
         node.children.splice(i, 1);
         i--;
+      }
+
+      // spans should always be children of paragraphs
+      if (child.tagName === "span" && node.tagName !== "p") {
+        node.children[i] = {
+          children: [child],
+          properties: {},
+          tagName: "p",
+          type: "element",
+        }
       }
     }
   }
