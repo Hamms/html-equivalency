@@ -55,14 +55,17 @@ const sanitize = function (node) {
     }
   }
 
-  // top-level images shouldn't be children of paragraphs
+  // some top-level nodes shouldn't be children of paragraphs
   if (node.type === "root" && node.children && node.children.length) {
     for (let i = 0; i < node.children.length; i++) {
       const child = node.children[i];
       if (
         child.tagName === 'p' &&
         child.children.length === 1 &&
-        child.children[0].tagName === 'img'
+        [
+          'img',
+          'br'
+        ].includes(child.children[0].tagName)
       ) {
         node.children[i] = child.children[0];
       }
