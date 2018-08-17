@@ -35,6 +35,15 @@ const sanitize = function (node) {
     }
   }
 
+  // marked generates ids for its headers; ignore those
+  for (let i = 1; i < 7; i++) {
+    if (node.tagName === "h" + i) {
+      if (node.properties && node.properties.id) {
+        delete node.properties.id;
+      }
+    }
+  }
+
   if (node.tagName === "a") {
     // urls should be properly decoded
     if (node.properties && node.properties.href) {
