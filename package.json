@@ -8,6 +8,9 @@
     "rehype-parse": "^5.0.0",
     "tape": "^4.9.1"
   },
+  "scripts": {
+    "test": "node test/integration.test.js"
+  },
   "author": "Elijah Hamovitz <elijah@hamovitz.com> (http://hamovitz.com)",
   "license": "ISC"
 }
