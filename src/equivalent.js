@@ -17,6 +17,17 @@ module.exports = function htmlEquivalent(left, right) {
 const allWhitespace = RegExp("^\\s*$");
 
 const sanitize = function (node) {
+  // within details tags, we want to ignore paragraph nodes
+  if (node.tagName === "details" && node.children) {
+    for (let i = 0; i < node.children.length; i++) {
+      const child = node.children[i];
+      if (child.tagName === 'p') {
+        node.children.splice.apply(node.children, [i, 1].concat(child.children));
+        i += child.children.length - 1;
+      }
+    }
+  }
+
   if (node.tagName === "img") {
     // empty alt attributes should be ignored
     if (node.properties && node.properties.alt === "") {
