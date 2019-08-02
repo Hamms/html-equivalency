@@ -1,24 +1,40 @@
 # html-equivalency
 
-Determine if a given bit of markdown will ultimately render the same in the browser after being parsed into HTML by either marked or remark.
+Simple utility to determine if two collections of HTML will ultimately render
+the same in the browser.
+
+Used in particular to determine if switching from one markdown processor to
+another will have significant side effects.
 
 ## Usage
 
 ```bash
-$ node src/index.js some-markdown.json results.json
+$ node src/index.js first-input.json second-input.json > result.json
 ```
 
-Where `some-markdown.json` is a JSON file for which any keys should be treated as markdown, and `results.json` will contain an object mirroring that in `some-markdown.json` but for which any markdown that does resolve to different values will be replaced by an object containing the two HTML results.
+Where both `first-` and `second-input.json` are JSON files with identical
+structures, for which the values are HTML strings. `results.json` will contain
+only those values in the input files that will in fact render differently.
 
 ## Example
 
-Running this against the following file:
+Running this against the following files:
 
 ```json
 {
-  "headers": "# header",
-  "alt text": "![](example.com/img.jpg)",
-  "breaks": "line ending with two spaces  \nfollowing line"
+  "simple": "<h1>Basic Header</h1>",
+  "extra whitespace": "\n\n<p>\n    Some   spaced\tcontent</p>\n\n",
+  "actual differences": "<p>first paragraph</p><p>second paragraph</p>",
+}
+```
+
+and
+
+```json
+{
+  "simple": "<h1>Basic Header</h1>",
+  "extra whitespace": "<p>Some spaced content</p>",
+  "actual differences": "<span>first paragraph</span><br /><span>second paragraph</span>",
 }
 ```
 
@@ -26,19 +42,9 @@ Will produce the following output:
 
 ```json
 {
-  "headers": {
-    "marked": "<h1 id=\"header\">header</h1>\n",
-    "remark": "<h1>header</h1>\n"
-  },
-  "alt text": {
-    "marked": "<p><img src=\"example.com/img.jpg\" alt=\"\"></p>\n",
-    "remark": "<p><img src=\"example.com/img.jpg\"></p>\n"
-  },
-  "breaks": {
-    "marked": "<p>line ending with two spaces<br>following line</p>\n",
-    "remark": "<p>line ending with two spaces<br>\nfollowing line</p>\n"
+  "actual differences": {
+    "a": "<p>first paragraph</p><p>second paragraph</p>",
+    "b": "<span>first paragraph</span><br /><span>second paragraph</span>",
   }
 }
 ```
-
-Two of these three examples (alt text and a newline) are obviously examples of ways in which this is currently insufficient, since those differences shouldn't actually matter.

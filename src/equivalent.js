@@ -109,6 +109,15 @@ const sanitize = function (node) {
     node.value = node.value.replace(/^ */g, "");
     node.value = node.value.replace(/ *$/g, "");
   }
+
+  if (node.properties) {
+    Object.keys(node.properties).forEach(function(property) {
+      const value = node.properties[property];
+      if (value === "" || value === null){
+        delete node.properties[property];
+      }
+    });
+  }
 }
 
 /**
