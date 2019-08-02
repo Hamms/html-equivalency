@@ -4,12 +4,8 @@
   "main": "src/index.js",
   "dependencies": {
     "@code-dot-org/redactable-markdown": "0.3.3",
-    "marked": "^0.3.6",
-    "rehype-parse": "^6.0.0",
-    "tape": "^4.9.1"
-  },
-  "scripts": {
-    "test": "node test/integration.test.js"
+    "rehype-parse": "^6.0.1",
+    "unified": "^8.3.2"
   },
   "author": "Elijah Hamovitz <elijah@hamovitz.com> (http://hamovitz.com)",
   "license": "ISC"
