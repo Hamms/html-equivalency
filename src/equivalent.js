@@ -82,6 +82,12 @@ const sanitize = function (node) {
         i--;
       }
 
+      // empty paragraphs can be ignored
+      if (child.tagName === "p" && (child.children || []).length === 0) {
+        node.children.splice(i, 1);
+        i--;
+      }
+
       // spans should always be children of paragraphs
       if (child.tagName === "span" && node.tagName !== "p") {
         node.children[i] = {
