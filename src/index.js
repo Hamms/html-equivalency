@@ -4,10 +4,19 @@ const recursivelyProcessAll = require("@code-dot-org/redactable-markdown/src/uti
 
 const htmlEquivalent = require("./equivalent");
 
-const findNonEquivalent = recursivelyProcessAll.bind(
-  null,
-  (a, b) => (htmlEquivalent(a, b) ? null : { a, b })
-);
+const findNonEquivalent = recursivelyProcessAll.bind(null, (left, right) => {
+  const result = htmlEquivalent(left, right);
+
+  if (result === true) {
+    return null;
+  } else {
+    return {
+      left,
+      right,
+      result
+    };
+  }
+});
 
 const deleteEmptyObjects = data =>
   Object.entries(data).reduce((acc, [key, value]) => {
@@ -25,28 +34,6 @@ const deleteEmptyObjects = data =>
     acc[key] = value;
     return acc;
   }, {});
-
-//const deleteEmptyObjects = data =>
-//  Object.entries(data)
-//    .map(
-//      ([key, value]) =>
-//        typeof value === "object"
-//          ? [key, deleteEmptyObjects(value)]
-//          : [key, value]
-//    )
-//    .filter(
-//      ([key, value]) =>
-//        !(
-//          value === undefined ||
-//          value === null ||
-//          value === "" ||
-//          (typeof value === "object" && Object.keys(value).length === 0)
-//        )
-//    )
-//    .reduce((acc, [key, value]) => {
-//      acc[key] = value;
-//      return acc;
-//    }, {});
 
 if (process.argv.length < 4) {
   console.error(

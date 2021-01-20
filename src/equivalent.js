@@ -1,8 +1,5 @@
 const rehype = require("rehype-parse");
-const stringify = require("rehype-stringify");
 const unified = require("unified");
-
-const debug = false;
 
 const htmlToHast = function(html) {
   return unified()
@@ -10,14 +7,6 @@ const htmlToHast = function(html) {
       fragment: true
     })
     .parse(html);
-};
-
-const hastToHtml = function(hast) {
-  return unified()
-    .use(stringify, {
-      fragment: true
-    })
-    .stringify(hast);
 };
 
 module.exports = function htmlEquivalent(left, right) {
@@ -146,12 +135,19 @@ const sanitize = function(node) {
   }
 };
 
-function log(string, left, right) {
-  if (debug) {
-    console.log(string);
-    console.log("\t" + hastToHtml(left));
-    console.log("\t" + hastToHtml(right));
+function sanitizedForLog(node, includeChildren) {
+  const result = {};
+  ["type", "tagName", "value", "properties"].forEach(function(field) {
+    if (node.hasOwnProperty(field)) {
+      result[field] = node[field];
+    }
+  });
+
+  if (includeChildren === true && node.hasOwnProperty("children")) {
+    result.children = node.children.map(child => sanitizedForLog(child, false));
   }
+
+  return result;
 }
 
 /**
@@ -187,18 +183,27 @@ function nodesEquivalent(left, right) {
   sanitize(right);
 
   if (left.type !== right.type) {
-    log(`type: ${left.type} !== ${right.type}`, left, right);
-    return false;
+    return {
+      difference: "type",
+      left: sanitizedForLog(left),
+      right: sanitizedForLog(right)
+    };
   }
 
   if (left.tagName !== right.tagName) {
-    log(`tagName: ${left.tagName} !== ${right.tagName}`, left, right);
-    return false;
+    return {
+      difference: "tagName",
+      left: sanitizedForLog(left),
+      right: sanitizedForLog(right)
+    };
   }
 
   if (left.value !== right.value) {
-    log(`value: ${left.value} !== ${right.value}`, left, right);
-    return false;
+    return {
+      difference: "value",
+      left: sanitizedForLog(left),
+      right: sanitizedForLog(right)
+    };
   }
 
   if (!(left.properties === undefined && right.properties === undefined)) {
@@ -210,16 +215,22 @@ function nodesEquivalent(left, right) {
       Object.keys(right).sort()
     );
     if (leftProps !== rightProps) {
-      log(`properties: ${leftProps} !== ${rightProps}`, left, right);
-      return false;
+      return {
+        difference: "properties",
+        left: sanitizedForLog(left),
+        right: sanitizedForLog(right)
+      };
     }
   }
 
   const leftChildren = left.children ? left.children.length : 0;
   const rightChildren = right.children ? right.children.length : 0;
   if (leftChildren !== rightChildren) {
-    log(`children: ${leftChildren} !== ${rightChildren}`, left, right);
-    return false;
+    return {
+      difference: "children",
+      left: sanitizedForLog(left, true),
+      right: sanitizedForLog(right, true)
+    };
   }
 
   if (leftChildren === 0) {
