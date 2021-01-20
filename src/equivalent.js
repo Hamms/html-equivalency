@@ -1,26 +1,36 @@
-const rehype = require('rehype-parse');
-const unified = require('unified');
+const rehype = require("rehype-parse");
+const stringify = require("rehype-stringify");
+const unified = require("unified");
 
-const htmlToHast = function (html) {
-  return unified().use(rehype, {
-    fragment: true
-  }).parse(html)
-}
+const debug = false;
+
+const htmlToHast = function(html) {
+  return unified()
+    .use(rehype, {
+      fragment: true
+    })
+    .parse(html);
+};
+
+const hastToHtml = function(hast) {
+  return unified()
+    .use(stringify, {
+      fragment: true
+    })
+    .stringify(hast);
+};
 
 module.exports = function htmlEquivalent(left, right) {
-  return nodesEquivalent(
-    htmlToHast(left),
-    htmlToHast(right)
-  );
-}
+  return nodesEquivalent(htmlToHast(left), htmlToHast(right));
+};
 
 const allWhitespace = RegExp("^\\s*$");
 
-const sanitize = function (node) {
+const sanitize = function(node) {
   if (node.tagName === "img") {
     // empty alt attributes should be ignored
     if (node.properties && node.properties.alt === "") {
-      delete node.properties.alt
+      delete node.properties.alt;
     }
 
     // urls should be decoded (really we just want them to be standardized, but
@@ -60,12 +70,9 @@ const sanitize = function (node) {
       const child = node.children[i];
       // some top-level nodes shouldn't be children of paragraphs
       if (
-        child.tagName === 'p' &&
+        child.tagName === "p" &&
         child.children.length === 1 &&
-        [
-          'img',
-          'br'
-        ].includes(child.children[0].tagName)
+        ["img", "br"].includes(child.children[0].tagName)
       ) {
         node.children[i] = child.children[0];
       }
@@ -75,6 +82,13 @@ const sanitize = function (node) {
   if (node.children) {
     for (let i = 0; i < node.children.length; i++) {
       const child = node.children[i];
+      sanitize(child);
+
+      // comments can be ignored
+      if (child.type === "comment") {
+        node.children.splice(i, 1);
+        i--;
+      }
 
       // text nodes containing just whitespace are irrelevant
       if (child.type === "text" && allWhitespace.test(child.value)) {
@@ -88,14 +102,20 @@ const sanitize = function (node) {
         i--;
       }
 
+      // empty divs can be ignored
+      if (child.tagName === "div" && (child.children || []).length === 0) {
+        node.children.splice(i, 1);
+        i--;
+      }
+
       // spans should always be children of paragraphs
       if (child.tagName === "span" && node.tagName !== "p") {
         node.children[i] = {
           children: [child],
           properties: {},
           tagName: "p",
-          type: "element",
-        }
+          type: "element"
+        };
       }
     }
   }
@@ -119,10 +139,18 @@ const sanitize = function (node) {
   if (node.properties) {
     Object.keys(node.properties).forEach(function(property) {
       const value = node.properties[property];
-      if (value === "" || value === null){
+      if (value === "" || value === null) {
         delete node.properties[property];
       }
     });
+  }
+};
+
+function log(string, left, right) {
+  if (debug) {
+    console.log(string);
+    console.log("\t" + hastToHtml(left));
+    console.log("\t" + hastToHtml(right));
   }
 }
 
@@ -159,21 +187,30 @@ function nodesEquivalent(left, right) {
   sanitize(right);
 
   if (left.type !== right.type) {
+    log(`type: ${left.type} !== ${right.type}`, left, right);
     return false;
   }
 
   if (left.tagName !== right.tagName) {
+    log(`tagName: ${left.tagName} !== ${right.tagName}`, left, right);
     return false;
   }
 
   if (left.value !== right.value) {
+    log(`value: ${left.value} !== ${right.value}`, left, right);
     return false;
   }
 
   if (!(left.properties === undefined && right.properties === undefined)) {
     // use simple JSON equivalence for this, since we don't expect it to be a
     // particularly complex object but it might have nested arrays
-    if (JSON.stringify(left.properties) !== JSON.stringify(right.properties)) {
+    const leftProps = JSON.stringify(left.properties, Object.keys(left).sort());
+    const rightProps = JSON.stringify(
+      right.properties,
+      Object.keys(right).sort()
+    );
+    if (leftProps !== rightProps) {
+      log(`properties: ${leftProps} !== ${rightProps}`, left, right);
       return false;
     }
   }
@@ -181,6 +218,7 @@ function nodesEquivalent(left, right) {
   const leftChildren = left.children ? left.children.length : 0;
   const rightChildren = right.children ? right.children.length : 0;
   if (leftChildren !== rightChildren) {
+    log(`children: ${leftChildren} !== ${rightChildren}`, left, right);
     return false;
   }
 
@@ -188,7 +226,7 @@ function nodesEquivalent(left, right) {
     return true;
   }
 
-  return left.children.every(function (leftChild, i) {
+  return left.children.every(function(leftChild, i) {
     const rightChild = right.children[i];
     return nodesEquivalent(leftChild, rightChild);
   });
